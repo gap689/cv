@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { GeistSans } from 'geist/font/sans';
 
+import { ThemeProvider } from '@/components/providers/theme-provider'
+
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +20,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>{children}</body>
+      <body className={GeistSans.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          storageKey="labux-theme"
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
