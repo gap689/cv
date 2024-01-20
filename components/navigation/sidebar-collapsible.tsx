@@ -1,22 +1,25 @@
 "use client"
-import { Separator } from "@/components/ui/separator";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
-import { Settings, ShoppingCart } from "lucide-react"
+import { useState } from "react";
+import { useParams, usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils"
 
 import { BarChart, Compass, Layout, List } from "lucide-react"
 import { FaVials } from "react-icons/fa";
-import { RiMapPin5Line, RiUser3Line, RiHome6Line, RiHomeLine } from "react-icons/ri";
-import { BsCreditCard } from "react-icons/bs";
+import { FiActivity } from "react-icons/fi";
+import { RiHomeLine } from "react-icons/ri";
 
+import { Separator } from "@/components/ui/separator";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
-import { useState } from "react";
+import { 
+  ResizableHandle, 
+  ResizablePanel, 
+  ResizablePanelGroup 
+} from "@/components/ui/resizable";
+import { ModeToggle } from "@/components/mode-toggle";
 import { NavCollapse } from "./nav-collapse";
-import { useParams, usePathname } from "next/navigation";
-import { ModeToggle } from "../mode-toggle";
+import ProfileDropdown from "./profile-dropdown";
 
 interface NavigationProps {
   defaultLayout: number[] | undefined
@@ -26,8 +29,7 @@ interface NavigationProps {
 }
 
 export const SidebarCollapsible = ({
-  defaultLayout = [260, 440],
-  // [265, 440, 655]
+  defaultLayout = [260, 440, 655],
   defaultCollapsed = false,
   navCollapsedSize,
   children
@@ -43,19 +45,19 @@ const routes = [
   {
     icon: RiHomeLine,
     title: "Home",
-    href:"/home",
+    href:"/app",
     label: "",
   },
 	{
 		icon: Layout,
 		title: "Dashboard",
 		href: "/app/dashboard",
-    label:"",
+    label:"3",
 	},
   {
     icon: List,
-    title: "Catálogo",
-    href: "/app/catalogo",
+    title: "Catalogue",
+    href: "/app/catalogue",
     label: "",
   },
   {
@@ -64,24 +66,18 @@ const routes = [
     href: "/app/analytics",
     label: "",
   },
-	{
-    icon: ShoppingCart,
-    title: "Órdenes",
-    href: "/app/ordenes",
-    label: "",
-  },
   {
     icon: FaVials,
-    title: "Crear solicitudes",
-    href: "app/solicitar",
+    title: "Experiments",
+    href: "app/experiments",
     label: "",
   },
   {
-    icon: BsCreditCard,
-    title: "Suscripción",
-    href: "app/subscription",
+    icon: FiActivity,
+    title: "Activity",
+    href: "app/activity",
     label: "",
-  },
+  }
 ];
   return (
     <TooltipProvider delayDuration={0}>
@@ -108,20 +104,19 @@ const routes = [
           }}
           className={cn(isCollapsed && "min-w-[50px] transition-all duration-300 ease-in-out")}
         >
-          <div className={cn("flex h-[52px] items-center justify-center", isCollapsed ? 'h-[52px]': 'px-2')}>
-            <div className="w-full flex items-center px-3 text-sm font-medium dark:bg-black bg-gray-100 h-9 rounded-md">
-              Welcome
-            </div> 
+          <div className="p-2 w-full">
+            <ProfileDropdown
+              isCollapsed={isCollapsed}
+            />
           </div>
+          
           <Separator />
-            {/* <div className={cn("uppercase px-3 py-2 text-xs font-semibold", isCollapsed && "hidden")}>
-              Menu
-            </div>   */}
+
             <NavCollapse
               isCollapsed={isCollapsed}
               links={routes}
             />
-            <Separator />
+          <Separator />
 
             <div className="h-full w-full flex flex-col px-3">
               <div className={cn("uppercase mt-3 px-4 py-2 text-xs font-semibold", isCollapsed && "hidden")}>
@@ -131,10 +126,11 @@ const routes = [
             </div>
         </ResizablePanel>
         <ResizableHandle withHandle />
-          <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>          
-              {children}
-          </ResizablePanel>
-	  </ResizablePanelGroup>
-	</TooltipProvider>
+          
+        <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>          
+            {children}
+        </ResizablePanel>
+	    </ResizablePanelGroup>
+	  </TooltipProvider>
   )
 }
