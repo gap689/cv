@@ -35,16 +35,16 @@ export default function Heading(
     }: HeadingProps
 ) {
   return (
-    <section className="flex items-center justify-between">
+    <section className="flex flex-col-reverse sm:flex-row items-center justify-between">
       <div className="flex-1 space-y-1.5">
-        <h1 className="text-2xl font-bold">
+        <h1 className="sm:text-2xl text-xl font-bold">
           {name}
         </h1>
-        <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+        <p className="text-pretty font-mono text-sm text-muted-foreground">
           {about}
         </p>
         
-        <div className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+        <div className="items-center text-pretty font-mono text-xs text-muted-foreground">
           <a
             className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
             href={locationLink}
@@ -107,10 +107,11 @@ export default function Heading(
           ) : null}
         </div>
       </div>
-
-      <Avatar className="size-28 rounded-lg">
-        <AvatarImage alt={name} src={"/images/dr.jpeg"} />
-        <AvatarFallback>{initials}</AvatarFallback>
-      </Avatar>
+      <div className="flex w-full sm:w-fit sm:justify-end justify-start">
+        <Avatar className="size-28 rounded-lg">
+          <AvatarImage alt={name} src={"/images/dr.jpeg"} />
+          <AvatarFallback>{initials}</AvatarFallback>
+        </Avatar>
+      </div>
   </section>  )
 }

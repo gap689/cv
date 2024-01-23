@@ -21,17 +21,23 @@ export default function Education({education}: EducationProps) {
       {education.map((education) => {
         return (
           <Card key={education.school} className="border-none mt-3">
-            <CardHeader className="px-0 py-2">
-              <div className="flex items-center justify-between gap-x-2 text-base">
-                <h3 className="leading-none">
-                  {education.school}
-                </h3>
-                <div className="text-sm tabular-nums text-gray-500">
+            <CardHeader className="p-0">
+              <div className="flex sm:flex-row flex-col justify-between gap-x-2 text-base">
+                <div className="flex flex-col">
+                  <h3 className="leading-none font-medium">
+                    {education.school}
+                  </h3>
+                  <div className="px-0 py-2 text-pretty font-mono text-sm text-muted-foreground">
+                    {education.degree}
+                  </div>
+                </div>
+
+                <div className="sm:text-sm text-xs tabular-nums text-gray-500">
                   {education.start} - {education.end}
                 </div>
               </div>
             </CardHeader>
-            <CardContent className="px-0 py-2 text-pretty font-mono text-sm text-muted-foreground">{education.degree}</CardContent>
+            
             <CardContent className="px-0 py-2 ">
               {education.courses.map((item)=>{
                 return(

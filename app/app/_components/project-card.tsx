@@ -16,8 +16,8 @@ import {
   
   export function ProjectCard({ title, description, tags, link }: Props) {
     return (
-      <Card className="flex flex-col overflow-hidden border border-muted p-3">
-        <CardHeader className="">
+      <Card className="flex flex-col overflow-hidden border border-muted sm:p-5 p-4">
+        <CardHeader className="p-0">
           <div className="space-y-1">
             <CardTitle className="text-base">
               {link ? (
@@ -41,7 +41,7 @@ import {
             </CardDescription>
           </div>
         </CardHeader>
-        <CardContent className="mt-auto flex">
+        <CardContent className=" flex p-3">
           <div className="mt-2 flex flex-wrap gap-1">
             {tags.map((tag) => (
               <Badge
