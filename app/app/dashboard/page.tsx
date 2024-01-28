@@ -9,8 +9,8 @@ import { DatePickerWithRange } from "@/components/ui/date-range-picker";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TradingviewWidget from "./_components/tradingview-widget";
 import { Overview } from "./_components/overview";
-import { Activity, CreditCard, DollarSign } from "lucide-react";
-import { calculateCryptoBalance, calculateNetProfit } from "@/lib/calculations";
+import { Activity, BarChart3, TrendingDown, TrendingUp, Wallet } from "lucide-react";
+import { calculateCryptoBalance, calculateNetProfit, lastSevenDaysProfit, todaysPNL } from "@/lib/calculations";
 import { pnlData } from "@/data/finance";
 
 export default function DashboardPage() {
@@ -26,10 +26,15 @@ export default function DashboardPage() {
   let totalProfit=0
 
   if (range?.from && range?.to) {
-    totalBalance = parseFloat(calculateCryptoBalance(pnlData.data.userProfitRets, range.from, range.to).toFixed(4))
-    totalProfit= parseFloat(calculateNetProfit(pnlData.data.userProfitRets, range.from, range.to).toFixed(4))
+    totalBalance = parseFloat(calculateCryptoBalance(pnlData.data.userProfitRets, range.from, range.to).toFixed(4));
+    totalProfit= parseFloat(calculateNetProfit(pnlData.data.userProfitRets, range.from, range.to).toFixed(4));
+
   }
-  
+
+  const todayProfit = parseFloat(todaysPNL(pnlData.data.userProfitRets).toFixed(4));
+
+  const lastSevenDaysProfits = parseFloat(lastSevenDaysProfit(pnlData.data.userProfitRets).toFixed(4));
+
   return (
       <div className="relative flex flex-col space-y-4 p-8 pt-6 h-full">
         <Tabs defaultValue="overview" className="space-y-4">
@@ -51,24 +56,20 @@ export default function DashboardPage() {
               <TabsTrigger value="reports" disabled>
                 Reports
               </TabsTrigger>
-              <TabsTrigger value="notifications" disabled>
-                Notifications
-              </TabsTrigger>
             </TabsList>
           </div>
             
           <TabsContent value="overview" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-sm font-medium">
-                    Total Balance
+                    Total Balance (USDT)
                   </CardTitle>
-                  <DollarSign className="w-4 h-4 text-muted-foreground"/>
+                  <Wallet className="h-4 w-4 text-muted-foreground"/>
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">
-                    {/* $45,231.89 */}
                     ${totalBalance}
                   </div>
                   <p className="text-xs text-muted-foreground">
@@ -79,26 +80,16 @@ export default function DashboardPage() {
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-sm font-medium">
-                    Profits
+                    Net Profits
                   </CardTitle>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="h-4 w-4 text-muted-foreground"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
+                  { totalProfit > 0 ? 
+                    <TrendingUp className="w-4 h-4 text-muted-foreground"/> 
+                      : 
+                    <TrendingDown className="w-4 h-4 text-muted-foreground"/>}
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold">
-                    {totalProfit}
+                    ${totalProfit}
                   </div>
                   <p className="text-xs text-muted-foreground">
                     +180.1% from last month
@@ -107,11 +98,13 @@ export default function DashboardPage() {
               </Card>
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Sales</CardTitle>
-                  <CreditCard className="h-4 w-4 text-muted-foreground"/>
+                  <CardTitle className="text-sm font-medium">7D PNL</CardTitle>
+                  <BarChart3 className="h-4 w-4 text-muted-foreground"/>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">+12,234</div>
+                  <div className="text-2xl font-bold">
+                    ${lastSevenDaysProfits}
+                  </div>
                   <p className="text-xs text-muted-foreground">
                     +19% from last month
                   </p>
@@ -120,12 +113,14 @@ export default function DashboardPage() {
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                   <CardTitle className="text-sm font-medium">
-                    Active Now
+                    Today&apos;s PNL
                   </CardTitle>
                   <Activity className="w-4 h-4 text-muted-foreground"/>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">+573</div>
+                  <div className="text-2xl font-bold">
+                    ${todayProfit}
+                  </div>
                   <p className="text-xs text-muted-foreground">
                     +201 since last hour
                   </p>
@@ -139,12 +134,12 @@ export default function DashboardPage() {
                 </CardHeader>
                 <CardContent className="pl-2">
                   {/* <TradingviewWidget/> */}
-                  <Overview />
+                  <Overview data={pnlData.data.userProfitRets} startDate={range?.from} endDate={range?.to} />
                 </CardContent>
               </Card>
               <Card className="col-span-3">
                 <CardHeader>
-                  <CardTitle>Recent Sales</CardTitle>
+                  <CardTitle>Recent Trades</CardTitle>
                   <CardDescription>
                     You made 265 sales this month.
                   </CardDescription>
