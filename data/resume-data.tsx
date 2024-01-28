@@ -5,12 +5,12 @@ import { BsTwitterX } from "react-icons/bs";
 export const RESUME_DATA = {
   name: "German Alamilla-Peralta",
   initials: "GAP",
-  location: "Mexico",
+  location: "Puebla, Mexico",
   locationLink: "https://www.google.com/maps/place/Puebla",
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "As a Full Stack Developer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Less words, more action",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -54,10 +54,10 @@ export const RESUME_DATA = {
     {
       company: "Secretary of Innovation and Digital Government",
       link: "",
-      badges: ["In person"],
+      badges: [],
       title: "Software developer",
-      start: "Feb 2022",
-      end: "Apr 2022",
+      start: "Feb 2023",
+      end: "Apr 2023",
       description: "Worked with Linux servers, implemented Django models, and webpage development"
     },
     {
@@ -65,8 +65,8 @@ export const RESUME_DATA = {
       link: "",
       badges: ["Remote"],
       title: "Software developer",
-      start: "May 2022",
-      end: "Oct 2022",
+      start: "May 2023",
+      end: "Oct 2023",
       description: "A software development agency to build and grow your online business"
   }
   ],
@@ -81,7 +81,8 @@ export const RESUME_DATA = {
     "BigQuery",
     "PlanetScale",
     "Pandas",
-    "SQL"
+    "SQL",
+    "Web Scrapping"
   ],
   projects: [
     {
