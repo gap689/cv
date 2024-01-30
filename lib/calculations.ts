@@ -63,3 +63,40 @@ export const calculateNetProfit = (
   });
   return netProfit;
 };
+
+export const todaysPNL = (
+  userProfits: ProfitEntry[],
+): number => {
+
+  let todaysPNL = 0;
+  
+  userProfits.forEach((profitEntry:ProfitEntry) => {
+    const entryDate: Date = new Date(profitEntry.day);
+    const todayDate: Date = new Date();
+
+    if(isSameDay(entryDate, todayDate)) {
+      todaysPNL = profitEntry.balance
+    }
+   
+  });
+  return todaysPNL;
+};
+
+export const lastSevenDaysProfit = (
+  userProfits: ProfitEntry[],
+): number => {
+
+  const today = new Date();
+  const sevenDaysAgo = subDays(today, 7);
+
+  let sumProfit = 0;
+  
+  userProfits.forEach((profitEntry:ProfitEntry) => {
+    const entryDate: Date = new Date(profitEntry.day);
+
+    if(entryDate >= sevenDaysAgo && entryDate <= today) {
+      sumProfit += profitEntry.profit;    }
+   
+  });
+  return sumProfit;
+};
