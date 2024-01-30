@@ -12,6 +12,9 @@ import { Overview } from "./_components/overview";
 import { Activity, BarChart3, TrendingDown, TrendingUp, Wallet } from "lucide-react";
 import { calculateCryptoBalance, calculateNetProfit, lastSevenDaysProfit, todaysPNL } from "@/lib/calculations";
 import { pnlData } from "@/data/finance";
+import RecentTrades from "./_components/recent-trades";
+import { transactions } from "@/data/transactions";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function DashboardPage() {
   
@@ -34,6 +37,10 @@ export default function DashboardPage() {
   const todayProfit = parseFloat(todaysPNL(pnlData.data.userProfitRets).toFixed(4));
 
   const lastSevenDaysProfits = parseFloat(lastSevenDaysProfit(pnlData.data.userProfitRets).toFixed(4));
+
+  const trades = transactions.data;
+
+  const lastTransactions = trades.slice(-10);
 
   return (
       <div className="relative flex flex-col space-y-4 p-8 pt-6 h-full">
@@ -128,7 +135,7 @@ export default function DashboardPage() {
               </Card>
             </div>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
-              <Card className="col-span-4">
+              <Card className="lg:col-span-4 col-span-2">
                 <CardHeader>
                   <CardTitle>Overview</CardTitle>
                 </CardHeader>
@@ -137,16 +144,23 @@ export default function DashboardPage() {
                   <Overview data={pnlData.data.userProfitRets} startDate={range?.from} endDate={range?.to} />
                 </CardContent>
               </Card>
-              <Card className="col-span-3">
-                <CardHeader>
+              <Card className="lg:col-span-3 col-span-2">
+                <CardHeader className="pb-2">
                   <CardTitle>Recent Trades</CardTitle>
                   <CardDescription>
-                    You made 265 sales this month.
+                    You made X transactions this month.
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  {/* <RecentSales /> */}
-                </CardContent>
+                <ScrollArea className="h-72">
+                  <CardContent>
+                    <div className="space-y-2">
+                      {lastTransactions.map((lastTransaction)=> (
+                        <RecentTrades key={lastTransaction.id} transaction={lastTransaction} />
+                      ))
+                      }
+                    </div>
+                  </CardContent>
+                </ScrollArea>
               </Card>
             </div>
           </TabsContent>
