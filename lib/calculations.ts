@@ -100,3 +100,27 @@ export const lastSevenDaysProfit = (
   });
   return sumProfit;
 };
+
+export const calculateProfitRangeChange = (
+  userProfits: ProfitEntry[],
+  startDate: Date ,
+  endDate: Date ,
+): number => {
+
+  const filteredObjects = userProfits.filter(obj => new Date(obj.day) >= startDate && new Date(obj.day) <= endDate);
+
+
+  if (filteredObjects.length >= 2) {
+    // Extract balances from the first and last objects in the filtered array
+    const initialBalance = filteredObjects[0].balance;
+    const finalBalance = filteredObjects[filteredObjects.length - 1].balance;
+
+    // Calculate percentage change
+    const percentageChange = ((finalBalance - initialBalance) / initialBalance) * 100;
+
+    return parseFloat(percentageChange.toFixed(2));
+} else {
+    return 0;
+}   
+
+};

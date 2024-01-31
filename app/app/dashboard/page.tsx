@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TradingviewWidget from "./_components/tradingview-widget";
 import { Overview } from "./_components/overview";
 import { Activity, BarChart3, TrendingDown, TrendingUp, Wallet } from "lucide-react";
-import { calculateCryptoBalance, calculateNetProfit, lastSevenDaysProfit, todaysPNL } from "@/lib/calculations";
+import { calculateCryptoBalance, calculateNetProfit, calculateProfitRangeChange, lastSevenDaysProfit, todaysPNL } from "@/lib/calculations";
 import { pnlData } from "@/data/finance";
 import RecentTrades from "./_components/recent-trades";
 import { transactions } from "@/data/transactions";
@@ -27,11 +27,12 @@ export default function DashboardPage() {
 
   let totalBalance=0;
   let totalProfit=0
+  let profitRangeChange = 0;
 
   if (range?.from && range?.to) {
     totalBalance = parseFloat(calculateCryptoBalance(pnlData.data.userProfitRets, range.from, range.to).toFixed(4));
     totalProfit= parseFloat(calculateNetProfit(pnlData.data.userProfitRets, range.from, range.to).toFixed(4));
-
+    profitRangeChange= calculateProfitRangeChange(pnlData.data.userProfitRets, range.from, range.to)
   }
 
   const todayProfit = parseFloat(todaysPNL(pnlData.data.userProfitRets).toFixed(4));
@@ -41,13 +42,13 @@ export default function DashboardPage() {
   const trades = transactions.data;
 
   const lastTransactions = trades.slice(-10);
-
+  
   return (
       <div className="relative flex flex-col space-y-4 p-8 pt-6 h-full">
         <Tabs defaultValue="overview" className="space-y-4">
-          <div className="flex flex-col sticky top-0 space-y-2 pb-3 bg-background">
+          <div className="flex flex-col sticky top-0 space-y-2 pb-2 bg-background">
             <div className="flex items-center justify-between">
-              <h2 className="text-3xl font-bold tracking-tight">
+              <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
                 Dashboard
               </h2>
               <div className="flex items-center space-x-2">
@@ -57,16 +58,13 @@ export default function DashboardPage() {
 
             <TabsList className="w-fit">
               <TabsTrigger value="overview">Overview</TabsTrigger>
-              <TabsTrigger value="analytics" disabled>
-                Analytics
-              </TabsTrigger>
               <TabsTrigger value="reports" disabled>
                 Reports
               </TabsTrigger>
             </TabsList>
           </div>
             
-          <TabsContent value="overview" className="space-y-4">
+          <TabsContent value="overview" className="space-y-4 pb-6">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -79,9 +77,6 @@ export default function DashboardPage() {
                   <div className="text-2xl font-bold">
                     ${totalBalance}
                   </div>
-                  <p className="text-xs text-muted-foreground">
-                    +20.1% from last month
-                  </p>
                 </CardContent>
               </Card>
               <Card>
@@ -98,9 +93,9 @@ export default function DashboardPage() {
                   <div className="text-2xl font-bold">
                     ${totalProfit}
                   </div>
-                  <p className="text-xs text-muted-foreground">
-                    +180.1% from last month
-                  </p>
+                  <div className="text-xs text-muted-foreground">
+                    {profitRangeChange}% from initial date
+                  </div>
                 </CardContent>
               </Card>
               <Card>
@@ -137,7 +132,10 @@ export default function DashboardPage() {
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
               <Card className="lg:col-span-4 col-span-2">
                 <CardHeader>
-                  <CardTitle>Overview</CardTitle>
+                  <CardTitle>Balance Overview</CardTitle>
+                  <p className="text-sm text-muted-foreground">
+                    {range?.from?.toDateString()} - {range?.to?.toDateString()} `
+                  </p>
                 </CardHeader>
                 <CardContent className="pl-2">
                   {/* <TradingviewWidget/> */}
