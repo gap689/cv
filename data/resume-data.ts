@@ -3,19 +3,19 @@ import { CiLinkedin } from "react-icons/ci";
 import { BsTwitterX } from "react-icons/bs";
 
 export const RESUME_DATA = {
-  name: "German Alamilla-Peralta",
-  initials: "GAP",
+  name: "German Alamilla",
+  initials: "GA",
   location: "Puebla, Mexico",
   locationLink: "https://www.google.com/maps/place/Puebla",
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
     "Less words, more action",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
+  personalWebsiteUrl: "",
   contact: {
     email: "german.alamilla@gmail.com",
-    tel: "+5222215951539",
+    tel: "+522215951539",
     social: [
       {
         name: "GitHub",

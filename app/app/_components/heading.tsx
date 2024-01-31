@@ -23,6 +23,7 @@ type HeadingProps = {
     locationLink: string,
     about: string,
     contact: ContactType,
+    avatarUrl: string
 }
 
 export default function Heading(
@@ -31,7 +32,8 @@ export default function Heading(
     about, 
     location,
     locationLink, 
-    contact
+    contact,
+    avatarUrl
     }: HeadingProps
 ) {
   return (
@@ -109,7 +111,7 @@ export default function Heading(
       </div>
       <div className="flex w-full sm:w-fit sm:justify-end justify-start">
         <Avatar className="size-28 rounded-lg">
-          <AvatarImage alt={name} src={"/images/dr.jpeg"} />
+          <AvatarImage alt={name} src={avatarUrl} />
           <AvatarFallback>{initials}</AvatarFallback>
         </Avatar>
       </div>
