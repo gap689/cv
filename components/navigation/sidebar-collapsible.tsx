@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useParams, usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils"
@@ -20,6 +20,9 @@ import {
 import { ModeToggle } from "@/components/mode-toggle";
 import { NavCollapse } from "./nav-collapse";
 import ProfileDropdown from "./profile-dropdown";
+import { ImperativePanelHandle } from "react-resizable-panels";
+import { ScrollArea } from "../ui/scroll-area";
+import useSize from "@/hooks/useSize";
 
 interface NavigationProps {
   defaultLayout: number[] | undefined
@@ -41,6 +44,10 @@ const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
 
 const params = useParams();
 
+const windowSize = useSize();
+
+const ref = useRef<ImperativePanelHandle>(null);
+
 const routes = [
   {
     icon: RiHomeLine,
@@ -56,8 +63,8 @@ const routes = [
 	},
   {
     icon: List,
-    title: "Catalogue",
-    href: "/app/catalogue",
+    title: "Data",
+    href: "/app/table",
     label: "",
   },
   {
@@ -79,6 +86,16 @@ const routes = [
     label: "",
   }
 ];
+
+useEffect(() => {
+  const panel = ref.current;
+  if(windowSize[0] < 520) {
+    panel?.collapse();
+  } else{
+    panel?.expand();
+  }
+}, [windowSize]);
+
   return (
     <TooltipProvider delayDuration={0}>
       <ResizablePanelGroup
@@ -91,6 +108,7 @@ const routes = [
         className="h-full items-stretch"
       >
         <ResizablePanel
+          ref={ref}
           defaultSize={defaultLayout[0]}
           collapsedSize={navCollapsedSize}
           collapsible={true}
@@ -127,7 +145,7 @@ const routes = [
         </ResizablePanel>
         <ResizableHandle withHandle />
           
-        <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>          
+        <ResizablePanel defaultSize={defaultLayout[1]} minSize={30} style={{"overflowY": "scroll"}}>
             {children}
         </ResizablePanel>
 	    </ResizablePanelGroup>
