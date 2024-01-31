@@ -42,12 +42,11 @@ export function NavCollapse({ links, isCollapsed }: NavProps) {
                 <Link
                   href={link.href}
                   className={cn(
-                    buttonVariants({ variant: (pathname === "/" && link.href === "/") ||
-                    pathname === link.href || pathname?.startsWith(`${link.href}/`) ? "default": "ghost", size: "icon" }),
+                    buttonVariants({ variant: (pathname === "/app" && link.href === "/app") ||
+                    pathname === link.href ? "default": "ghost", size: "icon" }),
                     "h-9 w-9",
                     (pathname === "/app" && link.href === "/app")
-                    || pathname === link.href
-                    || pathname?.startsWith(`${link.href}/`) &&
+                    || pathname === link.href &&
                       "dark:bg-muted dark:text-muted-foreground dark:hover:bg-muted dark:hover:text-white"
                   )}
                 >
