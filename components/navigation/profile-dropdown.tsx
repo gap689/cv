@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -12,14 +14,17 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Button } from "@/components/ui/button";
-import { Briefcase, ChevronsDownUp, Cloud, CreditCard, Github, LifeBuoy, LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { Briefcase, ChevronsDownUp, Cloud, CreditCard, FileCode2, Github, LifeBuoy, LogOut, MessageSquare, Settings, User } from "lucide-react";
 import Image from "next/image";
 
 interface ProfileDropdownProps {
   isCollapsed: Boolean;
 }
 
+type Key = "ctrl" | "shift" | "alt" | string;
+
 const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -36,8 +41,8 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
               />
             </div>
             <div className={cn(isCollapsed ? "hidden" : "flex flex-col w-full pl-2 min-w-4")}>
-              <p className="font-semibold tracking-tight text-start truncate">German Alamilla</p>
-              <p className="text-gray-600 dark:text-gray-400 text-start text-sm mr-2 truncate">Software Engineer</p>
+              <p className="font-medium tracking-tight text-start truncate">German Alamilla</p>
+              <p className="text-gray-600 dark:text-gray-400 text-start text-xs mr-2 truncate">Software Engineer</p>
             </div>
             <ChevronsDownUp className={cn(isCollapsed? "hidden": "h-4 w-4 shrink-0")}/>
           </div>
@@ -54,20 +59,20 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
               <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
             </DropdownMenuItem>
           </Link>
-          <Link href="/app/contact" className="flex items-center">
+          <Link href="/app/contact">
             <DropdownMenuItem>
               <Briefcase className="mr-2 h-4 w-4" />
-              <span>Let's work together</span>
-              <DropdownMenuShortcut>⇧⌘H</DropdownMenuShortcut>
+              <span>Contact me</span>
+              <DropdownMenuShortcut>⇧⌘C</DropdownMenuShortcut>
             </DropdownMenuItem>
           </Link>
-          <DropdownMenuItem>
-            <Link href="/app/donate" className="flex items-center">
-              <CreditCard className="mr-2 h-4 w-4" />
-              <span>Donate</span>
-            </Link>
-            <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
-          </DropdownMenuItem>
+          <Link href="/app/template">
+            <DropdownMenuItem>
+              <FileCode2 className="mr-2 h-4 w-4" />
+              <span>Get this template</span>
+              <DropdownMenuShortcut>⇧⌘T</DropdownMenuShortcut>
+            </DropdownMenuItem>
+          </Link>
           <DropdownMenuItem>
             <Settings className="mr-2 h-4 w-4" />
             <span>Settings</span>
