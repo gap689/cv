@@ -18,13 +18,19 @@ import Link from "next/link"
       <Card>
         <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
           <div className="space-y-1">
-            <CardTitle className="text-lg">gap689/cv</CardTitle>
+            <CardTitle className="text-lg">
+              <Link href="https://github.com/gap689/cv" target="_blank">
+                <Button variant="link" className="text-lg font-semibold p-0">
+                  gap689/cv
+                </Button>
+              </Link>
+            </CardTitle>
             <CardDescription>
               Beautifully designed dashboard-type resume.
               Web app that renders minimalist CV with dashboard style layout. Built with Next.js and shadcn/ui, deployed on Vercel. Accessible. Customizable. Open Source.
             </CardDescription>
           </div>
-          <Link href="https://github.com/gap689/cv">
+          <Link href="https://github.com/gap689/cv" target="_blank">
 
           <div className="flex items-center space-x-1 rounded-md bg-secondary text-secondary-foreground">
             <Button variant="secondary" className="px-3 shadow-none">
@@ -37,7 +43,6 @@ import Link from "next/link"
                 </Button>
           </div>
           </Link>
-
         </CardHeader>
         <CardContent>
           <div className="flex space-x-4 text-sm text-muted-foreground">
