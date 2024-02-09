@@ -6,6 +6,8 @@ import { ThemeProvider } from '@/components/providers/theme-provider'
 
 import './globals.css'
 
+import TopNavigation from "@/components/navigation/top-nav";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -27,6 +29,7 @@ export default function RootLayout({
           enableSystem={false}
           storageKey="labux-theme"
         >
+          <TopNavigation/>
           {children}
         </ThemeProvider>
       </body>
