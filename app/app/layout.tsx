@@ -14,20 +14,6 @@ export default function AppLayout({
   const defaultLayout = layout ? JSON.parse(layout.value) : undefined
   const defaultCollapsed = collapsed ? JSON.parse(collapsed.value) : undefined
 
-  // if (typeof window !== 'undefined') {
-  //   console.log('You are on the browser');
-  
-  //   // ✅ Can use window here
-  //   console.log(window.innerWidth);
-  
-  //   window.addEventListener('mousemove', () => {
-  //     console.log('Mouse moved');
-  //   });
-  // } else {
-  //   console.log('You are on the server');
-  //   // ⛔️ Don't use window here
-  // }
-
   return (
     <div className='flex h-full backdrop-blur-md overflow-hidden'>
       <div className="flex h-full w-full pt-12">
