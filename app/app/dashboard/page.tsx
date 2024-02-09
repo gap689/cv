@@ -47,7 +47,7 @@ export default function DashboardPage() {
       <div className="relative flex flex-col space-y-4 p-8 pt-6 h-full">
         <Tabs defaultValue="overview" className="space-y-4">
           <div className="flex flex-col sticky top-0 space-y-2 pb-2 bg-background">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
               <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
                 Dashboard
               </h2>
@@ -62,6 +62,10 @@ export default function DashboardPage() {
                 Reports
               </TabsTrigger>
             </TabsList>
+
+            <div className="text-xs py-2 text-muted-foreground">
+              **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
+            </div>
           </div>
             
           <TabsContent value="overview" className="space-y-4 pb-6">
@@ -129,7 +133,7 @@ export default function DashboardPage() {
                 </CardContent>
               </Card>
             </div>
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
+            <div className="grid gap-4 grid-cols-2 lg:grid-cols-7">
               <Card className="lg:col-span-4 col-span-2">
                 <CardHeader>
                   <CardTitle>Balance Overview</CardTitle>
