@@ -61,6 +61,7 @@ export function DatePickerWithRange({
             onSelect={setRange}
             fromDate={range?.from}
             toDate={new Date()}
+            numberOfMonths={2}
             // onDayClick={handleDayClick}
           />
         </PopoverContent>
