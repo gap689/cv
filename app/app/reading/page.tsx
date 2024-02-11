@@ -15,8 +15,8 @@ import { PlusCircle } from "lucide-react"
 import { BookCard } from "./_components/book-card"
 
 export const metadata: Metadata = {
-  title: "Music App",
-  description: "Example music app using the components.",
+  title: "Library",
+  description: "Books reading right now.",
 }
 
 export default function ReadingPage() {
