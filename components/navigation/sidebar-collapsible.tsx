@@ -1,11 +1,10 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react";
-import { useParams, usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils"
 
-import { BarChart, Compass, Layout, List } from "lucide-react"
+import { BarChart, BookMarked, Briefcase, Compass, Layout, List } from "lucide-react"
 import { FaVials } from "react-icons/fa";
 import { FiActivity } from "react-icons/fi";
 import { RiHomeLine } from "react-icons/ri";
@@ -17,11 +16,9 @@ import {
   ResizablePanel, 
   ResizablePanelGroup 
 } from "@/components/ui/resizable";
-import { ModeToggle } from "@/components/mode-toggle";
 import { NavCollapse } from "./nav-collapse";
 import ProfileDropdown from "./profile-dropdown";
 import { ImperativePanelHandle } from "react-resizable-panels";
-import { ScrollArea } from "../ui/scroll-area";
 import useSize from "@/hooks/useSize";
 
 interface NavigationProps {
@@ -38,11 +35,7 @@ export const SidebarCollapsible = ({
   children
 }: NavigationProps) => {
 
-const pathname = usePathname();
-
 const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
-
-const params = useParams();
 
 const windowSize = useSize();
 
@@ -76,16 +69,31 @@ const routes = [
   {
     icon: FaVials,
     title: "Experiments",
-    href: "app/experiments",
+    href: "/app/experiments",
     label: "",
   },
   {
     icon: FiActivity,
     title: "Activity",
-    href: "app/activity",
+    href: "/app/activity",
     label: "",
+  },
+  {
+    icon: BookMarked,
+    title: "Reading List",
+    href: "/app/reading",
+    label: "10",
   }
 ];
+
+const contactRoutes = [
+  {
+    icon: Briefcase,
+    title: "Contact",
+    href:"/app/contact",
+    label: "",
+  },
+]
 
 useEffect(() => {
   const panel = ref.current;
@@ -122,7 +130,7 @@ useEffect(() => {
           }}
           className={cn(isCollapsed && "min-w-[50px] transition-all duration-300 ease-in-out")}
         >
-          <div className="p-2 w-full">
+          <div className="p-2 w-full mt-5">
             <ProfileDropdown
               isCollapsed={isCollapsed}
             />
@@ -130,18 +138,21 @@ useEffect(() => {
           
           <Separator />
 
-            <NavCollapse
-              isCollapsed={isCollapsed}
-              links={routes}
-            />
+          <NavCollapse
+            isCollapsed={isCollapsed}
+            links={routes}
+          />
           <Separator />
 
-            <div className="h-full w-full flex flex-col px-3">
-              <div className={cn("uppercase mt-3 px-4 py-2 text-xs font-semibold", isCollapsed && "hidden")}>
-                Account
-              </div>
-              <ModeToggle/>
+          <div className="h-full w-full flex flex-col">
+            <div className={cn("uppercase mt-3 px-7 py-2 text-xs font-semibold", isCollapsed && "hidden")}>
+              Account
             </div>
+            <NavCollapse
+              isCollapsed={isCollapsed}
+              links={contactRoutes}
+            />
+          </div>
         </ResizablePanel>
         <ResizableHandle withHandle />
           
