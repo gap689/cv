@@ -28,7 +28,7 @@ export default async function TaskPage() {
   const transactions = await getTasks()
 
   return (
-      <div className="h-full flex-1 flex-col space-y-8 p-8 md:flex pb-4">
+      <div className="flex-1 flex-col space-y-8 p-8 md:flex">
         
         <div className="flex items-center justify-between space-y-2">
           <div>
