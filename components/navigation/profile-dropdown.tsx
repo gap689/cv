@@ -14,7 +14,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Button } from "@/components/ui/button";
-import { Briefcase, ChevronsDownUp, Cloud, CreditCard, FileCode2, Github, LifeBuoy, LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { Briefcase, ChevronsDownUp, Cloud, CreditCard, FileCode2, Github, LifeBuoy, LogOut, Settings, User } from "lucide-react";
 import Image from "next/image";
 
 interface ProfileDropdownProps {
@@ -73,18 +73,15 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
               <DropdownMenuShortcut>⇧⌘T</DropdownMenuShortcut>
             </DropdownMenuItem>
           </Link>
-          <DropdownMenuItem>
-            <Settings className="mr-2 h-4 w-4" />
-            <span>Settings</span>
-            <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
-          </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
           <Github className="mr-2 h-4 w-4" />
-          <span>GitHub</span>
+          <Link href="https://github.com/gap689" target="_blank" >
+            <span>GitHub</span>
+          </Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>
+        <DropdownMenuItem disabled>
           <LifeBuoy className="mr-2 h-4 w-4" />
           <span>Support</span>
         </DropdownMenuItem>
@@ -93,7 +90,7 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
           <span>API</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        <DropdownMenuItem disabled>
           <LogOut className="mr-2 h-4 w-4" />
           <span>Log out</span>
           <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
