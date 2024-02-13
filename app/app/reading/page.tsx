@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 
-import { Button } from "@/components/ui/button"
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
 import {
@@ -11,7 +10,6 @@ import {
 } from "@/components/ui/tabs"
 
 import { readingNow, nextReading, readingNowElse } from "@/data/reading/books"
-import { PlusCircle } from "lucide-react"
 import { BookCard } from "./_components/book-card"
 
 export const metadata: Metadata = {

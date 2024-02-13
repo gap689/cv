@@ -14,6 +14,7 @@ import {
 
 import { Library } from "@/data/reading/books"
 import { PlusCircle } from "lucide-react"
+import Link from "next/link"
 
 interface BookCardProps extends React.HTMLAttributes<HTMLDivElement> {
   book: Library
@@ -65,7 +66,9 @@ export function BookCard({
         </ContextMenuContent>
       </ContextMenu>
       <div className="space-y-1 text-sm">
-        <h3 className="font-medium leading-none">{book.name}</h3>
+        <Link href={book.url} target="_blank" className="hover:underline">
+            <h3 className="font-medium leading-none">{book.name}</h3>
+        </Link>
         <p className="text-xs text-muted-foreground">{book.author}</p>
       </div>
     </div>
