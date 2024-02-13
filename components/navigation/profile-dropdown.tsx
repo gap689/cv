@@ -28,8 +28,8 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className={cn(isCollapsed ? "p-0" :"p-2 w-full")}>
-          <div className="flex w-full items-center">
+        <Button variant="ghost" className={cn("w-full", isCollapsed ? "p-0" : "p-2")}>
+          <div className="flex w-full items-center justify-center">
             <div className="shrink-0">
               <Image
                 src="/images/dr.jpeg"
@@ -97,8 +97,7 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-    
-     );
+  );
 }
  
 export default ProfileDropdown;
