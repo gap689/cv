@@ -56,7 +56,7 @@ const createPolygon: React.FC<CreatePolygonProps> = ({ color, width, height, fla
 
 const CreateSVG: React.FC<CreateSVGProps> = ({color, width, height, flapWidth, middleHeight }) => {
     return (
-      <svg width={width} height={height} className='stroke-slate-300 dark:stroke-slate-600 fill-white dark:fill-inherit'>
+      <svg width={width} height={height} className='stroke-neutral-300 dark:stroke-neutral-700 fill-white dark:fill-inherit'>
         {createPolygon({color, width, height, flapWidth, middleHeight })}
       </svg>
     );
