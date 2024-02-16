@@ -97,7 +97,7 @@ const contactRoutes = [
 
 useEffect(() => {
   const panel = ref.current;
-  if(windowSize[0] < 520) {
+  if(windowSize[0] < 600) {
     panel?.collapse();
   } else{
     panel?.expand();
