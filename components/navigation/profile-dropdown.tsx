@@ -16,6 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Briefcase, ChevronsDownUp, Cloud, CreditCard, FileCode2, Github, LifeBuoy, LogOut, Settings, User } from "lucide-react";
 import Image from "next/image";
+import { RESUME_DATA } from "@/data/resume-data";
 
 interface ProfileDropdownProps {
   isCollapsed: Boolean;
@@ -32,7 +33,7 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
           <div className="flex w-full items-center justify-center">
             <div className="shrink-0">
               <Image
-                src="/images/dr.jpeg"
+                src={RESUME_DATA.avatarUrl}
                 alt="Profile image"
                 width={40}
                 height={40}
