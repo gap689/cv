@@ -4,11 +4,6 @@ import { useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils"
 
-import { BarChart, BookMarked, Briefcase, Compass, Layout, List } from "lucide-react"
-import { FaVials } from "react-icons/fa";
-import { FiActivity } from "react-icons/fi";
-import { RiHomeLine } from "react-icons/ri";
-
 import { Separator } from "@/components/ui/separator";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { 
@@ -20,6 +15,8 @@ import { NavCollapse } from "./nav-collapse";
 import ProfileDropdown from "./profile-dropdown";
 import { ImperativePanelHandle } from "react-resizable-panels";
 import useSize from "@/hooks/useSize";
+import { ScrollArea } from "../ui/scroll-area";
+import { CONTACTROUTES, ROUTES } from "@/lib/constants";
 
 interface NavigationProps {
   defaultLayout: number[] | undefined
@@ -41,63 +38,9 @@ const windowSize = useSize();
 
 const ref = useRef<ImperativePanelHandle>(null);
 
-const routes = [
-  {
-    icon: RiHomeLine,
-    title: "Home",
-    href:"/app",
-    label: "",
-  },
-	{
-		icon: Layout,
-		title: "Dashboard",
-		href: "/app/dashboard",
-    label:"3",
-	},
-  {
-    icon: List,
-    title: "Data",
-    href: "/app/table",
-    label: "",
-  },
-  {
-    icon: BarChart,
-    title: "Analytics",
-    href: "/app/analytics",
-    label: "",
-  },
-  {
-    icon: FaVials,
-    title: "Experiments",
-    href: "/app/experiments",
-    label: "",
-  },
-  {
-    icon: FiActivity,
-    title: "Activity",
-    href: "/app/activity",
-    label: "",
-  },
-  {
-    icon: BookMarked,
-    title: "Reading List",
-    href: "/app/reading",
-    label: "10",
-  }
-];
-
-const contactRoutes = [
-  {
-    icon: Briefcase,
-    title: "Contact",
-    href:"/app/contact",
-    label: "",
-  },
-]
-
 useEffect(() => {
   const panel = ref.current;
-  if(windowSize[0] < 600) {
+  if(windowSize[0] < 640) {
     panel?.collapse();
   } else{
     panel?.expand();
@@ -140,7 +83,7 @@ useEffect(() => {
 
           <NavCollapse
             isCollapsed={isCollapsed}
-            links={routes}
+            links={ROUTES}
           />
           <Separator />
 
@@ -150,14 +93,18 @@ useEffect(() => {
             </div>
             <NavCollapse
               isCollapsed={isCollapsed}
-              links={contactRoutes}
+              links={CONTACTROUTES}
             />
           </div>
         </ResizablePanel>
         <ResizableHandle withHandle />
           
-        <ResizablePanel defaultSize={defaultLayout[1]} minSize={30} style={{"overflowY": "scroll"}}>
-            {children}
+        <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>
+          {/* <ScrollArea className="h-full"> *check this bug */}
+          <div className="h-full overflow-y-auto">
+            { children }
+          </div>
+          {/* </ScrollArea> */}
         </ResizablePanel>
 	    </ResizablePanelGroup>
 	  </TooltipProvider>
