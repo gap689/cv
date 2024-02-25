@@ -20,9 +20,9 @@ const AnalyticsPage = (
           </p>
         </div>
       </div>
-      <div className="flex w-full h-full">
+      <div className="flex w-full h-full border-t">
         <SideMenu/>
-        <div className="w-full border-t">
+        <div className="w-full">
           { children }
         </div>
       </div>
