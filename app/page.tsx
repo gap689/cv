@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex min-h-[600px] h-full bg-gray-50 dark:bg-inherit flex-col items-center justify-center pt-12">
+    <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
       <div className='font-light uppercase md:text-3xl text-2xl sm:p-10 p-5 text-pretty'>
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground'>
           v.2024
@@ -15,7 +15,6 @@ export default function Home() {
         <div className='text-muted-foreground py-3'>
           A Technologist's Journey
         </div>
-        {/* Engineering the Future: A Technological Visionary's Journey */}
       </div>
 
       <div className="flex items-center space-x-4">
@@ -43,12 +42,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="mx-auto max-w-prose my-5">
-        <p className="text-base leading-loose text-gray-500 dark:text-gray-400">
-          I'm excited to share my journey with you. Together, we'll explore the latest in technology, discuss the impact of AI, and dive into the world of Digital Economics. Let's start coding the future.
-        </p>
-      </div> */}
-
+      
       <div className='flex flex-wrap justify-center my-8'>
         <div className="flex items-center space-x-2 mr-4"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="md:h-10 md:w-10 h-5 w-5 text-neutral-500 flex-shrink-0 stroke-1"><path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path><path d="M15 12v-3"></path></svg></span><span className="text-sm font-semibold text-neutral-500 flex-shrink-0">Next.js</span></div>
 
