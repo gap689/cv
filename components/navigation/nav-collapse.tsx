@@ -78,10 +78,10 @@ export function NavCollapse({ links, isCollapsed }: NavProps) {
               {link.label && (
                 <span
                   className={cn(
-                    "ml-auto",
+                    "ml-auto flex w-6 h-6 rounded-md justify-center border",
                     (pathname === "/app" && link.href === "/app") ||
-                    pathname === link.href || pathname?.startsWith(`${link.href}/`) &&
-                       "text-background dark:text-white"
+                    pathname === link.href || pathname?.startsWith(`${link.href}/`) ?
+                       " bg-gray-900 border-gray-700 dark:bg-gray-100 dark:border-gray-200" : "bg-gray-50 dark:bg-gray-900 border-gray-100 dark:border-gray-800"
                   )}
                 >
                   {link.label}
