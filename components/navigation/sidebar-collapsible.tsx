@@ -47,6 +47,15 @@ useEffect(() => {
   }
 }, [windowSize]);
 
+useEffect(() => {
+  const panel = ref.current;
+  if(windowSize[0] < 640) {
+    panel?.collapse();
+  } else{
+    panel?.expand();
+  }
+}, []);
+
   return (
     <TooltipProvider delayDuration={0}>
       <ResizablePanelGroup
