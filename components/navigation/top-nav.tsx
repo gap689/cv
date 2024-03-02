@@ -5,6 +5,8 @@ import { ModeToggle } from '@/components/mode-toggle';
 import Link from 'next/link';
 import { LayoutPanelLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import MobileSidebar from './mobile-sidebar';
+import { usePathname } from 'next/navigation';
 
 interface CreatePolygonProps {
     color: string;
@@ -62,12 +64,13 @@ const CreateSVG: React.FC<CreateSVGProps> = ({color, width, height, flapWidth, m
     );
   };
 
-
 // Function to create a responsive image component
 const TopNavigation = () => {
 
     const [calculatedWidth, setCalculatedWidth] = useState(window.innerWidth);
     const [calculatedHeight, setCalculatedHeight] = useState(56);
+
+    const pathname= usePathname();
 
     useEffect(() => {
       const handleResize = () => {
@@ -86,11 +89,16 @@ const TopNavigation = () => {
           <CreateSVG color='none' width={calculatedWidth} height={66} flapWidth={120} middleHeight={10} />
           <div className='flex items-center justify-between absolute w-full px-3 sm:px-6' >
             <div className='flex items-center w-full'>
-              <LayoutPanelLeft className='w-5 h-5'/>
-              <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
+              { pathname.startsWith("/app") ? 
+                <MobileSidebar/> :
+                <>
+                  <LayoutPanelLeft className='flex w-5 h-5'/>
+                  <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
+                </>
+              }
             </div>
             <div className='w-full'>
-              <ul className='flex items-center justify-center space-x-3 sm:space-x-5 text-xs'>
+              <ul className='flex items-center justify-center space-x-1 sm:space-x-4 text-xs'>
                 <ol>
                   <Link href="/">
                     <Button variant="link" className='text-xs font-normal'>
@@ -102,6 +110,13 @@ const TopNavigation = () => {
                   <Link href="/app">
                     <Button variant="link" className='text-xs font-normal'>
                       App
+                    </Button>
+                  </Link>
+                </ol>
+                <ol>
+                  <Link href="/about">
+                    <Button variant="link" className='text-xs font-normal'>
+                      About
                     </Button>
                   </Link>
                 </ol>
