@@ -12,7 +12,7 @@ const AnalyticsPage = (
 
   return (
     <div className="flex flex-col flex-grow h-full">
-      <div className="flex items-center justify-between space-y-2 p-8">
+      <div className="flex items-center justify-between space-y-2 p-6 sm:p-8">
         <div>
           <h2 className="md:text-3xl text-2xl font-bold tracking-tight">Analytic Notebooks</h2>
           <p className="text-muted-foreground">
