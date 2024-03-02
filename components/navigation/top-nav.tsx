@@ -89,10 +89,10 @@ const TopNavigation = () => {
           <CreateSVG color='none' width={calculatedWidth} height={66} flapWidth={120} middleHeight={10} />
           <div className='flex items-center justify-between absolute w-full px-3 sm:px-6' >
             <div className='flex items-center w-full'>
-              { pathname.startsWith("/app") ? 
-                <MobileSidebar/> :
+              { pathname.startsWith("/app") && 
                 <>
-                  <LayoutPanelLeft className='flex w-5 h-5'/>
+                  <MobileSidebar/>
+                  <LayoutPanelLeft className='sm:flex hidden w-5 h-5'/>
                   <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
                 </>
               }
