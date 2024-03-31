@@ -2,24 +2,49 @@ const AboutPage = () => {
     return ( 
         <div className="pt-14 min-h-full md:p-8 p-4 flex flex-col items-center">
             <div className="2xl:max-w-7xl xl:max-w-5xl pt-10">
-                <div className="md:text-6xl text-3xl font-semibold uppercase py-10">
+                <div className="md:text-6xl text-4xl font-semibold uppercase py-10">
                     A Manifesto for a Technological Renaissance
                 </div>
                 
-                <div className="grid lg:grid-cols-3 grid-cols-2 grid-rows-2 lg:py-8">
-                    <div className="col-span-1 flex justify-center items-center h-auto row-span-2">
-                            <p className="[writing-mode:tb] transform -rotate-180 text-3xl inline-block uppercase">
-                                Manifesto
-                            </p>
+                <div className="grid lg:grid-cols-3 grid-cols-2 grid-rows-2 border relative">
+                    <span className="h-[21px] w-[1px] absolute -top-[10px] left-0 bg-black dark:bg-gray-300"></span>
+                    <span className="h-[1px] w-[21px] absolute top-0 -left-[10px] bg-black dark:bg-gray-300"></span>
+                    <span className="h-[21px] w-[1px] absolute -top-[10px] right-0 bg-black dark:bg-gray-300"></span>
+                    <span className="h-[1px] w-[21px] absolute top-0 -right-[10px] bg-black dark:bg-gray-300"></span>
+                    <span className="h-[21px] w-[1px] absolute -bottom-[10px] right-0 bg-black dark:bg-gray-300"></span>
+                    <span className="h-[1px] w-[21px] absolute bottom-0 -right-[10px] bg-black dark:bg-gray-300"></span>
+                    <span className="h-[21px] w-[1px] absolute -bottom-[10px] left-0 bg-black dark:bg-gray-300"></span>
+                    <span className="h-[1px] w-[21px] absolute bottom-0 -left-[10px] bg-black dark:bg-gray-300"></span>
+                    <div className="col-span-1 flex justify-center items-center h-auto row-span-2 ">
+                        <p className="[writing-mode:tb] transform -rotate-180 text-3xl inline-block uppercase">
+                            Manifesto
+                        </p>
                     </div>
 
-                    <div className="col-span-1 [writing-mode:tb] transform -rotate-180 text-2xl p-4 row-span-1 flex justify-center">Progress</div>
+                    <div className="col-span-1 text-2xl row-span-1 border-l border-b flex justify-center">
+                        <p className="[writing-mode:tb] transform -rotate-180 p-4 flex justify-center">
+                            Progress
+                        </p>
+                    </div>
 
-                    <div className="col-span-1 md:text-lg p-4 row-span-1 text-muted-foreground">In the grand tapestry of human progress, technology stands as our most potent brush, capable of painting both the brightest utopias and the darkest dystopias. As inheritors of this legacy, we must heed the wisdom of philosophers, writers, scientists, and intellectuals who have illuminated the path forward.</div>
+                    <div className="col-span-1 md:text-lg row-span-1 border-l border-b">
+                        <p className="p-4 lg:p-5 text-muted-foreground">
+                            In the grand tapestry of human progress, technology stands as our most potent brush, capable of painting both the brightest utopias and the darkest dystopias. As inheritors of this legacy, we must heed the wisdom of philosophers, writers, scientists, and intellectuals who have illuminated the path forward.
+                        </p>
+                    </div>
 
-                    <div className="col-span-1 md:text-lg p-4 row-span-1 text-muted-foreground">As we advance, let us remember that technology is not inherently good or evil; it is the application that determines its moral worth. We must embed ethical considerations into the very fabric of our innovations, ensuring that every advancement serves humanity's collective well-being.</div>
+                    <div className="col-span-1 md:text-lg row-span-1 text-muted-foreground border-l">
+                        <p className="p-4">
+                            As we advance, let us remember that technology is not inherently good or evil; it is the application that determines its moral worth. We must embed ethical considerations into the very fabric of our innovations, ensuring that every advancement serves humanity's collective well-being.
 
-                    <div className="col-span-1 [writing-mode:tb] transform -rotate-180 text-2xl p-4 row-span-1 flex justify-center">Technology</div>
+                        </p>
+                    </div>
+
+                    <div className="col-span-1 [writing-mode:tb] transform -rotate-180 text-2xl row-span-1 flex justify-center border-r">
+                        <p className="p-4">
+                            Technology
+                        </p>
+                    </div>
 
                 </div>
                 <div className="grid md:grid-cols-2 grid-cols-1 py-10 px-4">
@@ -54,7 +79,7 @@ const AboutPage = () => {
                             The Promise of Decentralization
                         </h2>
                         <div className="text-sm p-4 text-muted-foreground">
-                            Like Michio Kaku, let us envision a Type I civilization, capable of harnessing the full potential of our planet's resources in harmony with nature. We are custodians of Earth, entrusted with its care for future generations. Our technological prowess must be wielded with wisdom and foresight, preserving the delicate balance of ecosystems and safeguarding the diversity of life.
+                            Inspired by the principles of Satoshi Nakamoto, let us embrace the transformative potential of decentralized technologies like blockchain. By empowering individuals with greater control over their data, finances, and identities, we can foster a more equitable and transparent society, free from the shackles of centralized authority.
                         </div>
                     </div>
                     <div className="col-span-1 p-3">
@@ -62,7 +87,7 @@ const AboutPage = () => {
                             The Imperative of Inclusivity
                         </h2>
                         <div className="text-sm p-4 text-muted-foreground">
-                            Like Michio Kaku, let us envision a Type I civilization, capable of harnessing the full potential of our planet's resources in harmony with nature. We are custodians of Earth, entrusted with its care for future generations. Our technological prowess must be wielded with wisdom and foresight, preserving the delicate balance of ecosystems and safeguarding the diversity of life.
+                        Our technological future must be accessible to all, transcending barriers of geography, gender, race, and socioeconomic status. Let us strive for a world where every individual has the opportunity to participate in and benefit from the fruits of innovation.
                         </div>
                     </div>
                     <div className="col-span-1 p-3">
@@ -75,7 +100,7 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="text-muted-foreground text-lg py-5 2xl:max-w-7xl xl:max-w-5xl">
+            <div className="text-muted-foreground text-xl sm:text-2xl md:text-3xl py-5 2xl:max-w-7xl xl:max-w-5xl">
                 In the crucible of technological evolution, we stand at a crossroads of unprecedented potential and peril. Let us heed the wisdom of those who came before us, forging a path guided by ethics, knowledge, unity, imagination, stewardship, decentralization, inclusivity, and enlightenment. Together, let us embark on a journey towards a brighter future for all humanity.
             </div>
         </div>
