@@ -10,12 +10,11 @@ export const RESUME_DATA = {
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "Less words, more action",
+    "Less words, more action. Building AI Apps",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
   personalWebsiteUrl: "",
   contact: {
     email: "german.alamilla@gmail.com",
-    tel: "+522215951539",
     social: [
       {
         name: "GitHub",
@@ -52,6 +51,15 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "FF",
+      link: "",
+      badges: ["Remote"],
+      title: "Software developer",
+      start: "May 2023",
+      end: "Oct 2023",
+      description: "A software development agency to build and grow your online business"
+    },
+    {
       company: "Secretary of Innovation and Digital Government",
       link: "",
       badges: [],
@@ -60,15 +68,7 @@ export const RESUME_DATA = {
       end: "Apr 2023",
       description: "Worked with Linux servers, implemented Django models, and webpage development"
     },
-    {
-      company: "FF",
-      link: "",
-      badges: ["Remote"],
-      title: "Software developer",
-      start: "May 2023",
-      end: "Oct 2023",
-      description: "A software development agency to build and grow your online business"
-  }
+    
   ],
   skills: [
     "JavaScript",
@@ -93,6 +93,7 @@ export const RESUME_DATA = {
         "Next.js",
         "PlanetScale",
         "Tailwindcss",
+        "Clerk Authentication"
       ],
       description: "A software platform for laboratories and patients",
       logo: null,
