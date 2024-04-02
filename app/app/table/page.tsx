@@ -5,7 +5,6 @@ import { z } from "zod"
 
 import { columns } from "./_components/columns"
 import { DataTable } from "./_components/data-table"
-// import { UserNav } from "./components/user-nav"
 import { transactionSchema } from "@/data/table/schema"
 
 export const metadata: Metadata = {
@@ -29,7 +28,6 @@ export default async function TaskPage() {
 
   return (
       <div className="flex-1 flex-col space-y-8 p-8 md:flex">
-        
         <div className="flex items-center justify-between space-y-2">
           <div>
             <h2 className="md:text-3xl text-2xl font-bold tracking-tight">Transaction Data</h2>
@@ -37,11 +35,10 @@ export default async function TaskPage() {
               Here&apos;s a list of your trades for this month!
             </p>
             <div className="text-xs py-2 text-muted-foreground">
-            **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
-        </div>
+              **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
+            </div>
           </div>
           <div className="flex items-center space-x-2">
-            {/* <UserNav /> */}
           </div>
         </div>
         <DataTable data={transactions} columns={columns} />
