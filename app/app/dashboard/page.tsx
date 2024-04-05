@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { DateRange } from "react-day-picker"
 
@@ -16,7 +16,30 @@ import RecentTrades from "./_components/recent-trades";
 import { transactions } from "@/data/transactions";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
+import { useMotionValue, useMotionTemplate, motion } from "framer-motion";
+
+import { cn } from "@/lib/utils/cn";
+
 export default function DashboardPage() {
+
+  let mouseX = useMotionValue(0);
+  let mouseY = useMotionValue(0);
+ 
+  const [randomString, setRandomString] = useState("");
+ 
+  useEffect(() => {
+    let str = generateRandomString(1500);
+    setRandomString(str);
+  }, []);
+
+  function onMouseMove({ currentTarget, clientX, clientY }: any) {
+    let { left, top } = currentTarget.getBoundingClientRect();
+    mouseX.set(clientX - left);
+    mouseY.set(clientY - top);
+ 
+    const str = generateRandomString(1500);
+    setRandomString(str);
+  }
   
   const defaultSelected: DateRange = {
     from: new Date(2024, 0, 1),
@@ -70,64 +93,85 @@ export default function DashboardPage() {
             
           <TabsContent value="overview" className="space-y-4 pb-6">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <Card>
+              <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
+                <CardPattern
+                  mouseX={mouseX}
+                  mouseY={mouseY}
+                  randomString={randomString}
+                />
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
+                  <CardTitle className="text-sm font-medium z-20">
                     Total Balance (USDT)
                   </CardTitle>
-                  <Wallet className="h-4 w-4 text-muted-foreground"/>
+                  <Wallet className="h-4 w-4 text-muted-foreground z-20"/>
                 </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">
+                <CardContent className="flex flex-col">
+                  <div className="text-2xl font-bold z-20">
                     ${totalBalance}
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+
+              <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
+                <CardPattern
+                  mouseX={mouseX}
+                  mouseY={mouseY}
+                  randomString={randomString}
+                />
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
+                  <CardTitle className="text-sm font-medium z-20">
                     Net Profits
                   </CardTitle>
                   { totalProfit > 0 ? 
-                    <TrendingUp className="w-4 h-4 text-muted-foreground"/> 
+                    <TrendingUp className="w-4 h-4 text-muted-foreground z-20"/> 
                       : 
-                    <TrendingDown className="w-4 h-4 text-muted-foreground"/>}
+                    <TrendingDown className="w-4 h-4 text-muted-foreground z-20"/>}
                 </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">
+                <CardContent className="flex flex-col">
+                  <div className="text-2xl font-bold z-20">
                     ${totalProfit}
                   </div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs text-muted-foreground z-20">
                     {profitRangeChange}% from initial date
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
+                <CardPattern
+                  mouseX={mouseX}
+                  mouseY={mouseY}
+                  randomString={randomString}
+                />
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">7D PNL</CardTitle>
-                  <BarChart3 className="h-4 w-4 text-muted-foreground"/>
+                  <CardTitle className="text-sm font-medium z-20">7D PNL</CardTitle>
+                  <BarChart3 className="h-4 w-4 text-muted-foreground z-20"/>
                 </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">
+                <CardContent className="flex flex-col">
+                  <div className="text-2xl font-bold z-20">
                     ${lastSevenDaysProfits}
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className="text-xs text-muted-foreground z-20">
                     +19% from last month
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
+                <CardPattern
+                  mouseX={mouseX}
+                  mouseY={mouseY}
+                  randomString={randomString}
+                />
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">
+                  <CardTitle className="text-sm font-medium z-20">
                     Today&apos;s PNL
                   </CardTitle>
-                  <Activity className="w-4 h-4 text-muted-foreground"/>
+                  <Activity className="w-4 h-4 text-muted-foreground z-20"/>
                 </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold">
+                <CardContent className="flex flex-col">
+                  <div className="text-2xl font-bold z-20">
                     ${todayProfit}
                   </div>
-                  <p className="text-xs text-muted-foreground">
+                  <p className="text-xs text-muted-foreground z-20">
                     +201 since last hour
                   </p>
                 </CardContent>
@@ -170,3 +214,37 @@ export default function DashboardPage() {
       </div>
    )
 }
+
+export function CardPattern({ mouseX, mouseY, randomString }: any) {
+  let maskImage = useMotionTemplate`radial-gradient(200px at ${mouseX}px ${mouseY}px, white, transparent)`;
+  let style = { maskImage, WebkitMaskImage: maskImage };
+ 
+  return (
+    <div className="pointer-events-none">
+      <div className="absolute inset-0 rounded-lg  [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50"></div>
+      <motion.div
+        className="absolute inset-0 rounded-lg bg-gradient-to-r from-green-500 to-blue-700 opacity-0  group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
+        style={style}
+      />
+      <motion.div
+        className="absolute inset-0 rounded-lg opacity-0 mix-blend-overlay  group-hover/card:opacity-100"
+        style={style}
+      >
+        <p className="absolute inset-x-0 text-xs h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
+          {randomString}
+        </p>
+      </motion.div>
+    </div>
+  );
+}
+
+const characters =
+  "AGPagp01689";
+
+  export const generateRandomString = (length: number) => {
+  let result = "";
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+};

@@ -1,7 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Globe, LucideIcon, Mail, Phone } from "lucide-react";
 import { IconType } from "react-icons";
-import { ComponentType } from 'react';
 import { Button } from "@/components/ui/button";
 
 type SocialItem = {
@@ -12,7 +11,6 @@ type SocialItem = {
 
 type ContactType = {
 email: string;
-tel: string;
 social: SocialItem[];
 }
 
@@ -70,18 +68,7 @@ export default function Heading(
               </a>
               </Button>
           ) : null}
-          {contact.tel ? (
-            <Button
-              className="size-8"
-              variant="outline"
-              size="icon"
-              asChild
-            >
-              <a href={`tel:${contact.tel}`}>
-                <Phone className="size-4" />
-              </a>
-              </Button>
-            ) : null}
+          
           {contact.social.map((social) => (
             <Button
               key={social.name}

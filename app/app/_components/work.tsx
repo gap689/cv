@@ -46,7 +46,7 @@ export default function Work({work}: WorkProps) {
                     </h4>
                   </div>
                   
-                  <div className="sm:text-sm text-xs py-1 tabular-nums text-gray-500">
+                  <div className="sm:text-sm text-xs sm:py-0 py-1 tabular-nums text-gray-500">
                     {work.start} - {work.end}
                   </div>
                 </div>
