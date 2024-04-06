@@ -25,7 +25,7 @@ export const AnalyticsLink: React.FC<AnalyticsLinkProps> = ({ post, isMobile }) 
     <LazyMotion features={domAnimation}>
       <Link
         key={post.id}
-        href={`/writing/${post.href}`}
+        href={`/app/analytics/${post.href}`}
         className={cn(
           'flex flex-col gap-1 transition-colors duration-300',
           !isMobile && isActive ? 'bg-black text-white' : 'hover:bg-gray-200',
