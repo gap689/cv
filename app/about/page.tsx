@@ -2,7 +2,7 @@ const AboutPage = () => {
     return ( 
         <div className="pt-14 min-h-full md:p-8 p-4 flex flex-col items-center">
             <div className="2xl:max-w-7xl xl:max-w-5xl pt-10">
-                <div className="md:text-6xl text-4xl font-semibold uppercase py-10">
+                <div className="md:text-6xl sm:text-4xl text-3xl font-semibold uppercase py-10">
                     A Manifesto for a Technological Renaissance
                 </div>
                 
@@ -15,7 +15,7 @@ const AboutPage = () => {
                     <span className="h-[1px] w-[21px] absolute bottom-0 -right-[10px] bg-black dark:bg-gray-300"></span>
                     <span className="h-[21px] w-[1px] absolute -bottom-[10px] left-0 bg-black dark:bg-gray-300"></span>
                     <span className="h-[1px] w-[21px] absolute bottom-0 -left-[10px] bg-black dark:bg-gray-300"></span>
-                    <div className="col-span-1 flex justify-center items-center h-auto row-span-2 ">
+                    <div className="col-span-1 flex justify-center items-center h-auto row-span-2 border-b lg:border-none">
                         <p className="[writing-mode:tb] transform -rotate-180 text-3xl inline-block uppercase">
                             Manifesto
                         </p>
@@ -28,15 +28,14 @@ const AboutPage = () => {
                     </div>
 
                     <div className="col-span-1 md:text-lg row-span-1 border-l border-b">
-                        <p className="p-4 lg:p-5 text-muted-foreground">
+                        <p className="p-4 lg:p-5 text-muted-foreground text-sm sm:text-base">
                             In the grand tapestry of human progress, technology stands as our most potent brush, capable of painting both the brightest utopias and the darkest dystopias. As inheritors of this legacy, we must heed the wisdom of philosophers, writers, scientists, and intellectuals who have illuminated the path forward.
                         </p>
                     </div>
 
-                    <div className="col-span-1 md:text-lg row-span-1 text-muted-foreground border-l">
-                        <p className="p-4">
+                    <div className="col-span-1 md:text-lg row-span-1 text-muted-foreground lg:border-l border-l-0">
+                        <p className="p-4 lg:p-5 text-muted-foreground text-sm sm:text-base">
                             As we advance, let us remember that technology is not inherently good or evil; it is the application that determines its moral worth. We must embed ethical considerations into the very fabric of our innovations, ensuring that every advancement serves humanity's collective well-being.
-
                         </p>
                     </div>
 
