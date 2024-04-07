@@ -1,12 +1,15 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { ModeToggle } from '@/components/mode-toggle';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import useSize from "@/hooks/useSize";
+
+import { ModeToggle } from '@/components/mode-toggle';
 import { LayoutPanelLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import MobileSidebar from './mobile-sidebar';
-import { usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
 
 interface CreatePolygonProps {
     color: string;
@@ -66,34 +69,38 @@ const CreateSVG: React.FC<CreateSVGProps> = ({color, width, height, flapWidth, m
 
 // Function to create a responsive image component
 const TopNavigation = () => {
+  const windowSize = useSize();
+  const [calculatedWidth, setCalculatedWidth] = useState<number>(windowSize[0]);
+  const [calculatedHeight, setCalculatedHeight] = useState(56);
 
-    const [calculatedWidth, setCalculatedWidth] = useState(window.innerWidth);
-    const [calculatedHeight, setCalculatedHeight] = useState(56);
+  const pathname= usePathname();
 
-    const pathname= usePathname();
+  useEffect(() => {
+    const handleResize = () => {
+      setCalculatedWidth(window.innerWidth);
+    };
 
-    useEffect(() => {
-      const handleResize = () => {
-        setCalculatedWidth(window.innerWidth);
-      };
+    // Initial width
+    setCalculatedWidth(window.innerWidth);
 
-      window.addEventListener("resize", handleResize, true);
+    // Event listener for window resize
+    window.addEventListener("resize", handleResize, true);
       
-      return () => {
-        window.removeEventListener("resize", handleResize, true);
-      };
-    }, []);
+    return () => {
+      window.removeEventListener("resize", handleResize, true);
+    };
+  }, []);
   
     return (
         <div className="h-14 fixed flex items-center top-0 w-screen z-30">
           <CreateSVG color='none' width={calculatedWidth} height={66} flapWidth={120} middleHeight={10} />
           <div className='flex items-center justify-between absolute w-full px-3 sm:px-6' >
             <div className='flex items-center w-full'>
+              <LayoutPanelLeft className='sm:flex hidden w-5 h-5'/>
+              <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
               { pathname.startsWith("/app") && 
                 <>
                   <MobileSidebar/>
-                  <LayoutPanelLeft className='sm:flex hidden w-5 h-5'/>
-                  <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
                 </>
               }
             </div>
@@ -101,21 +108,21 @@ const TopNavigation = () => {
               <ul className='flex items-center justify-center space-x-1 sm:space-x-4 text-xs'>
                 <ol>
                   <Link href="/">
-                    <Button variant="link" className='text-xs font-normal'>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/" && "font-medium underline decoration-sky-500 decoration-2")}>
                       Intro
                     </Button>
                   </Link>
                 </ol>
                 <ol>
                   <Link href="/app">
-                    <Button variant="link" className='text-xs font-normal'>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname.startsWith("/app") && "font-medium underline decoration-sky-500 decoration-2")}>
                       App
                     </Button>
                   </Link>
                 </ol>
                 <ol>
                   <Link href="/about">
-                    <Button variant="link" className='text-xs font-normal'>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/about" && "font-medium underline decoration-sky-500 decoration-2")}>
                       About
                     </Button>
                   </Link>
