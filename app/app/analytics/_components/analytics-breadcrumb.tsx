@@ -2,48 +2,45 @@
 
 import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation";
+import Link from "next/link"
+import { Button } from '@/components/ui/button';
+import { ChevronRight } from "lucide-react";
 
-import {
-    Breadcrumb,
-    BreadcrumbItem,
-    BreadcrumbLink,
-    BreadcrumbList,
-    BreadcrumbPage,
-    BreadcrumbSeparator,
-  } from "@/components/ui/breadcrumb"
+import { cn } from "@/lib/utils";
 
 const AnalyticsBreadcrumb = () => {
   
   const pathname= usePathname();
-  const [lastSection, setLastSection] = useState('');
 
-  useEffect(() => {
-    const pathnameSections = pathname.split('/');
-    const lastSection = pathnameSections[pathnameSections.length - 1];
-    const lastStringAfterAnalytics = pathnameSections[pathnameSections.length -2] === 'analytics' ? pathnameSections[pathnameSections.length-1] : null;
-
-    setLastSection(lastStringAfterAnalytics);
-  }, [pathname]);
+  const pathnameSections = pathname.split('/');
+  const lastSection = pathnameSections[pathnameSections.length - 1];
+  const lastStringAfterAnalytics = pathnameSections[pathnameSections.length -2] === 'analytics' ? pathnameSections[pathnameSections.length-1] : null;
   
   return ( 
-    <header className="sticky inset-x-0 top-0 z-10 mx-auto flex h-12 w-full shrink-0 items-center overflow-hidden border-b text-sm font-medium md:hidden">
-      <div className="flex h-full w-full items-center px-3 pt-4">
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/app/analytics">Notebooks</BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink href={lastSection} className="font-semibold">
-                {lastSection}
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-    </header>
+    <nav aria-label="Breadcrumb" className="sticky inset-x-0 top-0 mx-auto flex h-fit w-full shrink-0 items-center overflow-hidden border-b text-xs font-medium md:hidden mt-4">
+      <ol className="flex items-center gap-2 px-4">
+        <li className="flex items-center gap-2">
+          <Link href="/app/analytics">
+            <Button variant="link" className="p-0 dark:text-zinc-400 text-zinc-800 font-semibold">
+              Notebooks
+            </Button>
+          </Link>
+          {/* { pathname.startsWith("/app/analytics/") && ( */}
+            <span className="text-gray-500 dark:text-gray-400">
+              <ChevronRight className="w-4 h-4"/>
+            </span>
+            {/* )
+          } */}
+        </li>
+        <li className="flex items-center">
+          <Link href={`/app/analytics/${lastStringAfterAnalytics}`}>
+            <Button variant="link" className={cn("p-0 text-zinc-400 font-semibold", lastStringAfterAnalytics&&"text-zinc-200")}>
+              {lastStringAfterAnalytics}
+            </Button>
+          </Link>
+        </li>
+      </ol>
+    </nav>
   );
 }
  

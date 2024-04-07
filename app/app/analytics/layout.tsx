@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import SideMenu from "./_components/side-menu";
-import AnalyticsBreadcrumb from "./_components/analytics-breadcrumb"
+import AnalyticsBreadcrumb from "./_components/analytics-breadcrumb";
 
 const AnalyticsPage = (
   { 
@@ -23,16 +23,17 @@ const AnalyticsPage = (
   return (
     <div className="flex flex-col flex-grow h-full" >
       <AnalyticsBreadcrumb/>
-        <div className="flex items-center justify-between space-y-2 p-6 sm:p-8">
-          <div>
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
-              Analytic Notebooks
-            </h2>
-            <p className="text-muted-foreground text-sm md:text-base">
-              Explore my data-driven journey through a curated portfolio of analytical notebooks!
-            </p>
-          </div>
+
+      <div className="flex items-center justify-between space-y-2 p-6 sm:p-8">
+        <div>
+          <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
+            Analytic Notebooks
+          </h2>
+          <p className="text-muted-foreground text-sm md:text-base">
+            Explore my data-driven journey through a curated portfolio of analytical notebooks!
+          </p>
         </div>
+      </div>
 
       <div className="flex w-full h-full border-t">
         <SideMenu/>
