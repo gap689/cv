@@ -21,7 +21,7 @@ export const ROUTES = [
           icon: Layout,
           title: "Dashboard",
           href: "/app/dashboard",
-      label:"3",
+      label:"4",
       },
     {
       icon: List,
@@ -41,17 +41,17 @@ export const ROUTES = [
       href: "/app/experiments",
       label: "",
     },
-    {
-      icon: FiActivity,
-      title: "Activity",
-      href: "/app/activity",
-      label: "",
-    },
+    // {
+    //   icon: FiActivity,
+    //   title: "Activity",
+    //   href: "/app/activity",
+    //   label: "",
+    // },
     {
       icon: BookMarked,
       title: "Reading List",
       href: "/app/reading",
-      label: "10",
+      label: "8",
     }
   ];
   
