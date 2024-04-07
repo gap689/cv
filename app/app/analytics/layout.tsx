@@ -23,7 +23,6 @@ const AnalyticsPage = (
   return (
     <div className="flex flex-col flex-grow h-full" >
       <AnalyticsBreadcrumb/>
-      {/* { lastStringAfterAnalytics ? null : ( */}
         <div className="flex items-center justify-between space-y-2 p-6 sm:p-8">
           <div>
             <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
@@ -34,8 +33,6 @@ const AnalyticsPage = (
             </p>
           </div>
         </div>
-      {/* )
-      } */}
 
       <div className="flex w-full h-full border-t">
         <SideMenu/>
