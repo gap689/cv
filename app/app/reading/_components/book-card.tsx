@@ -33,38 +33,19 @@ export function BookCard({
 }: BookCardProps) {
   return (
     <div className={cn("space-y-3", className)} {...props}>
-      <ContextMenu>
-        <ContextMenuTrigger>
-          <div className="overflow-hidden rounded-md">
-            <Image
-              src={book.cover}
-              alt={book.name}
-              width={width}
-              height={height}
-              className={cn(
-                "h-auto w-auto object-cover transition-all hover:scale-105",
-                aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-square"
-              )}
-            />
-          </div>
-        </ContextMenuTrigger>
-        <ContextMenuContent className="w-40">
-          <ContextMenuItem>Add to Library</ContextMenuItem>
-          <ContextMenuSub>
-            <ContextMenuSubTrigger>Add to Playlist</ContextMenuSubTrigger>
-            <ContextMenuSubContent className="w-48">
-              <ContextMenuItem>
-                <PlusCircle className="mr-2 h-4 w-4" />
-                New List
-              </ContextMenuItem>
-              <ContextMenuSeparator />
-            </ContextMenuSubContent>
-          </ContextMenuSub>
-          <ContextMenuSeparator />
-          <ContextMenuItem>Like</ContextMenuItem>
-          <ContextMenuItem>Share</ContextMenuItem>
-        </ContextMenuContent>
-      </ContextMenu>
+      <div className="overflow-hidden rounded-md">
+        <Image
+          src={book.cover}
+          alt={book.name}
+          width={width}
+          height={height}
+          className={cn(
+            "h-auto w-auto object-cover transition-all hover:scale-105",
+            aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-square"
+          )}
+        />
+      </div>
+
       <div className="space-y-1 text-sm">
         <Link href={book.url} target="_blank" className="hover:underline">
             <h3 className="font-medium leading-none">{book.name}</h3>
