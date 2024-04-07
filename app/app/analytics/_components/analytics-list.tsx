@@ -4,7 +4,8 @@ import { formatDistanceToNow } from "date-fns"
 import { cn } from "@/lib/utils"
 import { Badge } from "@/components/ui/badge"
 import { Analytics } from "@/data/analytics/data"
-import { useAnalytics } from "./use-analytics"
+import { useAnalytics } from "@/hooks/use-analytics"
+import { useRouter } from "next/navigation"
 
 interface AnalyticsListProps {
   items: Analytics[]
@@ -12,6 +13,7 @@ interface AnalyticsListProps {
 
 export function AnalyticsList({ items }: AnalyticsListProps) {
   const [post, setPost] = useAnalytics()
+  const router = useRouter();
 
   return (
       <div className="flex flex-col gap-2">
@@ -22,11 +24,13 @@ export function AnalyticsList({ items }: AnalyticsListProps) {
               "flex flex-col items-start gap-2 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent",
               post.selected === item.id && "bg-muted"
             )}
-            onClick={() =>
+            onClick={() => {
               setPost({
                 ...post,
                 selected: item.id,
-              })
+              });
+              router.push(`/app/analytics${item.href!}`)
+            }
             }
           >
             <div className="flex flex-col gap-1 w-full">
