@@ -13,11 +13,11 @@ const SideMenu: React.FC = () => {
   return (
     <div
       className={cn(
-        'hidden h-full md:flex md:flex-col md:border-r 2xl:max-w-md lg:max-w-sm md:max-w-xs'
+        'hidden h-full md:flex md:flex-col md:border-r 2xl:max-w-md lg:max-w-sm md:max-w-[300px]'
       )}
     >
       <Tabs defaultValue="all">
-        <div className="flex items-center px-4 py-2 sticky top-0 border-b bg-white dark:bg-[#101010]">
+        <div className="flex items-center px-4 py-2 sticky top-0 border-b bg-white dark:bg-[#101010] overflow-x-auto">
           <TabsList>
             <TabsTrigger value="all" className="text-zinc-600 dark:text-zinc-200">All notebooks</TabsTrigger>
             <TabsTrigger value="analytics" className="text-zinc-600 dark:text-zinc-200">Analytics</TabsTrigger>
