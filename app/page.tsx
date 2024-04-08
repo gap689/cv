@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { RESUME_DATA } from '@/data/resume-data'
 import Link from 'next/link'
+import {Atom} from "lucide-react"
 
 export default function Home() {
   return (
@@ -54,8 +55,9 @@ export default function Home() {
       </div>
 
       <Link href="/app">
-        <Button variant="secondary" >
-          Explore Now
+        <Button variant="default" className="flex items-center">
+          <span className="dark:font-semibold">Explore Now</span>
+          <Atom className="w-6 h-6 ml-2"/>
         </Button>
       </Link>
     </main>

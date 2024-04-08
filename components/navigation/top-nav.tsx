@@ -98,31 +98,27 @@ const TopNavigation = () => {
             <div className='flex items-center w-full'>
               <LayoutPanelLeft className='sm:flex hidden w-5 h-5'/>
               <p className='text-sm hidden sm:flex ml-2'>CV Template</p>
-              { pathname.startsWith("/app") && 
-                <>
-                  <MobileSidebar/>
-                </>
-              }
+              <MobileSidebar/>
             </div>
             <div className='w-full'>
               <ul className='flex items-center justify-center space-x-1 sm:space-x-4 text-xs'>
                 <ol>
                   <Link href="/">
-                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/" && "font-medium underline decoration-sky-500 decoration-2")}>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/" && "font-semibold underline")}>
                       Intro
                     </Button>
                   </Link>
                 </ol>
                 <ol>
                   <Link href="/app">
-                    <Button variant="link" className={cn('text-xs font-normal', pathname.startsWith("/app") && "font-medium underline decoration-sky-500 decoration-2")}>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname.startsWith("/app") && "font-semibold underline")}>
                       App
                     </Button>
                   </Link>
                 </ol>
                 <ol>
                   <Link href="/about">
-                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/about" && "font-medium underline decoration-sky-500 decoration-2")}>
+                    <Button variant="link" className={cn('text-xs font-normal', pathname==="/about" && "font-semibold underline ")}>
                       About
                     </Button>
                   </Link>
