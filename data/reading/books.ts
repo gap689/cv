@@ -29,7 +29,7 @@ export interface Library {
       author: "Ted Hills",
       cover: "https://m.media-amazon.com/images/I/61Z47yUyWOL._SY466_.jpg",
       url: "https://www.amazon.com/NoSQL-SQL-Data-Modeling-Semantics/dp/1634621093"
-    }
+    },
     
   ]
   
@@ -54,6 +54,13 @@ export interface Library {
       cover:
         "https://m.media-amazon.com/images/I/81a1JpL61IL._SY466_.jpg",
       url: "https://www.amazon.com/Machine-Learning-Financial-Management-Python/dp/1492085251"
+    },
+    
+    {
+      name: "The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution",
+      author: "Gregory Zuckerman",
+      cover: "https://m.media-amazon.com/images/I/81ZmhjQI2LL._SY466_.jpg",
+      url: "https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X"
     },
   ]
 
@@ -80,4 +87,10 @@ export interface Library {
         "https://m.media-amazon.com/images/I/81qgqaTeiOL._SY466_.jpg",
       url: "https://www.amazon.com/Psychology-Selling-Increase-Thought-Possible/dp/0785288066"
     },
+    {
+      name: "Quantitative Trading: How to Build Your Own Algorithmic Trading Business",
+      author: "Ernest P. Chan",
+      cover: "https://m.media-amazon.com/images/I/71-t41VfMcL._SY466_.jpg",
+      url: "https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064"
+    }
   ]
