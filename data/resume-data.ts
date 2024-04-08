@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "Less words, more action. Building AI Apps",
+    "Technology professional with a scientific background, specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       title: "Software developer",
       start: "May 2023",
       end: "Oct 2023",
-      description: "A software development agency to build and grow your online business"
+      description: "A software development agency to build and grow your online business. Worked with NextJS and MongoDB. Implemented internationalization (i18n)."
     },
     {
       company: "Secretary of Innovation and Digital Government",
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       title: "Software developer",
       start: "Feb 2023",
       end: "Apr 2023",
-      description: "Worked with Linux servers, implemented Django models, and webpage development"
+      description: "A Govtech department. Worked with Linux, implemented Django models, and webpage development using Vue."
     },
     
   ],
@@ -82,7 +82,9 @@ export const RESUME_DATA = {
     "PlanetScale",
     "Pandas",
     "SQL",
-    "Web Scrapping"
+    "Web Scrapping",
+    "MongoDB",
+    "i18n"
   ],
   projects: [
     {
