@@ -17,11 +17,11 @@ const AnalyticsBreadcrumb = () => {
   const lastStringAfterAnalytics = pathnameSections[pathnameSections.length -2] === 'analytics' ? pathnameSections[pathnameSections.length-1] : null;
   
   return ( 
-    <nav aria-label="Breadcrumb" className="sticky inset-x-0 top-0 mx-auto flex h-fit w-full shrink-0 items-center overflow-hidden border-b text-xs font-medium md:hidden mt-4">
+    <nav aria-label="Breadcrumb" className="sticky inset-x-0 top-0 pt-2 mx-auto flex h-fit w-full shrink-0 items-center overflow-hidden border-b text-xs font-medium md:hidden mt-4 bg-background">
       <ol className="flex items-center gap-2 px-4">
         <li className="flex items-center gap-2">
           <Link href="/app/analytics">
-            <Button variant="link" className="p-0 dark:text-zinc-400 text-zinc-800 font-semibold">
+            <Button variant="link" className="p-0 dark:text-zinc-400 text-zinc-600 font-semibold">
               Notebooks
             </Button>
           </Link>
@@ -34,7 +34,7 @@ const AnalyticsBreadcrumb = () => {
         </li>
         <li className="flex items-center">
           <Link href={`/app/analytics/${lastStringAfterAnalytics}`}>
-            <Button variant="link" className={cn("p-0 text-zinc-400 font-semibold", lastStringAfterAnalytics&&"text-zinc-200")}>
+            <Button variant="link" className={cn("p-0 font-semibold", lastStringAfterAnalytics&&"dark:text-zinc-200 text-zinc-800")}>
               {lastStringAfterAnalytics}
             </Button>
           </Link>
