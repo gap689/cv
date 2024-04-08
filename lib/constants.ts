@@ -1,4 +1,5 @@
-import { BarChart, 
+import {
+    BarChart3,
     BookMarked, 
     Briefcase, 
     Compass, 
@@ -30,7 +31,7 @@ export const ROUTES = [
       label: "",
     },
     {
-      icon: BarChart,
+      icon: BarChart3,
       title: "Analytics",
       href: "/app/analytics",
       label: "",
