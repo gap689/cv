@@ -4,8 +4,8 @@ const useSize = () => {
 
   const [windowSize, setWindowSize] = useState(
     isClient ? [
-    window.innerHeight,
     window.innerWidth,
+    window.innerHeight,
   ]: [0,0]);
 
   useEffect(() => {
