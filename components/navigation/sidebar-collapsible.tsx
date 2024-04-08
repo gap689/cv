@@ -40,21 +40,28 @@ const ref = useRef<ImperativePanelHandle>(null);
 
 useEffect(() => {
   const panel = ref.current;
-  if(windowSize[0] < 640) {
+  if(windowSize[0] < 768) {
     panel?.collapse();
-  } else{
+    return () => {
+      panel?.collapse();
+    };
+  } else if (windowSize[0] >= 768) {
     panel?.expand();
+    return () => {
+      panel?.expand();
+    };
   }
 }, [windowSize]);
 
-useEffect(() => {
-  const panel = ref.current;
-  if(windowSize[0] < 640) {
-    panel?.collapse();
-  } else{
-    panel?.expand();
-  }
-}, []);
+
+// useEffect(() => {
+//   const panel = ref.current;
+//   if(windowSize[0] < 768) {
+//     panel?.collapse();
+//   } else if (windowSize[0] >= 768){
+//     panel?.expand();
+//   }
+// }, []);
 
   return (
     <TooltipProvider delayDuration={0}>
