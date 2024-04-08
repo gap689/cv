@@ -97,22 +97,22 @@ export const RESUME_DATA = {
         "Tailwindcss",
         "Clerk Authentication"
       ],
-      description: "A software platform for laboratories and patients",
+      description: "A software platform for clinical laboratories and patients (in progress)",
       logo: null,
       link: {
         label: "LabUX",
-        href: "/",
+        href: "https://github.com/gap689/LabUX",
       },
     },
     {
-      title: "Alamilla.dev",
+      title: "CV Template",
       techStack: [
         "TypeScript",
         "React",
         "Next.js",
         "Tailwindcss",
       ],
-      description: "My personal website and blog. Built with Next.js",
+      description: "My personal website. Web app that renders minimalist CV with dashboard style layout. Built with Next.js and shadcn/ui, deployed on Vercel.",
       logo: null,
       link: {
         label: "alamilla.dev",
