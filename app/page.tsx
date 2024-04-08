@@ -55,9 +55,9 @@ export default function Home() {
       </div>
 
       <Link href="/app">
-        <Button variant="default" className="flex items-center">
+        <Button variant="secondary" className="flex items-center border border-zinc-300 dark:border-zinc-700">
           <span className="dark:font-semibold">Explore Now</span>
-          <Atom className="w-6 h-6 ml-2"/>
+          <Atom className="w-6 h-6 ml-2 text-secondary-foreground"/>
         </Button>
       </Link>
     </main>
