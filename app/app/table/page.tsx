@@ -27,7 +27,7 @@ export default async function TaskPage() {
   const transactions = await getTasks()
 
   return (
-      <div className="flex-1 flex-col space-y-8 p-8 md:flex">
+      <div className="flex-1 flex-col space-y-8 sm:p-8 p-5 md:flex">
         <div className="flex items-center justify-between space-y-2">
           <div>
             <h2 className="md:text-3xl text-2xl font-bold tracking-tight">Transaction Data</h2>
