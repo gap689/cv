@@ -125,3 +125,9 @@ article {
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .p-section{
+    @apply pb-10 px-[15px] sm:px-[calc(calc(100vw-600px)/2)] md:px-[calc(calc(100vw-708px)/2)] lg:px-[calc(calc(100vw-944px)/2)] xl:px-[calc(calc(100vw-1200px)/2)] 2xl:px-[calc(calc(100vw-1400px)/2)];
+  }
+}
