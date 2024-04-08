@@ -67,7 +67,7 @@ export default function DashboardPage() {
   const lastTransactions = trades.slice(-10);
   
   return (
-      <div className="relative flex flex-col space-y-4 p-8 pt-6 h-full">
+      <div className="relative flex flex-col space-y-4 sm:p-8 p-5 pt-6 h-full">
         <Tabs defaultValue="overview" className="space-y-4">
           <div className="flex flex-col space-y-2 pb-2 bg-background">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between">
