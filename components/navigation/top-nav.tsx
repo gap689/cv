@@ -70,7 +70,7 @@ const CreateSVG: React.FC<CreateSVGProps> = ({color, width, height, flapWidth, m
 // Function to create a responsive image component
 const TopNavigation = () => {
   const windowSize = useSize();
-  const [calculatedWidth, setCalculatedWidth] = useState<number>(windowSize[0]);
+  const [calculatedWidth, setCalculatedWidth] = useState<number>(window.innerWidth);
   const [calculatedHeight, setCalculatedHeight] = useState(56);
 
   const pathname= usePathname();
