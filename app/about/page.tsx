@@ -1,8 +1,8 @@
 const AboutPage = () => {
     return ( 
-        <div className="pt-14 min-h-full md:p-8 p-4 flex flex-col items-center">
+        <div className="md:pt-14 sm:pt-10 pt-6 min-h-full md:p-8 p-4 flex flex-col items-center">
             <div className="2xl:max-w-7xl xl:max-w-5xl pt-10">
-                <div className="md:text-6xl sm:text-4xl text-3xl font-semibold uppercase py-10">
+                <div className="md:text-6xl sm:text-4xl text-3xl font-semibold uppercase sm:py-10 py-6">
                     A Manifesto for a Technological Renaissance
                 </div>
                 
