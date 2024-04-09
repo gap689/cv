@@ -10,7 +10,7 @@ import Projects from "./_components/projects";
 const AppPage = () => {
 
 return (
-  <main className="relative mx-auto scroll-my-12 p-4 print:p-12 md:p-16">
+  <main className="relative mx-auto scroll-my-12 p-4 print:p-12 md:p-16 pt-8">
     <div className="mx-auto w-full max-w-2xl 2xl:max-w-4xl space-y-8 print:space-y-6">
       <Heading
         name={RESUME_DATA.name}
