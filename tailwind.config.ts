@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss"
 
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 const svgToDataUri = require("mini-svg-data-uri");
 
 const colors = require("tailwindcss/colors");
@@ -17,6 +19,10 @@ const config = {
 	],
   prefix: "",
   theme: {
+    screens:{
+      'xs': '420px',
+      ...defaultTheme.screens,
+    },
     container: {
       center: true,
       padding: "2rem",
