@@ -60,7 +60,7 @@ export function DatePickerWithRange({
             selected={range}
             onSelect={setRange}
             fromDate={range?.from}
-            toDate={new Date()}
+            toDate={range?.to}
             numberOfMonths={2}
             // onDayClick={handleDayClick}
           />

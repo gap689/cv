@@ -43,7 +43,7 @@ export default function DashboardPage() {
   
   const defaultSelected: DateRange = {
     from: new Date(2024, 0, 1),
-    to: new Date(),
+    to: new Date(2024,2,10),
   };
 
   const [range, setRange] = useState<DateRange | undefined>(defaultSelected);
