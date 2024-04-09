@@ -58,8 +58,8 @@ export default function ReadingPage() {
                       book={book}
                       className="w-[250px]"
                       aspectRatio="portrait"
-                      width={250}
-                      height={330}
+                      width={300}
+                      height={400}
                     />
                   ))}
                 </div>
@@ -70,27 +70,25 @@ export default function ReadingPage() {
 
           <TabsContent
             value="else"
-            className="h-full flex-col border-none p-0 data-[state=active]:flex"
+            className="border-none p-0"
           >
-            <div className="flex items-center justify-between">
-              <div className="relative">
-                <ScrollArea className="w-full">
-                  <div className="flex w-max space-x-4 pb-4">
-                    {readingNowElse.map((book) => (
-                      <BookCard
-                        key={book.name}
-                        book={book}
-                        className="w-[250px]"
-                        aspectRatio="portrait"
-                        width={250}
-                        height={330}
-                      />
-                    ))}
-                  </div>
-                  <ScrollBar orientation="horizontal" />
-                </ScrollArea>
-              </div>
-            </div>                  
+            <div className="relative">
+              <ScrollArea className="w-full">
+                <div className="flex w-max space-x-4 pb-4">
+                  {readingNowElse.map((book) => (
+                    <BookCard
+                      key={book.name}
+                      book={book}
+                      className="w-[250px]"
+                      aspectRatio="portrait"
+                      width={300}
+                      height={400}
+                    />
+                  ))}
+                </div>
+                <ScrollBar orientation="horizontal" />
+              </ScrollArea>
+            </div>
           </TabsContent>
         </Tabs>
 
@@ -104,8 +102,8 @@ export default function ReadingPage() {
         </div>
         <Separator className="my-4" />
           <div className="relative">
-            <ScrollArea>
-              <div className="flex space-x-4 pb-4">
+            <ScrollArea className="w-full">
+              <div className="flex w-max space-x-4 pb-4">
                 {nextReading.map((book) => (
                   <BookCard
                     key={book.name}
