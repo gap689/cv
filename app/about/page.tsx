@@ -62,7 +62,7 @@ const AboutPage = () => {
                     <div className="col-span-1 p-3">
                         <h2 className="font-semibold">The Power of Imagination</h2>
                         <div className="text-sm p-4 text-muted-foreground">
-                            In the words of Isaac Asimov, "The most exciting phrase to hear in science, the one that heralds new discoveries, is not &apos;Eureka!&apos; but &apos;That&apos;s funny...&apos;" Let us nurture the boundless creativity of the human mind, embracing imagination as the spark that ignites innovation and fuels progress.
+                            In the words of Isaac Asimov, &quot;The most exciting phrase to hear in science, the one that heralds new discoveries, is not &apos;Eureka!&apos; but &apos;That&apos;s funny...&apos; &quot; Let us nurture the boundless creativity of the human mind, embracing imagination as the spark that ignites innovation and fuels progress.
                         </div>
                     </div>
                     <div className="col-span-1 p-3">
