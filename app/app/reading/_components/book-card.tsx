@@ -1,16 +1,6 @@
 import Image from "next/image"
 
 import { cn } from "@/lib/utils"
-import {
-  ContextMenu,
-  ContextMenuContent,
-  ContextMenuItem,
-  ContextMenuSeparator,
-  ContextMenuSub,
-  ContextMenuSubContent,
-  ContextMenuSubTrigger,
-  ContextMenuTrigger,
-} from "@/components/ui/context-menu"
 
 import { Library } from "@/data/reading/books"
 import { PlusCircle } from "lucide-react"
