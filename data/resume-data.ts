@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "Technology professional with a scientific background, specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements",
+    "I'm a technology professional with a scientific background, specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, also in SaaS, startups or AI apps.",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
   personalWebsiteUrl: "",
   contact: {

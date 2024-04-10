@@ -10,7 +10,7 @@ export default function About(
   return (
     <section>
       <h2 className="text-xl font-bold">About</h2>
-      <p className="text-pretty font-mono text-sm text-muted-foreground">
+      <p className="text-pretty font-mono text-sm text-muted-foreground pt-2">
         {summary}
       </p>
     </section>
