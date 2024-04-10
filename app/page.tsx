@@ -14,7 +14,7 @@ export default function Home() {
           Engineering the Future:
         </div>
         <div className='text-muted-foreground py-3'>
-          A Technologist's Journey
+          A Technologist&apos;s Journey
         </div>
       </div>
 

@@ -14,10 +14,10 @@ const ContactPage = () => {
           <section className="col-span-1 sm:col-span-2 flex flex-col justify-center p-10 border-b">
             <TbMessageCircleCode className="md:w-14 md:h-14 h-12 w-12 mb-3"/>
             <h2 className="text-3xl md:text-4xl font-semibold">
-              Let's talk
+              Let&apos;s talk
             </h2>
             <p className="text-muted-foreground pt-4 text-sm md:text-base">
-              Happy to connect. I'm open to colaborate at the intersection of front end, fullstack development or data analytics.
+              Happy to connect. I&apos;m open to colaborate at the intersection of front end, fullstack development or data analytics.
             </p>
           </section>
 

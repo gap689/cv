@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "I'm a technology professional specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, SaaS, startups or AI apps.",
+    "I&apos;m a technology professional specializing in data-centric problem-solving. Completed a master&apos;s degree in computer science, including research in quantum computing using IBM&apos;s platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, SaaS, startups or AI apps.",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -43,7 +43,7 @@ export const RESUME_DATA = {
     },
     {
       school: "University of the Americas Puebla",
-      degree: "Bachelor's Degree in Nanotechnology",
+      degree: "Bachelor&apos;s Degree in Nanotechnology",
       start: "2008",
       end: "2013",
       courses: ["Organic Chemistry", "Inorganic Chemistry", "Multivariable Calculus", "Electronics", "Physics", "Quantum mechanics"],

@@ -25,7 +25,7 @@ export const posts = [
       id: "6c84fb90-12c4-11e1-840d-7b25c5ee775a",
       name: "Web scrapping with Python",
       subject: "Data acquisition",
-      text: "Embark on a journey of data acquisition through web scraping. In this notebook, I'll guide you through the process of extracting valuable data from the web using powerful Python libraries.",
+      text: "Embark on a journey of data acquisition through web scraping. In this notebook, I&apos;ll guide you through the process of extracting valuable data from the web using powerful Python libraries.",
       date: "2023-10-22T09:00:00",
       read: true,
       labels: ["Python", "Selenium", "Beautiful Soup"],

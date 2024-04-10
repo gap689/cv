@@ -27,7 +27,7 @@ export default function ReadingPage() {
               Reading List
             </h2>
             <p className="text-sm text-muted-foreground">
-              Books I'm reading right now
+              Books I&apos;m reading right now
             </p>
           </div>
         </div>

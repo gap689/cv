@@ -35,7 +35,7 @@ const AboutPage = () => {
 
                     <div className="col-span-1 md:text-lg row-span-1 text-muted-foreground lg:border-l border-l-0">
                         <p className="p-4 lg:p-5 text-muted-foreground text-sm sm:text-base">
-                            As we advance, let us remember that technology is not inherently good or evil; it is the application that determines its moral worth. We must embed ethical considerations into the very fabric of our innovations, ensuring that every advancement serves humanity's collective well-being.
+                            As we advance, let us remember that technology is not inherently good or evil; it is the application that determines its moral worth. We must embed ethical considerations into the very fabric of our innovations, ensuring that every advancement serves humanity&apos;s collective well-being.
                         </p>
                     </div>
 
@@ -62,7 +62,7 @@ const AboutPage = () => {
                     <div className="col-span-1 p-3">
                         <h2 className="font-semibold">The Power of Imagination</h2>
                         <div className="text-sm p-4 text-muted-foreground">
-                            In the words of Isaac Asimov, "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny...'" Let us nurture the boundless creativity of the human mind, embracing imagination as the spark that ignites innovation and fuels progress.
+                            In the words of Isaac Asimov, "The most exciting phrase to hear in science, the one that heralds new discoveries, is not &apos;Eureka!&apos; but &apos;That&apos;s funny...&apos;" Let us nurture the boundless creativity of the human mind, embracing imagination as the spark that ignites innovation and fuels progress.
                         </div>
                     </div>
                     <div className="col-span-1 p-3">
@@ -70,7 +70,7 @@ const AboutPage = () => {
                             The Responsibility of Stewardship
                         </h2>
                         <div className="text-sm p-4 text-muted-foreground">
-                            Like Michio Kaku, let us envision a Type I civilization, capable of harnessing the full potential of our planet's resources in harmony with nature. We are custodians of Earth, entrusted with its care for future generations. Our technological prowess must be wielded with wisdom and foresight, preserving the delicate balance of ecosystems and safeguarding the diversity of life.
+                            Like Michio Kaku, let us envision a Type I civilization, capable of harnessing the full potential of our planet&apos;s resources in harmony with nature. We are custodians of Earth, entrusted with its care for future generations. Our technological prowess must be wielded with wisdom and foresight, preserving the delicate balance of ecosystems and safeguarding the diversity of life.
                         </div>
                     </div>
                     <div className="col-span-1 p-3">
