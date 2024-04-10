@@ -45,10 +45,8 @@ useEffect(() => {
     document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
       true
     )}`
-    console.log("panel collapsed (setCollapse) at:", window.innerWidth)
   } else if (window.innerWidth >= 768) {
     panel?.expand();
-    console.log("panel expanded (setIsCollapse) at:", window.innerWidth)
   }
 }, [window.innerWidth]);
 
