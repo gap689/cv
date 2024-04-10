@@ -51,14 +51,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Freelance",
-      link: "",
-      badges: ["Remote"],
-      title: "Freelance developer",
-      start: "Nov 2023",
-      end: "Present",
-      description: "Developed a landing page for an engineering company. Included Google Analytics to measure engagement and generate deeper insights."
-    },{
       company: "FF",
       link: "",
       badges: ["Remote"],
