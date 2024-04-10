@@ -38,7 +38,7 @@ export const ROUTES = [
       icon: BarChart3,
       title: "Analytics",
       href: "/app/analytics",
-      label: "",
+      label: "3",
     },
     {
       icon: FaVials,
