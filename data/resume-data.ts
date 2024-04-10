@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       title: "Software developer",
       start: "May 2023",
       end: "Oct 2023",
-      description: "A software development agency to build and grow your online business. Worked with NextJS and MongoDB. Implemented internationalization (i18n)."
+      description: "A software development agency to build and grow your online business. Worked with NextJS and MongoDB. Implemented data validation and form handling with formik. Integrated internationalization (i18n)."
     },
     {
       company: "Secretary of Innovation and Digital Government",
@@ -84,7 +84,9 @@ export const RESUME_DATA = {
     "SQL",
     "Web Scrapping",
     "MongoDB",
-    "i18n"
+    "i18n", 
+    "Formik",
+    "Google Analytics"
   ],
   projects: [
     {
