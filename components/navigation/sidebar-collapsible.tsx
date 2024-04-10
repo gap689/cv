@@ -27,7 +27,7 @@ interface NavigationProps {
 
 export const SidebarCollapsible = ({
   defaultLayout = [260, 440, 655],
-  defaultCollapsed = false,
+  defaultCollapsed = true,
   navCollapsedSize,
   children
 }: NavigationProps) => {
@@ -40,28 +40,17 @@ const ref = useRef<ImperativePanelHandle>(null);
 
 useEffect(() => {
   const panel = ref.current;
-  if(windowSize[0] < 768) {
+  if(window.innerWidth < 768) {
     panel?.collapse();
-    return () => {
-      panel?.collapse();
-    };
-  } else if (windowSize[0] >= 768) {
+    document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+      true
+    )}`
+    console.log("panel collapsed (setCollapse) at:", window.innerWidth)
+  } else if (window.innerWidth >= 768) {
     panel?.expand();
-    return () => {
-      panel?.expand();
-    };
+    console.log("panel expanded (setIsCollapse) at:", window.innerWidth)
   }
-}, [windowSize]);
-
-
-// useEffect(() => {
-//   const panel = ref.current;
-//   if(windowSize[0] < 768) {
-//     panel?.collapse();
-//   } else if (windowSize[0] >= 768){
-//     panel?.expand();
-//   }
-// }, []);
+}, [window.innerWidth]);
 
   return (
     <TooltipProvider delayDuration={0}>
