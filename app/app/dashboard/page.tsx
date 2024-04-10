@@ -21,7 +21,7 @@ import CardPattern from "./_components/card-pattern";
 const characters =
   "AGPagp01689";
 
-  export const generateRandomString = (length: number) => {
+const generateRandomString = (length: number) => {
   let result = "";
   for (let i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() * characters.length));
