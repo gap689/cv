@@ -89,11 +89,6 @@ export default function Heading(
               <span className="underline">{contact.email}</span>
             </a>
           ) : null}
-          {contact.tel ? (
-            <a href={`tel:${contact.tel}`}>
-              <span className="underline">{contact.tel}</span>
-            </a>
-          ) : null}
         </div>
       </div>
       <div className="flex w-full sm:w-fit sm:justify-end justify-start">
