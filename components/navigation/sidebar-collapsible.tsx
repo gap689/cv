@@ -14,7 +14,8 @@ import {
 import { NavCollapse } from "./nav-collapse";
 import ProfileDropdown from "./profile-dropdown";
 import { ImperativePanelHandle } from "react-resizable-panels";
-import useSize from "@/hooks/useSize";
+import { useWindowSize } from 'usehooks-ts'
+
 import { ScrollArea } from "../ui/scroll-area";
 import { CONTACTROUTES, ROUTES } from "@/lib/constants";
 
@@ -33,21 +34,21 @@ export const SidebarCollapsible = ({
 
 const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
 
-const windowSize = useSize();
+const { width } = useWindowSize();
 
 const ref = useRef<ImperativePanelHandle>(null);
 
 useEffect(() => {
   const panel = ref.current;
-  if(window.innerWidth < 768) {
+  if(width < 768) {
     panel?.collapse();
     document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
       true
     )}`
-  } else if (window.innerWidth >= 768) {
+  } else if (width >= 768) {
     panel?.expand();
   }
-}, [window.innerWidth]);
+}, []);
 
   return (
     <TooltipProvider delayDuration={0}>
