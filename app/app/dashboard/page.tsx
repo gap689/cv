@@ -7,7 +7,6 @@ import { DateRange } from "react-day-picker"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { DatePickerWithRange } from "@/components/ui/date-range-picker";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import TradingviewWidget from "./_components/tradingview-widget";
 import { Overview } from "./_components/overview";
 import { Activity, BarChart3, TrendingDown, TrendingUp, Wallet } from "lucide-react";
 import { calculateCryptoBalance, calculateNetProfit, calculateProfitRangeChange, lastSevenDaysProfit, todaysPNL } from "@/lib/calculations";
@@ -17,8 +16,6 @@ import { transactions } from "@/data/transactions";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { useMotionValue, useMotionTemplate, motion } from "framer-motion";
-
-import { cn } from "@/lib/utils/cn";
 
 export default function DashboardPage() {
 
