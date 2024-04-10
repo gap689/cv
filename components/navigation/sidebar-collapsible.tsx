@@ -48,7 +48,7 @@ useEffect(() => {
   } else if (width >= 768) {
     panel?.expand();
   }
-}, []);
+}, [width]);
 
   return (
     <TooltipProvider delayDuration={0}>
