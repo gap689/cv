@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import { RESUME_DATA } from '@/data/resume-data'
 import Link from 'next/link'
 import {Atom} from "lucide-react"
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       </div>
 
       <div className="flex items-center space-x-2 sm:space-x-4">
-        <img
+        <Image
           alt="Avatar"
           className="rounded-full"
           height="64"
