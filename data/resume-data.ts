@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Developer focused on building data-centric products",
   summary:
-    "I'm a technology professional with a scientific background, specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, also in SaaS, startups or AI apps.",
+    "I'm a technology professional specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, SaaS, startups or AI apps.",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -51,6 +51,14 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Freelance",
+      link: "",
+      badges: ["Remote"],
+      title: "Freelance developer",
+      start: "Nov 2023",
+      end: "Present",
+      description: "Developed a landing page for an engineering company. Included Google Analytics to measure engagement and generate deeper insights."
+    },{
       company: "FF",
       link: "",
       badges: ["Remote"],
