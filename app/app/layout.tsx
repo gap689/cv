@@ -21,8 +21,9 @@ export default function AppLayout({
           defaultLayout={defaultLayout}
           defaultCollapsed={defaultCollapsed}
           navCollapsedSize={4}
-          children= {children}
-        />
+        >
+          {children}
+        </SidebarCollapsible>
       </div>
     </div>      
   )

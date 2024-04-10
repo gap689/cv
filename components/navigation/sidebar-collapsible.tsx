@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react";
+import { FC, PropsWithChildren, useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils"
 
@@ -22,7 +22,6 @@ interface NavigationProps {
   defaultLayout: number[] | undefined
   defaultCollapsed?: boolean
   navCollapsedSize: number
-  children: React.ReactNode
 }
 
 export const SidebarCollapsible = ({
@@ -30,7 +29,7 @@ export const SidebarCollapsible = ({
   defaultCollapsed = true,
   navCollapsedSize,
   children
-}: NavigationProps) => {
+}: PropsWithChildren<NavigationProps>) => {
 
 const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
 
