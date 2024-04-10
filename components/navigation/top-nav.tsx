@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import useSize from "@/hooks/useSize";
+import { useWindowSize } from 'usehooks-ts'
 
 import { ModeToggle } from '@/components/mode-toggle';
 import { LayoutPanelLeft } from 'lucide-react';
@@ -69,8 +69,9 @@ const CreateSVG: React.FC<CreateSVGProps> = ({color, width, height, flapWidth, m
 
 // Function to create a responsive image component
 const TopNavigation = () => {
-  const windowSize = useSize();
-  const [calculatedWidth, setCalculatedWidth] = useState<number>(windowSize[0]);
+  const { width } = useWindowSize()
+  
+  const [calculatedWidth, setCalculatedWidth] = useState<number>(width);
   const [calculatedHeight, setCalculatedHeight] = useState(56);
 
   const pathname= usePathname();

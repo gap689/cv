@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import dynamic from 'next/dynamic'
+
 import { GeistSans } from 'geist/font/sans';
-
 import { ThemeProvider } from '@/components/providers/theme-provider'
-
 import './globals.css'
 
-import TopNavigation from "@/components/navigation/top-nav";
 import { PAGEDESCRIPTION, PAGETITLE } from '@/lib/constants';
 
 const inter = Inter({ subsets: ['latin'] })
+
+const TopNavigation = dynamic(() => import('@/components/navigation/top-nav'), { ssr: false })
 
 export const metadata: Metadata = {
   title: PAGETITLE,
