@@ -43,7 +43,7 @@ export const RESUME_DATA = {
     },
     {
       school: "University of the Americas Puebla",
-      degree: "Bachelor&apos;s Degree in Nanotechnology",
+      degree: "Bachelor's Degree in Nanotechnology",
       start: "2008",
       end: "2013",
       courses: ["Organic Chemistry", "Inorganic Chemistry", "Multivariable Calculus", "Electronics", "Physics", "Quantum mechanics"],
