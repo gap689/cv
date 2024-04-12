@@ -26,27 +26,30 @@ interface NavigationProps {
 }
 
 export const SidebarCollapsible = ({
-  defaultLayout = [260, 440, 655],
-  defaultCollapsed = true,
+  defaultLayout = [20, 80],
+  defaultCollapsed = false,
   navCollapsedSize,
   children
 }: PropsWithChildren<NavigationProps>) => {
+  
+  const { width } = useWindowSize();
 
-const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
+  const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
 
-const { width } = useWindowSize();
-
-const ref = useRef<ImperativePanelHandle>(null);
+  const ref = useRef<ImperativePanelHandle>(null);
 
 useEffect(() => {
   const panel = ref.current;
   if(width < 768) {
+    setIsCollapsed(true)
     panel?.collapse();
-    document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
-      true
-    )}`
-  } else if (width >= 768) {
+    return
+  }else {
+    setIsCollapsed(false)
     panel?.expand();
+    document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+        false
+      )}`
   }
 }, [width]);
 
@@ -66,12 +69,28 @@ useEffect(() => {
           defaultSize={defaultLayout[0]}
           collapsedSize={navCollapsedSize}
           collapsible={true}
-          minSize={15}
+          minSize={12}
           maxSize={20}
           onCollapse={(collapsed) => {
-            setIsCollapsed(collapsed)
-            document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
-              collapsed
+            const panel = ref.current;
+            if(width<768){
+              setIsCollapsed(true);
+              panel?.collapse();
+              document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+                true
+              )}`
+            } else {
+              // panel?.expand();
+              setIsCollapsed(collapsed);
+              document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+                collapsed
+              )}`
+            }
+          }}
+          onResize={(resize) => {
+            console.log("resize onResize", resize);
+            document.cookie = `react-resizable-panels:layout=${JSON.stringify(
+              [resize, 100-resize]
             )}`
           }}
           className={cn(isCollapsed && "min-w-[50px] transition-all duration-300 ease-in-out")}
