@@ -8,8 +8,8 @@ import { DataTable } from "./_components/data-table"
 import { transactionSchema } from "@/data/table/schema"
 
 export const metadata: Metadata = {
-  title: "Tasks",
-  description: "A task and issue tracker build using Tanstack Table.",
+  title: "Data table",
+  description: "A transaction tracker build using Tanstack Table.",
 }
 
 // Simulate a database read for transaction.

@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import { DemoGithub } from "./_components/github-card";
+
+export const metadata: Metadata = {
+  title: "Get this template",
+  description: "Github repository for the template",
+}
 
 const TemplatePage = () => {
   return ( 

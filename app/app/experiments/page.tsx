@@ -1,4 +1,10 @@
 import { FlaskConical } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Experiments",
+    description: "A collection of web experiments",
+  }
 
 const ExperimentsPage = () => {
     return ( 

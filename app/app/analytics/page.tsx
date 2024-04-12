@@ -3,6 +3,12 @@ import { Suspense } from "react";
 import { AnalyticsListLayout } from "./_components/analytics-list-layout";
 
 import { posts } from "@/data/analytics/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Analytics",
+  description: "My selected notebooks",
+}
 
 export default async function Analytics() {
   

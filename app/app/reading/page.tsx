@@ -13,7 +13,7 @@ import { readingNow, nextReading, readingNowElse } from "@/data/reading/books"
 import { BookCard } from "./_components/book-card"
 
 export const metadata: Metadata = {
-  title: "Reading",
+  title: "Readings",
   description: "Books reading right now.",
 }
 

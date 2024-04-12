@@ -6,6 +6,12 @@ import Education from "./_components/education";
 import Skills from "./_components/skills";
 import Work from "./_components/work";
 import Projects from "./_components/projects";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About me",
+  description: "Principal profile page",
+}
 
 const AppPage = () => {
 

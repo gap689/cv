@@ -1,7 +1,13 @@
+import { Metadata } from "next";
 import Link from "next/link"
 import { BsTwitterX } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { TbMessageCircleCode } from "react-icons/tb";
+
+export const metadata: Metadata = {
+  title: "Contact Me",
+  description: "Feel free to contact me",
+}
 
 const ContactPage = () => {
   return (

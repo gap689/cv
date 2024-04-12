@@ -17,6 +17,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { useMotionValue } from "framer-motion";
 import CardPattern from "./_components/card-pattern";
+import { Metadata } from "next";
 
 const characters =
   "AGPagp01689";
@@ -28,6 +29,11 @@ const generateRandomString = (length: number) => {
   }
   return result;
 };
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Analytics dashboard",
+}
 
 const DashboardPage: React.FC = () => {
 
