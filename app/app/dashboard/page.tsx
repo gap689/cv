@@ -30,7 +30,7 @@ const generateRandomString = (length: number) => {
   return result;
 };
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Dashboard",
   description: "Analytics dashboard",
 }
