@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   location: "Puebla, Mexico",
   locationLink: "https://www.google.com/maps/place/Puebla",
   about:
-    "Full Stack Developer focused on building data-centric products",
+    "Software developer focused on building data-centric products",
   summary:
     "I'm a technology professional specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, SaaS, startups or AI apps.",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
