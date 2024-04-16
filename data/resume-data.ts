@@ -5,7 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 export const RESUME_DATA = {
   name: "German Alamilla",
   initials: "GA",
-  location: "Puebla, Mexico",
+  location: "México",
   locationLink: "https://www.google.com/maps/place/Puebla",
   about:
     "Software developer focused on building data-centric products",
