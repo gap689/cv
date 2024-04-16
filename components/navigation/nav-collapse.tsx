@@ -28,6 +28,8 @@ interface NavProps {
 export function NavCollapse({ links, isCollapsed }: NavProps) {
 
   const pathname = usePathname();
+  const pathnameSections = pathname.split('/');
+  const lastStringAfterAnalytics = pathnameSections[pathnameSections.length -2] === 'analytics' ? true : false;
 
   return (
     <div
@@ -42,11 +44,9 @@ export function NavCollapse({ links, isCollapsed }: NavProps) {
                 <Link
                   href={link.href}
                   className={cn(
-                    buttonVariants({ variant: (pathname === "/app" && link.href === "/app") ||
-                    (pathname === link.href) ? "default": "ghost", size: "icon" }),
+                    buttonVariants({ variant: (pathname=== link.href || pathname?.endsWith(`${link.href}/`) || link.href==="/app/analytics"&&pathname.startsWith(link.href)) ? "default": "ghost", size: "icon" }),
                     "h-9 w-9",
-                    (pathname === "/app" && link.href === "/app")
-                    || (pathname === link.href) &&
+                    (pathname === link.href) &&
                       "dark:hover:bg-muted dark:hover:text-white"
                   )}
                 >
@@ -68,8 +68,7 @@ export function NavCollapse({ links, isCollapsed }: NavProps) {
               key={index}
               href={link.href}
               className={cn(
-                buttonVariants({ variant: (pathname === "/app" && link.href === "/app") ||
-                pathname === link.href ? "default": "ghost", size: "sm" }),
+                buttonVariants({ variant: ( pathname=== link.href || pathname?.endsWith(`${link.href}/`) || link.href==="/app/analytics"&&pathname.startsWith(link.href) ) ? "default": "ghost", size: "sm" }),
                  "justify-start"
               )}
             >
@@ -79,9 +78,8 @@ export function NavCollapse({ links, isCollapsed }: NavProps) {
                 <span
                   className={cn(
                     "ml-auto flex w-6 h-6 rounded-md justify-center border",
-                    (pathname === "/app" && link.href === "/app") ||
                     pathname === link.href || pathname?.startsWith(`${link.href}/`) ?
-                       " bg-gray-900 border-gray-700 dark:bg-gray-100 dark:border-gray-200" : "bg-gray-50 dark:bg-gray-900 border-gray-100 dark:border-gray-800"
+                      " bg-gray-900 border-gray-700 dark:bg-gray-100 dark:border-gray-200" : "bg-gray-50 dark:bg-gray-900 border-gray-100 dark:border-gray-800"
                   )}
                 >
                   {link.label}
