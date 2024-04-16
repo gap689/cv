@@ -107,6 +107,21 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "CE Engineering",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwindcss",
+      ],
+      description: "A landing page for an engineering company in CDMX, México (in progress)",
+      logo: null,
+      link: {
+        label: "",
+        href: "https://kxntxl.vercel.app/",
+      },
+    },
+    {
       title: "CV Template",
       techStack: [
         "TypeScript",
