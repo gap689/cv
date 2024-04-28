@@ -31,6 +31,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        orbitron: ['var(--font-orbitron)'],
+        oxanium: ['var(--font-oxanium)']
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

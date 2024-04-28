@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Orbitron, Oxanium } from 'next/font/google'
 import dynamic from 'next/dynamic'
 import Script from 'next/script';
 
@@ -9,9 +9,25 @@ import './globals.css'
 
 import { PAGEDESCRIPTION, PAGETITLE } from '@/lib/constants';
 
-const inter = Inter({ subsets: ['latin'] })
-
 const TopNavigation = dynamic(() => import('@/components/navigation/top-nav'), { ssr: false })
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter'
+})
+
+const orbitron = Orbitron({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-orbitron',
+})
+
+const oxanium = Oxanium({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-oxanium',
+})
 
 export const metadata: Metadata = {
   title: PAGETITLE,
@@ -40,7 +56,7 @@ export default function RootLayout({
           }
         </Script>
       </head>
-      <body className={GeistSans.className}>
+      <body className={`${inter.variable} ${orbitron.variable} ${GeistSans.className} ${oxanium.variable}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

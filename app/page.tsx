@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
       <div className='font-light uppercase md:text-3xl text-2xl sm:p-10 p-5 text-pretty'>
-        <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground'>
+        <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
-        <div className='md:text-6xl text-4xl font-medium'>
+        <div className='md:text-6xl text-4xl font-medium font-orbitron'>
           Engineering the Future:
         </div>
-        <div className='text-muted-foreground py-3'>
+        <div className='text-muted-foreground py-3 font-oxanium'>
           A Technologist&apos;s Journey
         </div>
       </div>
