@@ -42,7 +42,7 @@ const ProfileDropdown = ({isCollapsed}: ProfileDropdownProps) => {
               />
             </div>
             <div className={cn(isCollapsed ? "hidden" : "flex flex-col w-full pl-2 min-w-4")}>
-              <p className="font-medium tracking-tight text-start truncate">German Alamilla</p>
+              <p className="font-medium tracking-tight text-start truncate uppercase font-orbitron tracking-wide">Germán Alamilla</p>
               <p className="text-gray-600 dark:text-gray-400 text-start text-xs mr-2 truncate">{RESUME_DATA.title}</p>
             </div>
             <ChevronsDownUp className={cn(isCollapsed? "hidden": "h-4 w-4 shrink-0")}/>
