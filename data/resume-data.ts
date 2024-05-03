@@ -3,8 +3,9 @@ import { CiLinkedin } from "react-icons/ci";
 import { BsTwitterX } from "react-icons/bs";
 
 export const RESUME_DATA = {
-  name: "German Alamilla",
+  name: "Germán Alamilla",
   initials: "GA",
+  title: "Software Developer",
   location: "México",
   locationLink: "https://www.google.com/maps/place/Puebla",
   about:
@@ -12,7 +13,7 @@ export const RESUME_DATA = {
   summary:
     "I'm a technology professional specializing in data-centric problem-solving. Completed a master's degree in computer science, including research in quantum computing using IBM's platform. Adaptable and driven by a passion for technology, constantly learning and embracing new challenges using the latest tech advancements. Interested in colaborating in impactful projects, SaaS, startups or AI apps.",
   avatarUrl: "https://avatars.githubusercontent.com/u/31602377?v=4",
-  personalWebsiteUrl: "",
+  personalWebsiteUrl: "alamilla.vercel.app",
   contact: {
     email: "german.alamilla@gmail.com",
     social: [

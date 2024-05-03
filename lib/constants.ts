@@ -26,7 +26,7 @@ export const ROUTES = [
           icon: Layout,
           title: "Dashboard",
           href: "/app/dashboard",
-      label:"4",
+      label:"2",
       },
     {
       icon: List,
