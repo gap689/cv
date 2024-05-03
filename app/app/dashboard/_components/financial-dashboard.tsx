@@ -17,7 +17,6 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { useMotionValue } from "framer-motion";
 import CardPattern from "./card-pattern";
-import { Metadata } from "next";
 
 const characters =
   "AGPagp01689";
@@ -194,7 +193,6 @@ const FinancialDashboard = () => {
                 </p>
               </CardHeader>
               <CardContent className="pl-2">
-                {/* <TradingviewWidget/> */}
                 <Overview data={pnlData.data.userProfitRets} startDate={range?.from} endDate={range?.to} />
               </CardContent>
             </Card>

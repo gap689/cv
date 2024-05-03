@@ -71,7 +71,6 @@ const TopNavigation = () => {
   const { width } = useWindowSize()
   
   const [calculatedWidth, setCalculatedWidth] = useState<number>(width);
-  const [calculatedHeight, setCalculatedHeight] = useState(56);
 
   const pathname= usePathname();
 

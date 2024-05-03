@@ -1,6 +1,6 @@
 "use client";
 
-import { PureComponent, useState } from 'react';
+import { useState } from 'react';
 
 import { PieChart, Pie, Sector, ResponsiveContainer } from 'recharts';
 
@@ -22,7 +22,7 @@ interface RenderActiveShapeProps {
     startAngle: number;
     endAngle: number;
     fill: string;
-    payload: any; // Adjust this type according to your data structure
+    payload: any;
     percent: number;
     value: number;
   }
@@ -58,7 +58,6 @@ const renderActiveShape: React.FC<RenderActiveShapeProps> = (props) => {
           outerRadius={outerRadius}
           startAngle={startAngle}
           endAngle={endAngle}
-          // fill={fill}
           className='fill-primary'
         />
         <Sector
@@ -68,15 +67,8 @@ const renderActiveShape: React.FC<RenderActiveShapeProps> = (props) => {
           endAngle={endAngle}
           innerRadius={outerRadius + 6}
           outerRadius={outerRadius + 10}
-          // fill={fill}
           className='fill-primary'
         />
-        {/* <path d={`M${sx},${sy}L${mx},${my}L${ex},${ey}`} stroke={fill} fill="none" /> */}
-        {/* <circle cx={ex} cy={ey} r={2} fill={fill} stroke="none" /> */}
-        {/* <text x={ex + (cos >= 0 ? 1 : -1) * 12} y={ey} textAnchor={textAnchor} fill="#333">{`${value}`}</text>
-        <text x={ex + (cos >= 0 ? 1 : -1) * 12} y={ey} dy={18} textAnchor={textAnchor} fill="#999">
-          {`(${(percent * 100).toFixed(2)}%)`}
-        </text> */}
       </g>
     );
   };
@@ -98,7 +90,6 @@ const HealthcarePatients = ({ data }:HealthcarePatientsProps) => {
             cy="50%"
             innerRadius={50}
             outerRadius={70}
-            // fill="#8884d8"
             className='dark:fill-background fill-zinc-300'
             dataKey="value"
             onMouseEnter={onPieEnter}
