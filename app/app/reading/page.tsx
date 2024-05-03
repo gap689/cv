@@ -23,7 +23,7 @@ export default function ReadingPage() {
       <div className="h-full px-4 py-6 lg:px-8">
         <div className="flex items-center justify-between pb-4">
           <div className="space-y-1">
-            <h2 className="text-2xl font-semibold tracking-tight">
+            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight font-orbitron uppercase">
               Reading List
             </h2>
             <p className="text-sm text-muted-foreground">

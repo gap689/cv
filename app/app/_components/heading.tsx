@@ -37,7 +37,7 @@ export default function Heading(
   return (
     <section className="flex flex-col-reverse sm:flex-row items-center justify-between">
       <div className="flex-1 space-y-1.5">
-        <h1 className="sm:text-2xl text-xl font-bold">
+        <h1 className="sm:text-2xl text-xl font-bold font-orbitron tracking-wider uppercase">
           {name}
         </h1>
         <p className="text-pretty font-mono text-sm text-muted-foreground">

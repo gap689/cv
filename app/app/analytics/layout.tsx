@@ -26,10 +26,10 @@ const AnalyticsPage = (
 
       <div className="flex items-center justify-between space-y-2 p-5 sm:p-8">
         <div>
-          <h2 className="md:text-3xl text-2xl font-bold tracking-tight">
+          <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">
             Analytic Notebooks
           </h2>
-          <p className="text-muted-foreground text-sm md:text-base">
+          <p className="text-muted-foreground text-sm md:text-base py-2">
             Explore my data-driven journey through a curated portfolio of analytical notebooks!
           </p>
         </div>

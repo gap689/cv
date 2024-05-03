@@ -30,9 +30,9 @@ export default async function TaskPage() {
       <div className="flex-1 flex-col space-y-8 sm:p-8 p-5 md:flex">
         <div className="flex items-center justify-between space-y-2">
           <div>
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight">Transaction Data</h2>
-            <p className="text-muted-foreground">
-              Here&apos;s a list of your trades for this month!
+            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Transaction Data</h2>
+            <p className="text-muted-foreground py-2">
+              Here&apos;s an data table exploration of transactions using tanstack table. Includes search by symbol, pagination, columns selection, filter by transaction type, and ordering asc or desc.
             </p>
             <div className="text-xs py-2 text-muted-foreground">
               **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
