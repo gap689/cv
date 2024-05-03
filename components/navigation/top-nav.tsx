@@ -30,7 +30,6 @@ interface CreateSVGProps {
     height: number;
     flapWidth: number;
     middleHeight: number;
-    // Additional props can be added here if needed
   }
 
 // Function to create a polygon with dynamic points
