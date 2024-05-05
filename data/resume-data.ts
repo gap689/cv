@@ -123,6 +123,43 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "AI Saas Platform",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwindcss",
+        "ChatGPT API",
+        "Clerk",
+        "Stripe", 
+        "PlanetScale"
+      ],
+      description: "Full stack production-ready AI Saas platform. Image, text, video and music generation.",
+      logo: null,
+      link: {
+        label: "",
+        href: "https://github.com/gap689/ai-saas-tutorial",
+      },
+    },
+    {
+      title: "Manegement system for online courses.",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwindcss",
+        "Clerk",
+        "Stripe", 
+        "PlanetScale"
+      ],
+      description: "Learning Management System platform. Users can purchase courses using stripe.",
+      logo: null,
+      link: {
+        label: "",
+        href: "https://github.com/gap689/lms",
+      },
+    },
+    {
       title: "CV Template",
       techStack: [
         "TypeScript",
@@ -134,7 +171,7 @@ export const RESUME_DATA = {
       logo: null,
       link: {
         label: "alamilla.dev",
-        href: "/",
+        href: "https://github.com/gap689/LabUX",
       },
     },
   ]
