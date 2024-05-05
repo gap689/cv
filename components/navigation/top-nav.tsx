@@ -101,27 +101,27 @@ const TopNavigation = () => {
             </div>
             <div className='w-full'>
               <ul className='flex items-center justify-center space-x-1 sm:space-x-4 text-xs uppercase font-oxanium'>
-                <ol>
+                <li>
                   <Link href="/">
                     <Button variant="link" className={cn('text-xs font-normal uppercase', pathname==="/" && "font-semibold underline")}>
                       Intro
                     </Button>
                   </Link>
-                </ol>
-                <ol>
+                </li>
+                <li>
                   <Link href="/app">
                     <Button variant="link" className={cn('text-xs font-normal uppercase', pathname.startsWith("/app") && "font-semibold underline")}>
                       App
                     </Button>
                   </Link>
-                </ol>
-                <ol>
+                </li>
+                <li>
                   <Link href="/about">
                     <Button variant="link" className={cn('text-xs font-normal uppercase', pathname==="/about" && "font-semibold underline ")}>
                       About
                     </Button>
                   </Link>
-                </ol>
+                </li>
               </ul>
             </div>
             <div className='flex w-full justify-end'>
