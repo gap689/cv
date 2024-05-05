@@ -142,7 +142,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Manegement system for online courses.",
+      title: "Management system for online courses.",
       techStack: [
         "TypeScript",
         "React",
@@ -152,7 +152,7 @@ export const RESUME_DATA = {
         "Stripe", 
         "PlanetScale"
       ],
-      description: "Learning Management System platform. Users can purchase courses using stripe.",
+      description: "Learning Management System platform. Users can purchase courses with stripe.",
       logo: null,
       link: {
         label: "",
