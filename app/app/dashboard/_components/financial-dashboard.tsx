@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import { DateRange } from "react-day-picker"
 
@@ -15,39 +15,7 @@ import RecentTrades from "./recent-trades";
 import { transactions } from "@/data/transactions";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
-import { useMotionValue } from "framer-motion";
-import CardPattern from "./card-pattern";
-
-const characters =
-  "AGPagp01689";
-
-const generateRandomString = (length: number) => {
-  let result = "";
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * characters.length));
-  }
-  return result;
-};
-
 const FinancialDashboard = () => {
-  let mouseX = useMotionValue(0);
-  let mouseY = useMotionValue(0);
- 
-  const [randomString, setRandomString] = useState("");
- 
-  useEffect(() => {
-    let str = generateRandomString(1500);
-    setRandomString(str);
-  }, []);
-
-  function onMouseMove({ currentTarget, clientX, clientY }: any) {
-    let { left, top } = currentTarget.getBoundingClientRect();
-    mouseX.set(clientX - left);
-    mouseY.set(clientY - top);
- 
-    const str = generateRandomString(1500);
-    setRandomString(str);
-  }
   
   const defaultSelected: DateRange = {
     from: new Date(2024, 0, 1),
@@ -100,12 +68,7 @@ const FinancialDashboard = () => {
           
         <TabsContent value="overview" className="space-y-4 pb-6">
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
-              <CardPattern
-                mouseX={mouseX}
-                mouseY={mouseY}
-                randomString={randomString}
-              />
+            <Card className="group/card w-full relative overflow-hidden bg-transparent h-full">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium z-20">
                   Total Balance (USDT)
@@ -119,12 +82,7 @@ const FinancialDashboard = () => {
               </CardContent>
             </Card>
 
-            <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
-              <CardPattern
-                mouseX={mouseX}
-                mouseY={mouseY}
-                randomString={randomString}
-              />
+            <Card className="group/card w-full relative overflow-hidden bg-transparent h-full">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium z-20">
                   Net Profits
@@ -143,12 +101,7 @@ const FinancialDashboard = () => {
                 </div>
               </CardContent>
             </Card>
-            <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
-              <CardPattern
-                mouseX={mouseX}
-                mouseY={mouseY}
-                randomString={randomString}
-              />
+            <Card className="group/card w-full relative overflow-hidden bg-transparent h-full">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium z-20">7D PNL</CardTitle>
                 <BarChart3 className="h-4 w-4 text-muted-foreground z-20"/>
@@ -162,12 +115,7 @@ const FinancialDashboard = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card onMouseMove={onMouseMove} className="group/card w-full relative overflow-hidden bg-transparent h-full">
-              <CardPattern
-                mouseX={mouseX}
-                mouseY={mouseY}
-                randomString={randomString}
-              />
+            <Card className="group/card w-full relative overflow-hidden bg-transparent h-full">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium z-20">
                   Today&apos;s PNL
