@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 const ContactPage = () => {
   return (
-    <div className="flex flex-col">
-      <div className="md:text-3xl sm:text-2xl text-xl font-semibold md:p-10 p-5 font-orbitron uppercase tracking-wider">
+    <div className="flex flex-col p-section">
+      <div className="md:text-3xl sm:text-2xl text-xl font-semibold md:py-10 py-5 font-orbitron uppercase tracking-wider">
         Contact Me
       </div>
-      <div className="flex flex-col space-y-4 pt-6 h-full p-section">
+      <div className="flex flex-col space-y-4 h-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 border">
           <section className="col-span-1 sm:col-span-2 flex flex-col justify-center sm:p-10 p-6 border-b">
             <TbMessageCircleCode className="md:w-14 md:h-14 h-12 w-12 mb-3"/>
