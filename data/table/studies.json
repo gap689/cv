@@ -1,0 +1,2624 @@
+[
+    {
+        "nid": "9306",
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "1,3-Dimethylamylamine, Urine",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "80307",
+        "test_includes": "<p>1,3-Dimethylamylamine </p>",
+        "specimen": "Urine (random) ",
+        "container": "<div><p>Plastic urine container without preservative</p></div>",
+        "storage_instructions": "<p><b><i>Submission/transport (&lt;3 days):</i></b>   Room temperature. For storage beyond three days, specimen should be refrigerated or frozen.  Specimen is stable for eight days at room temperature, refrigerated, or frozen.</p>",
+        "causes_for_rejection": "<p>Urine from a preservative tube</p>",
+        "use": "<div><p>Detect the presence of 1,3-dimethylamylamine (DMAA), a stimulant drug and dietary supplement. </p></div>",
+        "methodology": "<div><p>Initial presumptive testing by liquid chromatography/tandem mass spectrometry (LC/MS-MS) at a testing threshold of 10 ng/mL; presumptive positives confirmed by definitive liquid chromatography/tandem mass spectrometry (LC/MS-MS) at a testing threshold of 10 ng/mL </p></div>",
+        "custom_additional_info": null,
+        "special_instructions": null,
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>10 - 14 days</p>",
+        "reference_range": "<div><p>Negative</p></div>",
+        "limitations": null,
+        "synonyms": "<ul><li>DMAA</li><li>Forthane®</li><li>Geranamine®</li><li>Geranium Oil</li><li>Methylhexanamine</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW14",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>MT (Medtox Toxicology)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/791000/1-3-dimethylamylamine-urine",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1558303009",
+        "objectID": "9306",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "791000",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "791000",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "1,3-Dimethylamylamine, Urine",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "80307",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_includes": {
+                "value": "<p>1,3-Dimethylamylamine </p>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Urine (random) ",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>Detect the presence of 1,3-dimethylamylamine (DMAA), a stimulant drug and dietary supplement. </p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Initial presumptive testing by liquid chromatography/tandem mass spectrometry (LC/MS-MS) at a testing threshold of 10 ng/mL; presumptive positives confirmed by definitive liquid chromatography/tandem mass spectrometry (LC/MS-MS) at a testing threshold of 10 ng/mL </p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>DMAA</li><li>Forthane®</li><li>Geranamine®</li><li>Geranium Oil</li><li>Methylhexanamine</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>MT (Medtox Toxicology)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9307",
+        "labcorp_test_number": "500550",
+        "labcorp_test_number_stripped": 500550,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Deoxycortisol",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82634",
+        "test_includes": null,
+        "specimen": "Serum, frozen",
+        "container": "<div><p>Red-top tube or gel-barrier tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Recently administered isotopes</p>",
+        "use": "<div><p>Evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve</p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+        "custom_additional_info": "<div><p>11-Deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol. The conversion of 11-deoxycortisol to cortisol is inhibited by metyrapone, which acts on 11-β-hydroxylase. The metyrapone test (see the online Endocrine Appendix: ACTH Stimulation) serves as a reliable and sensitive indicator of pituitary ACTH secretory reserve. The 11-deoxycortisol levels normally increase to 100 times the control value following metyrapone administration. Reduced response occurs in patients with hypoadrenalism or with hypopituitarism and in some patients with diseases of the hypothalamus. Patients with myxedema, some pregnant patients, and those on oral contraceptives respond poorly.</p></div>",
+        "special_instructions": null,
+        "collection_instructions": "<p>Transfer the serum into a LabCorp PP transpak frozen purple tube with screw cap (LabCorp N° 49482). Freeze immediately and maintain frozen until tested. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": "<p>6 - 10 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": "<ul><li>11-Desoxycortisol</li><li>Compound S for Metyrapone Test</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": "<div><p>No isotopes administered 24 hours prior to venipuncture</p></div>",
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>1 day</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>1 day</p></td></tr><tr><td><p>Frozen</p></td><td><p>2 years</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x3</p></td></tr></tbody></table></div>",
+        "references": "<div><div class=\"reference\">Sindler BH, Griffing GT, Melby JC, et al. The superiority of the metyrapone test versus the high-dose dexamethasone test in the differential diagnosis of Cushing's syndrome. <i>Am J Med.</i> 1983 Apr; 74(4):657-662. <span class=\"pubmed-id\">6837591 </span></div><div class=\"reference\">Spark RF. Simplified assessment of pituitary-adrenal reserve: Measurement of serum 11-deoxycortisol after metyrapone. <i>Ann Intern Med.</i> 1971 Nov; 75(5):717-723.<span class=\"pubmed-id\">4330677 </span></div></div>",
+        "contraindications": null,
+        "pub_code": "",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/500550/11-deoxycortisol",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1560598767",
+        "objectID": "9307",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "500550",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "500550",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Deoxycortisol",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82634",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum, frozen",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>Evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>11-Deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol. The conversion of 11-deoxycortisol to cortisol is inhibited by metyrapone, which acts on 11-β-hydroxylase. The metyrapone test (see the online Endocrine Appendix: ACTH Stimulation) serves as a reliable and sensitive indicator of pituitary ACTH secretory reserve. The 11-deoxycortisol levels normally increase to 100 times the control value following metyrapone administration. Reduced response occurs in patients with hypoadrenalism or with hypopituitarism and in some patients with diseases of the hypothalamus. Patients with myxedema, some pregnant patients, and those on oral contraceptives respond poorly.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>11-Desoxycortisol</li><li>Compound S for Metyrapone Test</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9308",
+        "labcorp_test_number": "500171",
+        "labcorp_test_number_stripped": 500171,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Deoxycortisol, LC / MS-MS (Endocrine Sciences)",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82634",
+        "test_includes": null,
+        "specimen": "Serum (preferred) or plasma",
+        "container": "<div><p>Gel-barrier tube, lavender-top (EDTA) tube, <b>or</b> green-top (heparin) tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": null,
+        "use": "<div><p>Evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve. 11-Deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol. </p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+        "custom_additional_info": "<div><p>A primary use of 11-desoxycortisol testing is to detect congenital adrenal hyperplasia due to steroid 11-β-hydroxylase deficiency. This is a genetic disease caused by a deficiency of the <i>CYP11B1</i> gene. 11-β-hydroxylase deficiency is transmitted as an autosomal recessive trait. It is associated with low-renin hypertension, hypokalemia, excess androgens (especially androstenedione), and genital ambiguity in affected females. The differential biochemical diagnosis of congenital adrenal hyperplasia caused by 11-β-hydroxylase deficiency includes finding increased serum concentrations of deoxycorticosterone, 11-desoxycortisol and androstenedione, and suppressed plasma renin concentrations. The disorder may be treated by administration of glucocorticoids. An additional use is to evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve. 11-deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol.</p></div>",
+        "special_instructions": "<div><p>For information on metyrapone testing, consult the Metyrapone Stimulation section of the Endocrine Appendix.</p></div>",
+        "collection_instructions": "<p>Serum/plasma must be separated from cells within 45 minutes of venipuncture.  Send serum/plasma in a plastic transport tube.</p>",
+        "result_turnaround_time": "<p>6 - 15 days</p>",
+        "reference_range": "<div><p>See table.</p><table><col /><col /><thead><tr><th colspan=\"2\"><p>Premature Infants</p></th></tr></thead><tbody><tr><td><p>26 to 28 wk, day 4</p></td><td><p>110−1376 ng/dL</p></td></tr><tr><td><p>31 to 35 wk, day 4</p></td><td><p>48−579 ng/dL</p></td></tr><tr><td colspan=\"2\"><p><b>Full-term Infants</b></p></td></tr><tr><td><p>3 d</p></td><td><p>13−147 ng/dL</p></td></tr><tr><td><p>31 d to 11 m</p></td><td><p>&lt;10−156 ng/dL</p></td></tr><tr><td colspan=\"2\"><p><b>Prepubertal Children</b></p></td></tr><tr><td><p>8 AM</p></td><td><p>20−155 ng/dL</p></td></tr><tr><td colspan=\"2\"><p><b>Pubertal Children and Adults</b></p></td></tr><tr><td><p>8 AM</p></td><td><p>12−158 ng/dL</p></td></tr></tbody></table></div>",
+        "limitations": null,
+        "synonyms": "<ul><li>11-Deoxycortisol</li><li>Compound S</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>1 day</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>1 day</p></td></tr><tr><td><p>Frozen</p></td><td><p>2 years</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x3</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>ER (Immunoassay, Esoteric)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/500171/11-deoxycortisol-lc-ms-ms-endocrine-sciences",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1560598790",
+        "objectID": "9308",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "500171",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "500171",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Deoxycortisol, LC / MS-MS (Endocrine Sciences)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82634",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (preferred) or plasma",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>Evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve. 11-Deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol. </p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>A primary use of 11-desoxycortisol testing is to detect congenital adrenal hyperplasia due to steroid 11-β-hydroxylase deficiency. This is a genetic disease caused by a deficiency of the <i>CYP11B1</i> gene. 11-β-hydroxylase deficiency is transmitted as an autosomal recessive trait. It is associated with low-renin hypertension, hypokalemia, excess androgens (especially androstenedione), and genital ambiguity in affected females. The differential biochemical diagnosis of congenital adrenal hyperplasia caused by 11-β-hydroxylase deficiency includes finding increased serum concentrations of deoxycorticosterone, 11-desoxycortisol and androstenedione, and suppressed plasma renin concentrations. The disorder may be treated by administration of glucocorticoids. An additional use is to evaluate hypothalamic-pituitary-adrenal axis and pituitary ACTH reserve. 11-deoxycortisol is the immediate precursor of cortisol and follows the same catabolic pathways as cortisol.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>11-Deoxycortisol</li><li>Compound S</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>ER (Immunoassay, Esoteric)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9309",
+        "labcorp_test_number": "500560",
+        "labcorp_test_number_stripped": 500560,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Deoxycortisol, Two Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82634(x2)",
+        "test_includes": null,
+        "specimen": "Serum (preferred) or plasma, frozen",
+        "container": "<div><p>Red-top tube, gel-barrier tube, lavender-top (EDTA) tube, or green-top (heparin) tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Submit two tubes; one vial labeled as baseline and one labeled as post-metyrapone.</p></div>",
+        "collection_instructions": "<p>Transfer serum into a frozen lavender transport tube with cap (LabCorp ID 9566589372).  The specimen should be frozen immediately and maintained frozen until tested. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": "<p>6 - 8 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": "<ul><li>11-Desoxycortisol</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>1 day</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>1 day</p></td></tr><tr><td><p>Frozen</p></td><td><p>2 years</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x3</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/500560/11-deoxycortisol-two-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1558516465",
+        "objectID": "9309",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "500560",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "500560",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Deoxycortisol, Two Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82634(x2)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (preferred) or plasma, frozen",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS) after chromatography and solvent extraction</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>11-Desoxycortisol</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9310",
+        "labcorp_test_number": "504677",
+        "labcorp_test_number_stripped": 504677,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Hydroxyandrostenedione",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82542",
+        "test_includes": null,
+        "specimen": "Serum (EDTA or heparin plasma may be used.)",
+        "container": "<div><p>Serum from red-top tube <b>or</b> EDTA plasma tube <b>or</b> heparin plasma tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Gross hemolysis, gross lipemia, incorrect specimen type, SST specimen type</p>",
+        "use": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+        "methodology": "<div><p>LC-MS/MS Analysis</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": null,
+        "collection_instructions": "<p>Collect into vacutainer and separate within 2 hours. Send serum in a plastic transport tube. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": null,
+        "reference_range": null,
+        "limitations": "<div><p>This assay is limited to plasma and serum samples. Serum separator gel barrier samples also cannot be analyzed by this method.</p></div>",
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Storbeck KH, Bloem LM, Africander D, Schloms L, Swart P, Swart AC. 11β-Hydroxydihydrotestosterone and 11-ketodihydrotestosterone, novel C19 steroids with androgenic activity: a putative role in castration resistant prostate cancer? <i>Mol Cell Endocrinol.</i> 2013 Sep 5;377(1-2):135-146.<span class=\"pubmed-id\">23856005</span></div><div class=\"footnote\">2. Turcu AF, Nanba AT, Chomic R, et al. Adrenal-derived 11-oxygenated 19-carbon steroids are the dominant androgens in classic 21-hydroxylase deficiency. <i>Eur J Endocrinol.</i> 2016 May;174(5):601-609.<span class=\"pubmed-id\">26865584</span></div><div class=\"footnote\">3. Rodin A, Thakkar H, Taylor N, Clayton R. Hyperandrogenism in polycystic ovary syndrome. Evidence of dysregulation of 11 beta-hydroxysteroid dehydrogenase. <i>N Engl J Med.</i> 1994 Feb 17;330(7):460-465.<span class=\"pubmed-id\">8289851</span></div><div class=\"footnote\">4. Speiser PW, White PC. Congenital adrenal hyperplasia. <i>N Engl J Med.</i> 2003 Aug 21;349(8):776-788.<span class=\"pubmed-id\">12930931</span></div><div class=\"footnote\">5. Pretorius E, Africander DJ, Vlok M, Perkins MS, Quanson J, Storbeck KH. 11-Ketotestosterone and 11-Ketodihydrotestosterone in Castration Resistant Prostate Cancer: Potent Androgens Which Can No Longer Be Ignored. <i>PLoS One.</i> 2016 Jul 21;11(7):e0159867.<span class=\"pubmed-id\">27442248</span></div><div class=\"footnote\">6. Turcu AF, Mallappa A, Elman MS, et al. 11-Oxygenated Androgens are Biomarkers of Adrenal Volume and Testicular Adrenal Rest Tumors in 21-Hydroxylase Deficiency. <i>J Clin Endocrinol Metab.</i> 2017 Aug 1;102(8):2701-2710.<span class=\"pubmed-id\">28472487</span></div><div class=\"footnote\">7. Rege J, Turcu AF, Kasa-Vubu JZ, et al. 11-Ketotestosterone Is the Dominant Circulating Bioactive Androgen During Normal and Premature Adrenarche. <i>J Clin Endocrinol Metab.</i> 2018 Dec 1;103(12):4589-4598.<span class=\"pubmed-id\">30137510</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>14 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>14 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>441 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x6</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW17",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/504677/11-hydroxyandrostenedione",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1580661538",
+        "objectID": "9310",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "504677",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "504677",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Hydroxyandrostenedione",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82542",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (EDTA or heparin plasma may be used.)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>LC-MS/MS Analysis</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This assay is limited to plasma and serum samples. Serum separator gel barrier samples also cannot be analyzed by this method.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9311",
+        "labcorp_test_number": "504680",
+        "labcorp_test_number_stripped": 504680,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Hydroxytestosterone",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82542",
+        "test_includes": null,
+        "specimen": "Serum (EDTA or heparin plasma may be used.)",
+        "container": "<div><p>Serum from red-top tube <b>or</b> EDTA plasma tube <b>or</b> heparin plasma tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Gross hemolysis, gross lipemia, incorrect specimen type</p>",
+        "use": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+        "methodology": "<div><p>LC-MS/MS Analysis</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": null,
+        "collection_instructions": "<p>Collect into vacutainer and separate within 2 hours. Send serum in a plastic transport tube. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": null,
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Storbeck KH, Bloem LM, Africander D, Schloms L, Swart P, Swart AC. 11β-Hydroxydihydrotestosterone and 11-ketodihydrotestosterone, novel C19 steroids with androgenic activity: a putative role in castration resistant prostate cancer? <i>Mol Cell Endocrinol.</i> 2013 Sep 5;377(1-2):135-146.<span class=\"pubmed-id\">23856005</span></div><div class=\"footnote\">2. Turcu AF, Nanba AT, Chomic R, et al. Adrenal-derived 11-oxygenated 19-carbon steroids are the dominant androgens in classic 21-hydroxylase deficiency. <i>Eur J Endocrinol.</i> 2016 May;174(5):601-609.<span class=\"pubmed-id\">26865584</span></div><div class=\"footnote\">3. Rodin A, Thakkar H, Taylor N, Clayton R. Hyperandrogenism in polycystic ovary syndrome. Evidence of dysregulation of 11 beta-hydroxysteroid dehydrogenase. <i>N Engl J Med.</i> 1994 Feb 17;330(7):460-465.<span class=\"pubmed-id\">8289851</span></div><div class=\"footnote\">4. Speiser PW, White PC. Congenital adrenal hyperplasia. <i>N Engl J Med.</i> 2003 Aug 21;349(8):776-788.<span class=\"pubmed-id\">12930931</span></div><div class=\"footnote\">5. Pretorius E, Africander DJ, Vlok M, Perkins MS, Quanson J, Storbeck KH. 11-Ketotestosterone and 11-Ketodihydrotestosterone in Castration Resistant Prostate Cancer: Potent Androgens Which Can No Longer Be Ignored. <i>PLoS One.</i> 2016 Jul 21;11(7):e0159867.<span class=\"pubmed-id\">27442248</span></div><div class=\"footnote\">6. Turcu AF, Mallappa A, Elman MS, et al. 11-Oxygenated Androgens are Biomarkers of Adrenal Volume and Testicular Adrenal Rest Tumors in 21-Hydroxylase Deficiency. <i>J Clin Endocrinol Metab.</i> 2017 Aug 1;102(8):2701-2710.<span class=\"pubmed-id\">28472487</span></div><div class=\"footnote\">7. Rege J, Turcu AF, Kasa-Vubu JZ, et al. 11-Ketotestosterone Is the Dominant Circulating Bioactive Androgen During Normal and Premature Adrenarche. <i>J Clin Endocrinol Metab.</i> 2018 Dec 1;103(12):4589-4598.<span class=\"pubmed-id\">30137510</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>14 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>14 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>441 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x6</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW17",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/504680/11-hydroxytestosterone",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1580661568",
+        "objectID": "9311",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "504680",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "504680",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Hydroxytestosterone",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82542",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (EDTA or heparin plasma may be used.)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>LC-MS/MS Analysis</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9312",
+        "labcorp_test_number": "504674",
+        "labcorp_test_number_stripped": 504674,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-Ketotestosterone",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82542",
+        "test_includes": null,
+        "specimen": "Serum (EDTA or heparin plasma may be used.)",
+        "container": "<div><p>Serum from red-top tube <b>or</b> EDTA plasma tube <b>or</b> heparin plasma tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Gross hemolysis, gross lipemia, incorrect specimen type</p>",
+        "use": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+        "methodology": "<div><p>LC-MS/MS Analysis</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": null,
+        "collection_instructions": "<p>Collect into vacutainer and separate within 2 hours. Send serum in a plastic transport tube. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": "<p>11 - 15 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Storbeck KH, Bloem LM, Africander D, Schloms L, Swart P, Swart AC. 11β-Hydroxydihydrotestosterone and 11-ketodihydrotestosterone, novel C19 steroids with androgenic activity: a putative role in castration resistant prostate cancer? <i>Mol Cell Endocrinol.</i> 2013 Sep 5;377(1-2):135-146.<span class=\"pubmed-id\">23856005</span></div><div class=\"footnote\">2. Turcu AF, Nanba AT, Chomic R, et al. Adrenal-derived 11-oxygenated 19-carbon steroids are the dominant androgens in classic 21-hydroxylase deficiency. <i>Eur J Endocrinol.</i> 2016 May;174(5):601-609.<span class=\"pubmed-id\">26865584</span></div><div class=\"footnote\">3. Rodin A, Thakkar H, Taylor N, Clayton R. Hyperandrogenism in polycystic ovary syndrome. Evidence of dysregulation of 11 beta-hydroxysteroid dehydrogenase. <i>N Engl J Med.</i> 1994 Feb 17;330(7):460-465.<span class=\"pubmed-id\">8289851</span></div><div class=\"footnote\">4. Speiser PW, White PC. Congenital adrenal hyperplasia. <i>N Engl J Med.</i> 2003 Aug 21;349(8):776-788.<span class=\"pubmed-id\">12930931</span></div><div class=\"footnote\">5. Pretorius E, Africander DJ, Vlok M, Perkins MS, Quanson J, Storbeck KH. 11-Ketotestosterone and 11-Ketodihydrotestosterone in Castration Resistant Prostate Cancer: Potent Androgens Which Can No Longer Be Ignored. <i>PLoS One.</i> 2016 Jul 21;11(7):e0159867.<span class=\"pubmed-id\">27442248</span></div><div class=\"footnote\">6. Turcu AF, Mallappa A, Elman MS, et al. 11-Oxygenated Androgens are Biomarkers of Adrenal Volume and Testicular Adrenal Rest Tumors in 21-Hydroxylase Deficiency. <i>J Clin Endocrinol Metab.</i> 2017 Aug 1;102(8):2701-2710.<span class=\"pubmed-id\">28472487</span></div><div class=\"footnote\">7. Rege J, Turcu AF, Kasa-Vubu JZ, et al. 11-Ketotestosterone Is the Dominant Circulating Bioactive Androgen During Normal and Premature Adrenarche. <i>J Clin Endocrinol Metab.</i> 2018 Dec 1;103(12):4589-4598.<span class=\"pubmed-id\">30137510</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>14 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>14 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>441 days</p></td></tr><tr><td><p>Freeze/thaw cycle</p></td><td><p>Stable x6</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW17",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/504674/11-ketotestosterone",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1580661653",
+        "objectID": "9312",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "504674",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "504674",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-Ketotestosterone",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82542",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (EDTA or heparin plasma may be used.)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>LC-MS/MS Analysis</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9313",
+        "labcorp_test_number": "504683",
+        "labcorp_test_number_stripped": 504683,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "11-oxo-Androgens Panel",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82542",
+        "test_includes": null,
+        "specimen": "Serum (EDTA or heparin plasma may be used.)",
+        "container": "<div><p>Serum from red-top tube, EDTA plasma tube, <b>or</b> heparin plasma tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Gross hemolysis, gross lipemia, incorrect specimen type, SST specimen type</p>",
+        "use": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+        "methodology": "<div><p>LC-MS/MS Analysis</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": null,
+        "collection_instructions": "<p>Collect into vacutainer and separate within 2 hours. Send serum in a plastic transport tube. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": null,
+        "reference_range": null,
+        "limitations": "<div><p>This assay is limited to plasma and serum samples. Serum separator gel barrier samples also cannot be analyzed by this method.</p></div>",
+        "synonyms": "<ul><li>11-Hydroxyandrostenedione</li><li>11-Hydroxytestosterone</li><li>11-Ketotestosterone</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Storbeck KH, Bloem LM, Africander D, Schloms L, Swart P, Swart AC. 11β-Hydroxydihydrotestosterone and 11-ketodihydrotestosterone, novel C19 steroids with androgenic activity: a putative role in castration resistant prostate cancer? <i>Mol Cell Endocrinol.</i> 2013 Sep 5;377(1-2):135-146.<span class=\"pubmed-id\">23856005</span></div><div class=\"footnote\">2. Turcu AF, Nanba AT, Chomic R, et al. Adrenal-derived 11-oxygenated 19-carbon steroids are the dominant androgens in classic 21-hydroxylase deficiency. <i>Eur J Endocrinol.</i> 2016 May;174(5):601-609.<span class=\"pubmed-id\">26865584</span></div><div class=\"footnote\">3. Rodin A, Thakkar H, Taylor N, Clayton R. Hyperandrogenism in polycystic ovary syndrome. Evidence of dysregulation of 11 beta-hydroxysteroid dehydrogenase. <i>N Engl J Med.</i> 1994 Feb 17;330(7):460-465.<span class=\"pubmed-id\">8289851</span></div><div class=\"footnote\">4. Speiser PW, White PC. Congenital adrenal hyperplasia. <i>N Engl J Med.</i> 2003 Aug 21;349(8):776-788.<span class=\"pubmed-id\">12930931</span></div><div class=\"footnote\">5. Pretorius E, Africander DJ, Vlok M, Perkins MS, Quanson J, Storbeck KH. 11-Ketotestosterone and 11-Ketodihydrotestosterone in Castration Resistant Prostate Cancer: Potent Androgens Which Can No Longer Be Ignored. <i>PLoS One.</i> 2016 Jul 21;11(7):e0159867.<span class=\"pubmed-id\">27442248</span></div><div class=\"footnote\">6. Turcu AF, Mallappa A, Elman MS, et al. 11-Oxygenated Androgens are Biomarkers of Adrenal Volume and Testicular Adrenal Rest Tumors in 21-Hydroxylase Deficiency. <i>J Clin Endocrinol Metab.</i> 2017 Aug 1;102(8):2701-2710.<span class=\"pubmed-id\">28472487</span></div><div class=\"footnote\">7. Rege J, Turcu AF, Kasa-Vubu JZ, et al. 11-Ketotestosterone Is the Dominant Circulating Bioactive Androgen During Normal and Premature Adrenarche. <i>J Clin Endocrinol Metab.</i> 2018 Dec 1;103(12):4589-4598.<span class=\"pubmed-id\">30137510</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>14 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>14 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>441 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x6</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW17",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/504683/11-oxo-androgens-panel",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1580662088",
+        "objectID": "9313",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "504683",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "504683",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "11-oxo-Androgens Panel",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82542",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (EDTA or heparin plasma may be used.)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>11-oxo-androgens are emerging biomarkers for androgen production of adrenal origin. These biomarkers will be useful in disease in men and women and children. Although the presence of androgens with oxygen at the 11 position of the steroid backbone have been known for some time, the clinical utility and prevalence of these androgens have only recently come to light. As has been the case historically, the research has been enhanced with availability of good assay techniques, in this case HPLC MS/MS. 11-ketotestosterone and 11-ketodihydrotestosterone bind the androgen receptor as well as testosterone and DHT.<sup>1</sup> The 11-oxo-androgens also follow the same metabolic pathways as androgens without oxygen at 11. Interestingly, the origin of 11-oxo-androgens is entirely adrenal. All of this is important because 11-oxo-androgens appear to play a significant role in some endocrine diseases.</p><p><b>PCOS:</b> Polycystic ovary syndrome (PCOS) is a disease characterized by amenorrhea or oligomenorrhea and excess androgens. Although this syndrome is found in 5-10% of women, the disease is not well understood. 11-ketotestosterone has been shown to be in excess in PCOS patients, and levels in those patients are in fact higher than levels of testosterone.<sup>3</sup> This finding significantly points to the adrenal as a source of the excess androgens. This idea is supported by the similarity of the levels found in adult men and women. 11-ketotestosterone may be a better biomarker than testosterone or androstenedione for androgen excess in women with PCOS.</p><p><b>CAH:</b> Congenital adrenal hyperplasia due to 21-hydroxylase deficiency is a genetic disease affecting about 1/10,000 people.<sup>4</sup> The enzyme defect that causes the disease causes excess adrenal androgen production driven by ACTH, and the major androgens are 11-oxygenated.<sup>2</sup> Therefore, 11-oxoandrogens are important to monitor for control of CAH, especially in children and women. In men, 11-oxo-androgens are proposed to be biomarkers for disease activity because they are of adrenal origin. Although excess androgens are a lesser problem for adult men with CAH, these patients are subject to other sequelae of CAH, especially TARTS (testicular adrenal-rest tumors). Following 11-oxo-androgens is expected to be a uniquely useful biomarker since testosterone is not useful as an adrenal androgen for adult men.<sup>6</sup></p><p><b>Puberty:</b> Adrenarche is a stage of development that precedes puberty; clinically it is defined by axillary hair and body odor; biochemically it is defined by a rise in adrenal androgens, such as DHEA-sulfate. Testosterone levels do not rise significantly during adrenarche. Recent academic research shows that during adrenarche both DHEA-sulfate and 11-ketotestosterone rise.<sup>7</sup> However, DHEA-sulfate is not an active androgen, while 11-ketotestosterone is fully active. Therefore, 11-ketotestosterone may be measured along with DHEA-sulfate when investigating premature adrenarche and premature puberty.</p><p><b>Prostate Cancer:</b> The goal of GnRH agonist treatment, antiandrogens and 17-hydroxylase blockade is to minimize androgens in prostate cancer. Eliminating adrenal androgens has been helpful in castration-resistant prostate cancer, and it now appears that 11-ketotestosterone is an important adrenal androgen to control in castration-resistant prostate cancer.<sup>1,5</sup> 11-ketotestosterone may be an effective adrenal androgen biomarker to monitor in castration-resistant prostate cancer.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>LC-MS/MS Analysis</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This assay is limited to plasma and serum samples. Serum separator gel barrier samples also cannot be analyzed by this method.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>11-Hydroxyandrostenedione</li><li>11-Hydroxytestosterone</li><li>11-Ketotestosterone</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9314",
+        "labcorp_test_number": "504550",
+        "labcorp_test_number_stripped": 504550,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "14.3.3 eta, Rheumatoid Arthritis",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83520",
+        "test_includes": null,
+        "specimen": "Serum, frozen",
+        "container": "<div><p>Red-top tube or gel-barrier tube</p></div>",
+        "storage_instructions": "<p><b>Frozen</b></p>",
+        "causes_for_rejection": "<p>Hemolysis; lipemia</p>",
+        "use": "<div><p>14-3-3 eta protein is a joint-derived, proinflammatory mediator that is implicated in the joint erosion process and pathogenesis of RA. Serum 14-3-3 eta is elevated in both early and established RA.</p></div>",
+        "methodology": "<div><p>Enzyme-linked immunosorbent assay (ELISA)</p></div>",
+        "custom_additional_info": "<div><p>14-3-3 eta is highly specific for RA. Serum 14-3-3 eta may be especially helpful in identifying patients with early RA where it provides a 15% incremental benefit to the diagnostic sensitivity of markers, Rheumatoid Arthritis (RA) Factor and Cyclic Citrullinated Peptide (CCP) Antibodies.<sup>1</sup> See table.</p><table><col /><col /><col /><thead><tr><th colspan=\"3\"><p>Diagnostic sensitivity: Complementarity between diagnostic markers (14-3-3<b>η</b>, RF and anti-CCP) in patients with early and established RA. Table 3A<sup>2</sup></p></th></tr></thead><tfoot><tr><td colspan=\"3\"><p>RF: rheumatoid factor, anti-CCP: anticitrullinated protein antibodies, RA: rheumatoid arthritis</p></td></tr></tfoot><tbody><tr><td><p><b>Marker Positivity</b></p></td><td><p><b>Early RA</b></p></td><td><p><b>Established RA</b></p></td></tr><tr><td><p>RF+</p></td><td><p>57</p></td><td><p>85</p></td></tr><tr><td><p>Anti-CCP+</p></td><td><p>59</p></td><td><p>79</p></td></tr><tr><td><p>14-3-3<b>η</b>+</p></td><td><p>64</p></td><td><p>77</p></td></tr><tr><td><p>Anti-CCP and RF+</p></td><td><p>72</p></td><td><p>88</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and RF+</p></td><td><p>75</p></td><td><p>94</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and anti-CCP+</p></td><td><p>72</p></td><td><p>96</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and RF+ and anti-CCP+</p></td><td><p>78</p></td><td><p>96</p></td></tr></tbody></table><p>Positive serum 14-3-3 eta levels are associated with higher rates of joint damage as measured by radiographic assessments (Sharp/van der Heijde Score).<sup>3</sup></p></div>",
+        "special_instructions": null,
+        "collection_instructions": "<p>Serum must be separated from cells within 45 minutes of venipuncture. Send serum in a plastic transfer tube.</p>",
+        "result_turnaround_time": "<p>6 - 12 days</p>",
+        "reference_range": "<div><p>&lt;0.2 ng/mL</p></div>",
+        "limitations": "<div><p>This test was developed, and its performance characteristics determined, by LabCorp. It has not been cleared or approved by the US Food and Drug Administration (FDA).</p></div>",
+        "synonyms": "<ul><li>14.3.3<b>η</b> Protein ETA</li><li>Augurex</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Carrier N, Marotta A, de Brum Fernandes AJ, et al. Serum levels of 14-3-3η protein supplement C-reactive protein and rheumatoid arthritis-associated antibodies to predict clinical and radiographic outcomes in a prospective cohort of patients with recent-onset inflammatory polyarthritis. <i>Arthritis Res Ther.</i> 2016 Feb;18:37.<span class=\"pubmed-id\">26832367</span></div><div class=\"footnote\">2. Maksymowych WP, Naides SJ, Bykerk V, et al. Serum 14-3-3η is a novel marker that complements current serological measurements to enhance detection of patients with rheumatoid arthritis. <i>J Rheumatol.</i> 2014 Nov; 41(11):2014-2013.<span class=\"pubmed-id\">25128504</span></div><div class=\"footnote\">3. Maysymowych WP, van der Heijde D, Allaart CF, et al. 14-3-3η is a novel mediator associated with the pathogenesis of rheumatoid arthritis and joint damage. <i>Arthritis Res Ther.</i> 2014 Apr;16(2):R99.<span class=\"pubmed-id\">24751211</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>3 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>3 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>7 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x6</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW17",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/504550/14-3-3-eta-rheumatoid-arthritis",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1671634731",
+        "objectID": "9314",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "504550",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "504550",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "14.3.3 eta, Rheumatoid Arthritis",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83520",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum, frozen",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>14-3-3 eta protein is a joint-derived, proinflammatory mediator that is implicated in the joint erosion process and pathogenesis of RA. Serum 14-3-3 eta is elevated in both early and established RA.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Enzyme-linked immunosorbent assay (ELISA)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>14-3-3 eta is highly specific for RA. Serum 14-3-3 eta may be especially helpful in identifying patients with early RA where it provides a 15% incremental benefit to the diagnostic sensitivity of markers, Rheumatoid Arthritis (RA) Factor and Cyclic Citrullinated Peptide (CCP) Antibodies.<sup>1</sup> See table.</p><table><col /><col /><col /><thead><tr><th colspan=\"3\"><p>Diagnostic sensitivity: Complementarity between diagnostic markers (14-3-3<b>η</b>, RF and anti-CCP) in patients with early and established RA. Table 3A<sup>2</sup></p></th></tr></thead><tfoot><tr><td colspan=\"3\"><p>RF: rheumatoid factor, anti-CCP: anticitrullinated protein antibodies, RA: rheumatoid arthritis</p></td></tr></tfoot><tbody><tr><td><p><b>Marker Positivity</b></p></td><td><p><b>Early RA</b></p></td><td><p><b>Established RA</b></p></td></tr><tr><td><p>RF+</p></td><td><p>57</p></td><td><p>85</p></td></tr><tr><td><p>Anti-CCP+</p></td><td><p>59</p></td><td><p>79</p></td></tr><tr><td><p>14-3-3<b>η</b>+</p></td><td><p>64</p></td><td><p>77</p></td></tr><tr><td><p>Anti-CCP and RF+</p></td><td><p>72</p></td><td><p>88</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and RF+</p></td><td><p>75</p></td><td><p>94</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and anti-CCP+</p></td><td><p>72</p></td><td><p>96</p></td></tr><tr><td><p>14-3-3<b>η</b>+ and RF+ and anti-CCP+</p></td><td><p>78</p></td><td><p>96</p></td></tr></tbody></table><p>Positive serum 14-3-3 eta levels are associated with higher rates of joint damage as measured by radiographic assessments (Sharp/van der Heijde Score).<sup>3</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This test was developed, and its performance characteristics determined, by LabCorp. It has not been cleared or approved by the US Food and Drug Administration (FDA).</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>14.3.3<b>η</b> Protein ETA</li><li>Augurex</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9315",
+        "labcorp_test_number": "140715",
+        "labcorp_test_number_stripped": 140715,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-Hydroxypregnenolone, Mass Spectrometry (Endocrine Sciences)",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "84143",
+        "test_includes": null,
+        "specimen": "Serum or plasma. frozen",
+        "container": "<div><p>Red-top tube, gel-barrier tube, <b>or</b> lavender-top (EDTA) tube</p></div>",
+        "storage_instructions": "<p><b>Freeze.</b></p>",
+        "causes_for_rejection": "<p>Nonserum or non-EDTA plasma specimen received</p>",
+        "use": null,
+        "methodology": "<div><p>High-pressure liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+        "custom_additional_info": "<div><p>In humans, the adrenal glands and the gonads produce steroid hormones.<sup>1,2</sup> The formation of pregnenolone from cholesterol is the first step in steroidogenesis. Steroidogenesis continues along two paths from pregnenolone. 17-Hydroxypregnenolone is produced from pregnenolone through the enzymatic action of 17-α-hydroxylase (17α-H). 3-β-hydroxysteroid dehydrogenase (3β-HSD) mediates the conversion of 17-hydroxypregnenolone to 17-hydroxyprogesterone. Alternatively, the enzyme 17,20 lyase can convert 17-hydroxypregnenolone to dehydroepiandrosterone (DHEA). 17α-H and 17,20 lyase activity are both mediated by a single microsomal cytochrome P450 complex. </p><p>17-hydroxypregnenelone levels have been shown to remain in the normal range in patients with Cushing.<sup>3</sup> Levels can be suppressed with dexamethasone inhibition and increased with exogenous ACTH stimulation.<sup>3</sup> Levels during the follicular phase of the menstrual cycle tend to be higher than during the luteal phase.<sup>3</sup> 17-hydroxypregnenelone levels have been shown to be elevated in patients with idiopathic hirsutism.<sup>4</sup></p></div>",
+        "special_instructions": null,
+        "collection_instructions": "<p>Transfer the serum or plasma into a LabCorp PP transpak frozen purple tube with screw cap (LabCorp N° 49482) and freeze. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": "<p>5 - 10 days</p>",
+        "reference_range": "<div><p>• Premature (26 to 28 weeks): day 4: 375−3559 ng/dL </p><p>• Premature (31 to 35 weeks): day 4: 64−2380 ng/dL </p><p>• 3 days: 10−829 ng/dL </p><p>• 1 to 5 months: 36−763 ng/dL </p><p>• 6 to 11 months: 42−540 ng/dL </p><p>• 12 to 23 months: 14−207 ng/dL </p><p>• 24 months to 5 years: 10−103 ng/dL </p><p>• 6 to 9 years: 10−186 ng/dL </p><p>• Pubertal: 44−235 ng/dL </p><p>• Adults: 53−357 ng/dL</p></div>",
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": "<ul><li>17 hydroxypregnenolone</li></ul>",
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Demers LM, Whitley R. Function of the adrenal cortex. In: Burtis CA, Ashwood ER, eds. <i>Tietz Textbook of Clinical Chemistry.</i> 3rd ed. Philadelphia, Pa: WB Saunders Co;1999:1530-1569. </div><div class=\"footnote\">2. Donohoue PA, Parker K, Migeon CJ. Congenital adrenal hyperplasia. In Scriver CR, Beaudet AL, Sly WS, et al, eds. <i>The Metabolic and Molecular Bases of Inherited Disease.</i> 1995; 2929-2966. </div><div class=\"footnote\">3. McKenna TJ, Brown RD. Pregnenolone in man: Plasma levels in states of normal and abnormal steroidogenesis. <i>J Clin Endocrinol Metab.</i> 1974 Mar; 38(3):480-485. <span class=\"pubmed-id\">4360922 </span></div><div class=\"footnote\">4. McKenna TJ, Miller RB, Liddle GW. Plasma pregnenolone and 17-OH-pregnenolone in patients with adrenal tumors, ACTH excess, or idiopathic hirsutism. <i>J Clin Endocrinol Metab.</i> 1977 Feb; 44(2):231-236.<span class=\"pubmed-id\">190251 </span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>6 hours</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>1 day</p></td></tr><tr><td><p>Frozen</p></td><td><p>2 years</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3106"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/140715/17-hydroxypregnenolone-mass-spectrometry-endocrine-sciences",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1636575555",
+        "objectID": "9315",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "140715",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "140715",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-Hydroxypregnenolone, Mass Spectrometry (Endocrine Sciences)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "84143",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum or plasma. frozen",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>High-pressure liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>In humans, the adrenal glands and the gonads produce steroid hormones.<sup>1,2</sup> The formation of pregnenolone from cholesterol is the first step in steroidogenesis. Steroidogenesis continues along two paths from pregnenolone. 17-Hydroxypregnenolone is produced from pregnenolone through the enzymatic action of 17-α-hydroxylase (17α-H). 3-β-hydroxysteroid dehydrogenase (3β-HSD) mediates the conversion of 17-hydroxypregnenolone to 17-hydroxyprogesterone. Alternatively, the enzyme 17,20 lyase can convert 17-hydroxypregnenolone to dehydroepiandrosterone (DHEA). 17α-H and 17,20 lyase activity are both mediated by a single microsomal cytochrome P450 complex. </p><p>17-hydroxypregnenelone levels have been shown to remain in the normal range in patients with Cushing.<sup>3</sup> Levels can be suppressed with dexamethasone inhibition and increased with exogenous ACTH stimulation.<sup>3</sup> Levels during the follicular phase of the menstrual cycle tend to be higher than during the luteal phase.<sup>3</sup> 17-hydroxypregnenelone levels have been shown to be elevated in patients with idiopathic hirsutism.<sup>4</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "search_only_synonyms": {
+                "value": "<ul><li>17 hydroxypregnenolone</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9316",
+        "labcorp_test_number": "500770",
+        "labcorp_test_number_stripped": 500770,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-Hydroxypregnenolone, Pre- and Post-ACTH Stimulation",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "84143(x2)",
+        "test_includes": null,
+        "specimen": "Serum (preferred) or plasma, frozen",
+        "container": "<div><p>Red-top tube, gel-barrier tube, lavender-top (EDTA) tube, or green-top (heparin) tube</p></div>",
+        "storage_instructions": "<p><b>Freeze</b></p>",
+        "causes_for_rejection": "<p>Non-EDTA/heparin plasma; recently administered isotopes</p>",
+        "use": "<div><p>This test may involve significant risk and should be performed only by qualified personnel who are familiar with the test and who have taken adequate precautions to protect the safety of the patient involved. Every effort has been made to ensure accuracy in these recommendations, but clinicians must use their judgment and refer to specific pharmaceutical resources to determine appropriate drug dosages for their patients.</p></div>",
+        "methodology": "<div><p>High-pressure liquid chromatography (HPLC) tandem mass spectrometry</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Draw blood for baseline 17-OH pregnenolone. Inject cosyntropin 250 μg IM or IV (If IV, dilute cosyntropin in 2-5 mL of sterile saline and inject over two minutes). Draw blood for stimulated 17-OH pregnenolone 60 minutes after. See the online Endocrine Appendix: ACTH Stimulation for expected values for various steroids at baseline and after ACTH stimulation.</p></div>",
+        "collection_instructions": "<p>Transfer separated serum or plasma to a plastic transport tube. <b>Note</b>: Label each tube with patient's name, collection time, and date. Submit specimens simultaneously on the same test request form. To avoid delays in turnaround time when requesting multiple tests on frozen samples, <b>please submit separate frozen specimens for each test requested.</b></p>",
+        "result_turnaround_time": "<p>7 - 12 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": "<ul><li>17-Hydroxypregnenolone (Two Specimens)</li><li>Pregnenolone, 17-Hydroxy (Two Specimens)</li></ul>",
+        "search_only_synonyms": "<ul><li>17 hydroxypregnenolone</li></ul>",
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Refrigerated</p></td><td><p>1 day</p></td></tr><tr><td><p>Frozen</p></td><td><p>2 years</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/500770/17-hydroxypregnenolone-pre-and-post-acth-stimulation",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1558531343",
+        "objectID": "9316",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "500770",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "500770",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-Hydroxypregnenolone, Pre- and Post-ACTH Stimulation",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "84143(x2)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum (preferred) or plasma, frozen",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>This test may involve significant risk and should be performed only by qualified personnel who are familiar with the test and who have taken adequate precautions to protect the safety of the patient involved. Every effort has been made to ensure accuracy in these recommendations, but clinicians must use their judgment and refer to specific pharmaceutical resources to determine appropriate drug dosages for their patients.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>High-pressure liquid chromatography (HPLC) tandem mass spectrometry</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>17-Hydroxypregnenolone (Two Specimens)</li><li>Pregnenolone, 17-Hydroxy (Two Specimens)</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "search_only_synonyms": {
+                "value": "<ul><li>17 hydroxypregnenolone</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>EX (Endocrinology, Esoterix)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9326",
+        "labcorp_test_number": "070315",
+        "labcorp_test_number_stripped": 70315,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone / Creatinine Ratio, 24-Hour Urine",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82570; 83498",
+        "test_includes": null,
+        "specimen": "Urine (24-hour)",
+        "container": "<div><p>Plastic urine container with 30 mL 6N HCl preservative. <b>Caution:</b> Strong acid. May cause skin burns.</p></div>",
+        "storage_instructions": "<p>Refrigerate</p>",
+        "causes_for_rejection": "<p>Specimens with no preservative; pH <b>not</b> ≤3.</p>",
+        "use": "<div><p>17-Hydroxyprogesterone (17-OHP) in urine is greatly elevated in patients with polycystic ovarian disease and in patients with idiopathic hirsutism.</p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+        "custom_additional_info": "<div><p>Wong and coworkers showed that measurement of 17-OHP in 24-hour urine produced results that may be useful for monitoring glucocorticoid and mineralocorticoid therapy in patients with congenital adrenal hyperplasia (CAH).<sup>1</sup> Other studies have shown that 17-OHP in 24-hour urine correlated well with serum 17-OHP and suggested that the urine measurement of 17-OHP may be a reliable alternative to serum 17-OHP measurement for monitoring of CAH therapy.<sup>2,3</sup></p></div>",
+        "special_instructions": "<div><p>Record total 24-hour urine volume on the test request form.</p></div>",
+        "collection_instructions": "<p>Instruct the patient to void at 8 AM and discard the specimen. Preservative must be added to the container prior to the start of collection. Then collect all urine including the final specimen voided at the end of the 24-hour collection period (ie, 8 AM the next morning). Measure and record total urine volume on the request form. Label container with patient's name, date and time collection started, and date and time collection finished. Keep collection on ice. Remove 20 mL aliquot. pH should be ≤3.</p>",
+        "result_turnaround_time": "<p>3 - 6 days</p>",
+        "reference_range": null,
+        "limitations": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+        "synonyms": "<ul><li>17-OHP Urine</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1.  Wong ET, Brown DR, Ulstrom RA, Steffes MW. Urinary 17 alpha-hydroxyprogesterone in diagnosis and management of congenital adrenal hyperplasia. <i>J Clin Endocrinol Metab.</i> 1979 Sep; 49(3):377-380. <span class=\"pubmed-id\">468971</span></div><div class=\"footnote\">2.  Lim YJ, Yong AB, Warne GL, Montalto J. Urinary 17 alpha-hydroxyprogesterone in management of 21-hydroxylase deficiency. <i>J Paediatr Child Health.</i> 1995 Feb; 31(1):47-50. <span class=\"pubmed-id\">7748691</span></div><div class=\"footnote\">3.  Shibata Y. Determination of urinary 17 alpha-hydroxy-progesterone excretion using ELISA—Evaluation of normal subjects and patients with congenital adrenal hyperplasia due to 21-hydroxylase deficiency. <i>Nihon Naibunpi Gakkai Zasshi.</i> 1991 Aug 20; 67(8):819-839.  <span class=\"pubmed-id\">1813324</span></div></div>",
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070315/17-oh-progesterone-creatinine-ratio-24-hour-urine",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1628021336",
+        "objectID": "9326",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070315",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70315",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone / Creatinine Ratio, 24-Hour Urine",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82570; 83498",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Urine (24-hour)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>17-Hydroxyprogesterone (17-OHP) in urine is greatly elevated in patients with polycystic ovarian disease and in patients with idiopathic hirsutism.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>Wong and coworkers showed that measurement of 17-OHP in 24-hour urine produced results that may be useful for monitoring glucocorticoid and mineralocorticoid therapy in patients with congenital adrenal hyperplasia (CAH).<sup>1</sup> Other studies have shown that 17-OHP in 24-hour urine correlated well with serum 17-OHP and suggested that the urine measurement of 17-OHP may be a reliable alternative to serum 17-OHP measurement for monitoring of CAH therapy.<sup>2,3</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>17-OHP Urine</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9327",
+        "labcorp_test_number": "070340",
+        "labcorp_test_number_stripped": 70340,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone / Creatinine Ratio, Random Urine",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "82570; 83498",
+        "test_includes": null,
+        "specimen": "Urine",
+        "container": "<div><p>Use random urine transport tube containing 6N HCl or urine <a href=\"/tests/related-documents/L7066\">Monovette® with pH stabilizer</a> (LabCorp N° 56015). Monovette® instructions accompany units. Preservative must be added to the container prior to the start of the collection. If collecting without Monovette®, use plastic  urine container and adjust urine pH to &lt;5 with 6N HCl.  <b>Caution:</b> Strong acid. May cause skin burns. </p></div>",
+        "storage_instructions": "<p>Refrigerate.</p>",
+        "causes_for_rejection": "<p>Specimen with no preservative; original container with pH &gt;5</p>",
+        "use": "<div><p>17-Hydroxyprogesterone (17-OHP) in urine is greatly elevated in patients with polycystic ovarian disease and in patients with idiopathic hirsutism. Wong and coworkers showed that measurement of 17-OHP in 24-hour urine produced results that may be useful for monitoring glucocorticoid and mineralocorticoid therapy in patients with congenital adrenal hyperplasia (CAH).<sup>1</sup> Other studies have shown that 17-OHP in 24-hour urine correlated well with serum 17-OHP and suggested that the urine measurement of 17-OHP may be a reliable alternative to serum 17-OHP measurement for monitoring of CAH therapy.<sup>2,3</sup></p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Random urine collection. <b>Note:</b> If original container is received with pH &gt;3 but &lt;5, adjust pH to &lt;3 with 6N HCl.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>4 - 6 days</p>",
+        "reference_range": null,
+        "limitations": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+        "synonyms": "<ul><li>17-OHP Urine</li></ul>",
+        "search_only_synonyms": "<ul><li>17 OH Progesterone</li></ul>",
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1.  Wong ET, Brown DR, Ulstrom RA, Steffes MW. Urinary 17 alpha-hydroxyprogesterone in diagnosis and management of congenital adrenal hyperplasia. <i>J Clin Endocrinol Metab.</i> 1979 Sep; 49(3):377-380. <span class=\"pubmed-id\">468971</span></div><div class=\"footnote\">2.  Lim YJ, Yong AB, Warne GL, Montalto J.  Urinary 17 alpha-hydroxyprogesterone in management of 21-hydroxylase deficiency.   <i>J Paediatr Child Health.</i> 1995 Feb; 31(1):47-50. <span class=\"pubmed-id\">7748691</span></div><div class=\"footnote\">3.  Shibata Y. Determination of urinary 17 alpha-hydroxyprogesterone excretion using ELISA--evaluation of normal subjects and patients with congenital adrenal hyperplasia due to 21-hydroxylase deficiency. <i>Nihon Naibunpi Gakkai Zasshi.</i> 1991 Aug 20;  67(8):819-839. <span class=\"pubmed-id\">1813324</span></div></div>",
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070340/17-oh-progesterone-creatinine-ratio-random-urine",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1558387589",
+        "objectID": "9327",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070340",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70340",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone / Creatinine Ratio, Random Urine",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "82570; 83498",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Urine",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>17-Hydroxyprogesterone (17-OHP) in urine is greatly elevated in patients with polycystic ovarian disease and in patients with idiopathic hirsutism. Wong and coworkers showed that measurement of 17-OHP in 24-hour urine produced results that may be useful for monitoring glucocorticoid and mineralocorticoid therapy in patients with congenital adrenal hyperplasia (CAH).<sup>1</sup> Other studies have shown that 17-OHP in 24-hour urine correlated well with serum 17-OHP and suggested that the urine measurement of 17-OHP may be a reliable alternative to serum 17-OHP measurement for monitoring of CAH therapy.<sup>2,3</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>17-OHP Urine</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "search_only_synonyms": {
+                "value": "<ul><li>17 OH Progesterone</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9317",
+        "labcorp_test_number": "070085",
+        "labcorp_test_number_stripped": 70085,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498",
+        "test_includes": null,
+        "specimen": "Serum or plasma",
+        "container": "<div><p>Red-top tube, gel-barrier tube, <b>or</b> lavender-top (EDTA) tube</p></div>",
+        "storage_instructions": "<p>Refrigerate.</p>",
+        "causes_for_rejection": null,
+        "use": "<div><p>Markedly elevated in patients with congenital adrenal hyperplasia;<sup>1-5</sup> evaluate hirsutism and/or infertility;<sup>6</sup> assess or rule out certain adrenal or ovarian tumors with endocrine activity<sup>7</sup></p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+        "custom_additional_info": "<div><p>Congenital adrenal hyperplasia (CAH), is an autosomal recessive disorder affecting one of the enzymes required to synthesize cortisol from cholesterol in the adrenal gland.<sup>1-4</sup> Diminished production of cortisol leads to increased pituitary secretion of ACTH via the negative feedback mechanism, which in turn causes hyperplasia of the adrenal cortex. Excess production of hormones proximal to the enzymatic defect gives rise to various clinical phenotypes. The clinical symptoms of CAH directly result from either the deficiencies in mineralocorticoid or glucocorticoid production or from the overproduction of precursors that are converted to androgens.<sup>1-4</sup> There is a wide spectrum of clinical presentations, including a severely affected, \"salt-wasting\" form, a simple virilizing form with normal aldosterone production, and a mild \"nonclassic\" form that may be asymptomatic or may be associated with symptoms that may not be discovered until adulthood.<sup>1-5</sup></p><p>The incidence of classic CAH ranges from 1:10,000 to 1:20,000 births<sup>1</sup> but is more prevalent in some ethnic groups, particularly in remote geographic regions. The most common form of CAH occurs as the result of mutations in the <i>CYP21A2</i> gene, which results in 21-hydroxylase deficiency (21-OHD).<sup>1</sup> This enzyme converts 17-hydroxyprogesterone (17-OHP) to 11-deoxycortisol and progesterone to deoxycorticosterone, respective precursors for cortisol and aldosterone. In Caucasians, 21-OHD accounts for more than 90% of all cases, whereas 5% are caused by 11-hydroxylase deficiency and other enzyme deficiencies and clinical phenotypes are less common.<sup>1,4</sup> In 21-OHD, reduced production of glucocorticoids can lead to adrenal crises with hypoglycemia and hypotension in the setting of an illness or physiological stress.<sup>2</sup> Approximately 75% of classic CAH cases also suffer aldosterone deficiency with clinical symptoms that can include poor feeding and failure to thrive, vomiting, hyperkalemia, hyponatremia, dehydration, metabolic acidosis, and apathy.<sup>1-4</sup> The excess 17-OHP and other unblocked precursors, pregnenolone and progesterone, are diverted in the adrenals to the production of dehydroepiandrosterone and androstenedione, which are then peripherally converted to testosterone.<sup>1,2</sup> A key manifestation of this androgen overproduction is in utero virilization resulting in genital ambiguity in newborn females.<sup>1-4</sup> In fact, 21-OHD is the most common cause of ambiguous genitalia in females.<sup>8</sup> Males with 21-OHD appear normal at birth so the age at diagnosis in untreated boys varies according to the severity of disease.<sup>1-4</sup> If unrecognized and left untreated, both girls and boys undergo rapid postnatal growth and sexual precocity as well as premature maturation of the growth plates, ultimately resulting in reduced final height.<sup>1-4</sup></p><p>Neonatal screening and diagnosis of CAH is typically accomplished through the measurement of 17-OHP by immunoassay from filter paper (Guthrie) cards with subsequent confirmation in serum by liquid chromatography/tandem mass spectrometry (LC/MS-MS).<sup>5</sup> In order to reduce the potential of false-negative results, the cutoff levels of neonatal 17-OHP screening assays are typically set so that approximately 1% of all tests are reported as positive. Given the low prevalence of CAH, only approximately one in every 100 neonates with a positive screening test will have CAH as confirmed by LC/MS-MS.<sup>1-5</sup></p><p>Standard medical treatment of CAH consists of oral glucocorticoid and mineralocorticoid administration in order to suppress adrenal androgens and to compensate for adrenal steroid deficiencies.<sup>1-5</sup> Levels of 17-OHP, androstenedione, and plasma renin activity can be used to evaluate adequacy of therapy in conjunction with clinical signs and symptoms.<sup>8</sup> A recent clinical practice guideline recommends monitoring treatment by measuring 17-OHP levels early in the morning and before medication.<sup>1</sup> This guideline states that 17-OHP should not be completely normalized because of risk of iatrogenic Cushing's syndrome.<sup>1,8</sup> The target 17-hydroxyprogesterone range suggested for children with CAH is 400−1200 ng/dL.<sup>8</sup> Clinical factors dictate management of individual adults.<sup>8</sup></p><p>In addition to the classic salt-wasting and simple virilizing forms of CAH, there is also a mild \"nonclassic\" form of CAH (NC-CAH), which may show variable degrees of postnatal androgen excess but is sometimes asymptomatic.<sup>1,2,8</sup> NC-CAH is much more common than classic CAH, occurring in approximately 0.1% to 0.2% in the general Caucasian population but in as much as 2% in some populations, such as Ashkenazi Jews.<sup>1</sup> NC-CAH presents with a wide spectrum of phenotypes due to the complexity of gene duplications, deletions, rearrangements, and compound heterozygotes that cause the condition.<sup>1</sup> Like more severe forms of CAH, NC-CAH can present as salt-wasting and simple virilizing disease with growth acceleration, premature adrenarche, or menstrual abnormalities.<sup>2</sup> NC-CAH is a relatively common cause of hyperandrogenic symptoms in women and has been implicated in between 2% and 5% of cases studied.<sup>9-11</sup> The diagnosis of nonclassic CAH after infancy is accomplished by measuring an early morning baseline serum 17-OHP in symptomatic individuals.<sup>1-5,8</sup> Measurement of other steroids after a cosyntropin stimulation can be used to differentiate 21-OHD from 11-hydroxylase and P450 oxidoreductase deficiencies and to make the diagnosis in borderline cases.<sup>1-5,8</sup></p></div>",
+        "special_instructions": null,
+        "collection_instructions": "<p>If tube other than gel-barrier tube is used, transfer separated serum or plasma to a plastic transport tube. Include patient's age on the test request form.</p>",
+        "result_turnaround_time": "<p>3 - 7 days</p>",
+        "reference_range": "<div><p>See table.</p><table><col /><col /><col /><thead><tr><th><p>Age</p></th><th colspan=\"2\"><p>Range (ng/dL)</p></th></tr></thead><tbody><tr><td colspan=\"3\"><p><b>Premature Infants:</b></p></td></tr><tr><td><p>26 to 28 weeks, day 4</p></td><td colspan=\"2\"><p>124−841</p></td></tr><tr><td><p>31 to 35 weeks, day 4</p></td><td colspan=\"2\"><p>26−568</p></td></tr><tr><td colspan=\"3\"><p><b>Full-Term Infants:</b> day 3: 0−77</p></td></tr><tr><td colspan=\"3\"><p><b>Female:</b> 1 to 11 months: 13−106</p></td></tr><tr><td colspan=\"3\"><p><b>Male:</b> 1 to 11 months: Levels increase after the first week to peak values ranging from 40−200 ng/dL between 30 and 60 days. Values then decline to prepubertal range &lt;91 ng/dL.</p></td></tr><tr><td colspan=\"3\"><p><b>Prepubertal Children:</b> 1 to 9 years: 0−90</p></td></tr><tr><td><p><b>Tanner Stage</b></p></td><td><p><b>Male</b></p></td><td><p><b>Female</b></p></td></tr><tr><td><p>1</p></td><td><p>0−90</p></td><td><p>0−82</p></td></tr><tr><td><p>2</p></td><td><p>0−115</p></td><td><p>11−98</p></td></tr><tr><td><p>3</p></td><td><p>10−138</p></td><td><p>11−155</p></td></tr><tr><td><p>4</p></td><td><p>29−180</p></td><td><p>18−230</p></td></tr><tr><td><p>5</p></td><td><p>24−175</p></td><td><p>20−265</p></td></tr><tr><td colspan=\"3\"><p><b>Adult Male:</b> 27−199</p></td></tr><tr><td colspan=\"3\"><p><b>Adult Female:</b></p></td></tr><tr><td colspan=\"3\"><p>follicular: 15−70 </p></td></tr><tr><td colspan=\"3\"><p>luteal: 35−290</p></td></tr></tbody></table></div>",
+        "limitations": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+        "synonyms": null,
+        "search_only_synonyms": "<ul><li>17-OH</li><li>17-OHP</li><li>17OH</li><li>17OHP</li></ul>",
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": "<div><div class=\"footnote\">1. Speiser PW, Azziz R, Baskin LS, et al. A Summary of the Endocrine Society Clinical Practice Guideline on Congenital Adrenal Hyperplasia due to Steroid 21-Hydroxylase Deficiency. <i>Int J Pediatr Endocrinol.</i> 2010; 2010:494173. <span class=\"pubmed-id\">20981249</span></div><div class=\"footnote\">2. Dauber A, Kellogg M, Majzoub JA. Monitoring of therapy in congenital adrenal hyperplasia. <i>Clin Chem.</i> 2010 Aug; 56(8):1245-1251. <span class=\"pubmed-id\">20558634</span></div><div class=\"footnote\">3. Forest MG. Recent advances in the diagnosis and management of congenital adrenal hyperplasia due to 21-hydroxylase deficiency. <i>Hum Reprod Update.</i> 2004 Nov-Dec; 10(6):469-485. <span class=\"pubmed-id\">15514016</span></div><div class=\"footnote\">4. Riepe FG, Sippell WG. Recent advances in diagnosis, treatment, and outcome of congenital adrenal hyperplasia due to 21-hydroxylase deficiency. <i>Rev Endocr Metab Disord.</i>, 2007 Dec; 8(4):349-363. <span class=\"pubmed-id\">17885806</span></div><div class=\"footnote\">5. Rauh M. Steroid measurement with LC-MS/MS in pediatric endocrinology. <i>Mol Cell Endocrinol.</i> 2009 Mar 25; 301(1-2):272-281. <span class=\"pubmed-id\">19007847</span></div><div class=\"footnote\">6. Chang RJ. A practical approach to the diagnosis of polycystic ovary syndrome. <i>Am J Obstet Gynecol.</i> 2004 Sep; 191(3):713-717. <span class=\"pubmed-id\">15467530</span></div><div class=\"footnote\">7. Dennedy MC, Smith D, O'Shea D, et al. Investigation of patients with atypical or severe hyperandrogenaemia including androgen-secreting ovarian teratoma. <i>Eur J Endocrinol.</i> 2010 Feb; 162(2):213-220. <span class=\"pubmed-id\">19906851</span></div><div class=\"footnote\">8. Merke DP. Approach to the adult with congenital adrenal hyperplasia due to 21-hydroxylase deficiency. <i>J Clin Endocrinol Metab.</i> 2008 Mar; 93(3):653-660. <span class=\"pubmed-id\">18326005</span></div><div class=\"footnote\">9. Escobar-Morreale HF, Sanchón R, San Millán JL. A prospective study of the prevalence of nonclassical congenital adrenal hyperplasia among women presenting with hyperandrogenic symptoms and signs. <i>J Clin Endocrinol Metab.</i> 2008 Feb; 93(2):527-533. <span class=\"pubmed-id\">18000084</span></div><div class=\"footnote\">10. Martin KA, Chang RJ, Ehrmann DA, et al. Evaluation and treatment of hirsutism in premenopausal women: An Endocrine Society clinical practice guideline. <i>J Clin Endocrinol Metab.</i> 2008 Apr; 93(4):1105-1120. <span class=\"pubmed-id\">18252793</span></div><div class=\"footnote\">11. Carmina E, Rosato F, Jannì A, Rizzo M, Longo RA.. Extensive clinical experience: Relative prevalence of different androgen excess disorders in 950 women referred because of clinical hyperandrogenism. <i>J Clin Endocrinol Metab.</i> 2006 Jan; 91(1):2-6.  <span class=\"pubmed-id\">16263820</span></div></div>",
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>7 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>7 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>14 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x3</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12",
+            "3129"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070085/17-oh-progesterone-lc-ms",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1558387615",
+        "objectID": "9317",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070085",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70085",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum or plasma",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>Markedly elevated in patients with congenital adrenal hyperplasia;<sup>1-5</sup> evaluate hirsutism and/or infertility;<sup>6</sup> assess or rule out certain adrenal or ovarian tumors with endocrine activity<sup>7</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "custom_additional_info": {
+                "value": "<div><p>Congenital adrenal hyperplasia (CAH), is an autosomal recessive disorder affecting one of the enzymes required to synthesize cortisol from cholesterol in the adrenal gland.<sup>1-4</sup> Diminished production of cortisol leads to increased pituitary secretion of ACTH via the negative feedback mechanism, which in turn causes hyperplasia of the adrenal cortex. Excess production of hormones proximal to the enzymatic defect gives rise to various clinical phenotypes. The clinical symptoms of CAH directly result from either the deficiencies in mineralocorticoid or glucocorticoid production or from the overproduction of precursors that are converted to androgens.<sup>1-4</sup> There is a wide spectrum of clinical presentations, including a severely affected, \"salt-wasting\" form, a simple virilizing form with normal aldosterone production, and a mild \"nonclassic\" form that may be asymptomatic or may be associated with symptoms that may not be discovered until adulthood.<sup>1-5</sup></p><p>The incidence of classic CAH ranges from 1:10,000 to 1:20,000 births<sup>1</sup> but is more prevalent in some ethnic groups, particularly in remote geographic regions. The most common form of CAH occurs as the result of mutations in the <i>CYP21A2</i> gene, which results in 21-hydroxylase deficiency (21-OHD).<sup>1</sup> This enzyme converts 17-hydroxyprogesterone (17-OHP) to 11-deoxycortisol and progesterone to deoxycorticosterone, respective precursors for cortisol and aldosterone. In Caucasians, 21-OHD accounts for more than 90% of all cases, whereas 5% are caused by 11-hydroxylase deficiency and other enzyme deficiencies and clinical phenotypes are less common.<sup>1,4</sup> In 21-OHD, reduced production of glucocorticoids can lead to adrenal crises with hypoglycemia and hypotension in the setting of an illness or physiological stress.<sup>2</sup> Approximately 75% of classic CAH cases also suffer aldosterone deficiency with clinical symptoms that can include poor feeding and failure to thrive, vomiting, hyperkalemia, hyponatremia, dehydration, metabolic acidosis, and apathy.<sup>1-4</sup> The excess 17-OHP and other unblocked precursors, pregnenolone and progesterone, are diverted in the adrenals to the production of dehydroepiandrosterone and androstenedione, which are then peripherally converted to testosterone.<sup>1,2</sup> A key manifestation of this androgen overproduction is in utero virilization resulting in genital ambiguity in newborn females.<sup>1-4</sup> In fact, 21-OHD is the most common cause of ambiguous genitalia in females.<sup>8</sup> Males with 21-OHD appear normal at birth so the age at diagnosis in untreated boys varies according to the severity of disease.<sup>1-4</sup> If unrecognized and left untreated, both girls and boys undergo rapid postnatal growth and sexual precocity as well as premature maturation of the growth plates, ultimately resulting in reduced final height.<sup>1-4</sup></p><p>Neonatal screening and diagnosis of CAH is typically accomplished through the measurement of 17-OHP by immunoassay from filter paper (Guthrie) cards with subsequent confirmation in serum by liquid chromatography/tandem mass spectrometry (LC/MS-MS).<sup>5</sup> In order to reduce the potential of false-negative results, the cutoff levels of neonatal 17-OHP screening assays are typically set so that approximately 1% of all tests are reported as positive. Given the low prevalence of CAH, only approximately one in every 100 neonates with a positive screening test will have CAH as confirmed by LC/MS-MS.<sup>1-5</sup></p><p>Standard medical treatment of CAH consists of oral glucocorticoid and mineralocorticoid administration in order to suppress adrenal androgens and to compensate for adrenal steroid deficiencies.<sup>1-5</sup> Levels of 17-OHP, androstenedione, and plasma renin activity can be used to evaluate adequacy of therapy in conjunction with clinical signs and symptoms.<sup>8</sup> A recent clinical practice guideline recommends monitoring treatment by measuring 17-OHP levels early in the morning and before medication.<sup>1</sup> This guideline states that 17-OHP should not be completely normalized because of risk of iatrogenic Cushing's syndrome.<sup>1,8</sup> The target 17-hydroxyprogesterone range suggested for children with CAH is 400−1200 ng/dL.<sup>8</sup> Clinical factors dictate management of individual adults.<sup>8</sup></p><p>In addition to the classic salt-wasting and simple virilizing forms of CAH, there is also a mild \"nonclassic\" form of CAH (NC-CAH), which may show variable degrees of postnatal androgen excess but is sometimes asymptomatic.<sup>1,2,8</sup> NC-CAH is much more common than classic CAH, occurring in approximately 0.1% to 0.2% in the general Caucasian population but in as much as 2% in some populations, such as Ashkenazi Jews.<sup>1</sup> NC-CAH presents with a wide spectrum of phenotypes due to the complexity of gene duplications, deletions, rearrangements, and compound heterozygotes that cause the condition.<sup>1</sup> Like more severe forms of CAH, NC-CAH can present as salt-wasting and simple virilizing disease with growth acceleration, premature adrenarche, or menstrual abnormalities.<sup>2</sup> NC-CAH is a relatively common cause of hyperandrogenic symptoms in women and has been implicated in between 2% and 5% of cases studied.<sup>9-11</sup> The diagnosis of nonclassic CAH after infancy is accomplished by measuring an early morning baseline serum 17-OHP in symptomatic individuals.<sup>1-5,8</sup> Measurement of other steroids after a cosyntropin stimulation can be used to differentiate 21-OHD from 11-hydroxylase and P450 oxidoreductase deficiencies and to make the diagnosis in borderline cases.<sup>1-5,8</sup></p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "limitations": {
+                "value": "<div><p>This test was developed and its performance characteristics determined by LabCorp. It has not been cleared or approved by the Food and Drug Administration.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "search_only_synonyms": {
+                "value": "<ul><li>17-OH</li><li>17-OHP</li><li>17OH</li><li>17OHP</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9318",
+        "labcorp_test_number": "070624",
+        "labcorp_test_number_stripped": 70624,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, ACTH Stimulation",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x2)",
+        "test_includes": null,
+        "specimen": "Serum or plasma",
+        "container": "<div><p>Red-top tube, gel-barrier tube, <b>or</b> lavender-top (EDTA) tube </p></div>",
+        "storage_instructions": "<p>Refrigerate.</p>",
+        "causes_for_rejection": null,
+        "use": "<div><p>This test may involve significant risk and should be performed only by qualified personnel who are familiar with the test and who have taken adequate precautions to protect the safety of the patient. Every effort has been made to ensure accuracy in these recommendations, but clinicians must use their judgment and refer to specific pharmaceutical resources to determine appropriate drug dosages for their patients.</p></div>",
+        "methodology": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Draw blood for baseline 17-OH progesterone. Inject cosyntropin 250 μg IM or IV (if IV, dilute cosyntropin in 2 to 5 mL of sterile saline and inject over two minutes). Draw blood for stimulated 17-OH progesterone 60 minutes after. See the online Endocrine Appendix: ACTH Stimulation for expected values for various steroids at baseline and after ACTH stimulation.</p></div>",
+        "collection_instructions": "<p>If tube other than gel-barrier tube is used, transfer separated serum or plasma to a plastic transport tube. <b>Note:</b> Label each tube with patient's name, and date and time of collection. Submit specimens simultaneously on the same test request form.</p>",
+        "result_turnaround_time": "<p>3 - 6 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": "<ul><li>17-OHP ACTH Stimulation</li></ul>",
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": "<div><table><col /><col /><thead><tr><th><p>Temperature</p></th><th><p>Period</p></th></tr></thead><tbody><tr><td><p>Room temperature</p></td><td><p>7 days</p></td></tr><tr><td><p>Refrigerated</p></td><td><p>7 days</p></td></tr><tr><td><p>Frozen</p></td><td><p>14 days</p></td></tr><tr><td><p>Freeze/thaw cycles</p></td><td><p>Stable x3</p></td></tr></tbody></table></div>",
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070624/17-oh-progesterone-lc-ms-acth-stimulation",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1628021368",
+        "objectID": "9318",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070624",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70624",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, ACTH Stimulation",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x2)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "Serum or plasma",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "use": {
+                "value": "<div><p>This test may involve significant risk and should be performed only by qualified personnel who are familiar with the test and who have taken adequate precautions to protect the safety of the patient. Every effort has been made to ensure accuracy in these recommendations, but clinicians must use their judgment and refer to specific pharmaceutical resources to determine appropriate drug dosages for their patients.</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "methodology": {
+                "value": "<div><p>Liquid chromatography/tandem mass spectrometry (LC/MS-MS)</p></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "synonyms": {
+                "value": "<ul><li>17-OHP ACTH Stimulation</li></ul>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9319",
+        "labcorp_test_number": "070145",
+        "labcorp_test_number_stripped": 70145,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, Eight Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x8)",
+        "test_includes": null,
+        "specimen": "",
+        "container": null,
+        "storage_instructions": null,
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": null,
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Please refer to the Endocrine Appendix of the LabCorp Directory of Services for instructions on multiple specimen testing.</p><p>This panel is a series panel requiring multiple tubes to be drawn at multiple time points. This panel is used to collect an initial tube (baseline) and then treat the patient with a drug (pill or shot) or other treatment (such as glucola) and then collect more tubes after the dose. <b>If you are not giving the patient a pill or shot or other treatment after the first sample draw, do not use this panel.</b> This series should not be collected until the clinician is contacted to determine why a series is ordered.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>3 - 7 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070145/17-oh-progesterone-lc-ms-eight-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1579706987",
+        "objectID": "9319",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070145",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70145",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, Eight Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x8)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9320",
+        "labcorp_test_number": "070090",
+        "labcorp_test_number_stripped": 70090,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, Five Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x5)",
+        "test_includes": null,
+        "specimen": "",
+        "container": null,
+        "storage_instructions": null,
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": null,
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Please refer to the Endocrine Appendix of the LabCorp Directory of Services for instructions on multiple specimen testing.</p><p>This panel is a series panel requiring multiple tubes to be drawn at multiple time points. This panel is used to collect an initial tube (baseline) and then treat the patient with a drug (pill or shot) or other treatment (such as glucola) and then collect more tubes after the dose. <b>If you are not giving the patient a pill or shot or other treatment after the first sample draw, do not use this panel.</b> This series should not be collected until the clinician is contacted to determine why a series is ordered.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>3 - 6 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070090/17-oh-progesterone-lc-ms-five-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1628021397",
+        "objectID": "9320",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070090",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70090",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, Five Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x5)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9321",
+        "labcorp_test_number": "070083",
+        "labcorp_test_number_stripped": 70083,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, Four Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x4)",
+        "test_includes": null,
+        "specimen": "",
+        "container": null,
+        "storage_instructions": null,
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": null,
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Please refer to the Endocrine Appendix of the LabCorp Directory of Services for instructions on multiple specimen testing.</p><p>This panel is a series panel requiring multiple tubes to be drawn at multiple time points. This panel is used to collect an initial tube (baseline) and then treat the patient with a drug (pill or shot) or other treatment (such as glucola) and then collect more tubes after the dose. <b>If you are not giving the patient a pill or shot or other treatment after the first sample draw, do not use this panel.</b> This series should not be collected until the clinician is contacted to determine why a series is ordered.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>4 - 6 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070083/17-oh-progesterone-lc-ms-four-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1579706919",
+        "objectID": "9321",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070083",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70083",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, Four Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x4)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9322",
+        "labcorp_test_number": "070132",
+        "labcorp_test_number_stripped": 70132,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, Seven Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x7)",
+        "test_includes": null,
+        "specimen": "",
+        "container": null,
+        "storage_instructions": null,
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": null,
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Please refer to the Endocrine Appendix of the LabCorp Directory of Services for instructions on multiple specimen testing.</p><p>This panel is a series panel requiring multiple tubes to be drawn at multiple time points. This panel is used to collect an initial tube (baseline) and then treat the patient with a drug (pill or shot) or other treatment (such as glucola) and then collect more tubes after the dose. <b>If you are not giving the patient a pill or shot or other treatment after the first sample draw, do not use this panel.</b> This series should not be collected until the clinician is contacted to determine why a series is ordered.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>3 - 7 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070132/17-oh-progesterone-lc-ms-seven-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1579706971",
+        "objectID": "9322",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070132",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70132",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, Seven Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x7)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    },
+    {
+        "nid": "9323",
+        "labcorp_test_number": "070120",
+        "labcorp_test_number_stripped": 70120,
+        "stg_test_number": "",
+        "stg_test_number_stripped": 0,
+        "test_name": "17-OH Progesterone, LC / MS, Six Specimens",
+        "test_name_first_letter": "1",
+        "test_name_bucket": "#",
+        "cpt_code": "83498(x6)",
+        "test_includes": null,
+        "specimen": "",
+        "container": null,
+        "storage_instructions": null,
+        "causes_for_rejection": null,
+        "use": null,
+        "methodology": null,
+        "custom_additional_info": null,
+        "special_instructions": "<div><p>Please refer to the Endocrine Appendix of the LabCorp Directory of Services for instructions on multiple specimen testing.</p><p>This panel is a series panel requiring multiple tubes to be drawn at multiple time points. This panel is used to collect an initial tube (baseline) and then treat the patient with a drug (pill or shot) or other treatment (such as glucola) and then collect more tubes after the dose. <b>If you are not giving the patient a pill or shot or other treatment after the first sample draw, do not use this panel.</b> This series should not be collected until the clinician is contacted to determine why a series is ordered.</p></div>",
+        "collection_instructions": null,
+        "result_turnaround_time": "<p>3 - 5 days</p>",
+        "reference_range": null,
+        "limitations": null,
+        "synonyms": null,
+        "search_only_synonyms": null,
+        "custom_searchonly_synonyms": null,
+        "patient_prep": null,
+        "aftercare": null,
+        "footnotes": null,
+        "stability_requirements": null,
+        "references": null,
+        "contraindications": null,
+        "pub_code": "NEW12",
+        "applies_to": null,
+        "replaces": null,
+        "discipline_code": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+        "technology": [
+            ""
+        ],
+        "recommended_mng_kits": null,
+        "z_code": null,
+        "performing_locations": [
+            "12"
+        ],
+        "classes": [
+            ""
+        ],
+        "categories": [
+            ""
+        ],
+        "disease": [
+            ""
+        ],
+        "genes": [
+            ""
+        ],
+        "is_labcorp_test": true,
+        "is_featured": false,
+        "url": "/tests/070120/17-oh-progesterone-lc-ms-six-specimens",
+        "new_updated_type": null,
+        "new_updated_precalculated": {
+            "type": null,
+            "valid_until": null
+        },
+        "new_or_updated": false,
+        "lexicomp_modified": "1579706953",
+        "objectID": "9323",
+        "_highlightResult": {
+            "labcorp_test_number": {
+                "value": "070120",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "labcorp_test_number_stripped": {
+                "value": "70120",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "stg_test_number_stripped": {
+                "value": "0",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "test_name": {
+                "value": "17-OH Progesterone, LC / MS, Six Specimens",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "cpt_code": {
+                "value": "83498(x6)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "specimen": {
+                "value": "",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "discipline_code": {
+                "value": "<div><ul><li>RI (Immunoassay, Routine)</li></ul></div>",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "technology": [
+                {
+                    "value": "",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            ]
+        }
+    }
+]

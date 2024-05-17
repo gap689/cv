@@ -123,7 +123,7 @@ useEffect(() => {
           
         <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>
           {/* <ScrollArea className="h-full"> *check this bug */}
-          <div className="h-full overflow-y-auto">
+          <div className="h-full overflow-y-auto overflow-hidden">
             { children }
           </div>
           {/* </ScrollArea> */}
