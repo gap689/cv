@@ -43,17 +43,14 @@ export default async function TaskPage() {
   const studies = await getStudies();
 
   return (
-      <div className="flex-1 flex-col space-y-8 md:p-8 sm:p-5 p-4 md:flex">
+      <div className="flex flex-col space-y-8 md:p-8 sm:p-5 p-4 md:flex">
         <Tabs defaultValue="healthcare" className="space-y-4">
         <div className="flex items-center justify-between space-y-2">
           <div>
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Transaction Data</h2>
-            <p className="text-muted-foreground py-2 text-sm">
-              Here&apos;s an data table exploration of transactions using tanstack table. Includes search by symbol, pagination, columns selection, filter by transaction type, and ordering asc or desc.
+            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Tabular Data: An Exploration</h2>
+            <p className="text-muted-foreground py-2 xs:text-sm text-xs">
+              Here&apos;s an data table exploration using tanstack table. Includes search by keywords, pagination, columns selection, filter by type, and ordering asc or desc.
             </p>
-            <div className="text-xs py-2 text-muted-foreground">
-              **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
-            </div>
           <div className="overflow-x-auto">
             <TabsList className="w-fit">
               <TabsTrigger value="healthcare" className="text-xs">
@@ -70,7 +67,7 @@ export default async function TaskPage() {
           <DataTable data={transactions} columns={columns} />
         </TabsContent>
           
-        <TabsContent value="healthcare" className="space-y-4 pb-6">
+        <TabsContent value="healthcare" className="space-y-4">
           <DataTableHealth data={studies} columns={columnshealth}/>
         </TabsContent>
         </Tabs>
