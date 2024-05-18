@@ -47,9 +47,9 @@ export default async function TaskPage() {
         <Tabs defaultValue="healthcare" className="space-y-4">
         <div className="flex items-center justify-between space-y-2">
           <div>
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Tabular Data: An Exploration</h2>
+            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Tabular Data</h2>
             <p className="text-muted-foreground py-2 xs:text-sm text-xs">
-              Here&apos;s an data table exploration using tanstack table. Includes search by keywords, pagination, columns selection, filter by type, and ordering asc or desc.
+              Here&apos;s an data table exploration for different use cases. Includes search by keywords, pagination, columns selection, filter by type, and ordering asc or desc using tanstack table.
             </p>
           <div className="overflow-x-auto">
             <TabsList className="w-fit">
