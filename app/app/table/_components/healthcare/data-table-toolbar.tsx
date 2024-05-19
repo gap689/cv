@@ -19,9 +19,10 @@ export function DataTableToolbar<TData>({
   table,
 }: DataTableToolbarProps<TData>) {
   const isFiltered = table.getState().columnFilters.length > 0
+  const isExpanded = table.getIsSomeRowsExpanded()
 
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between overflow-x-auto">
       <div className="flex flex-1 items-center space-x-2">
         <Input
           placeholder="Filter study..."
@@ -38,14 +39,28 @@ export function DataTableToolbar<TData>({
             options={sides}
           />
         )} */}
+
+        {isExpanded &&(
+          <Button
+            variant="ghost"
+            onClick={()=>table.resetExpanded()}
+            className="h-8 px-2 lg:px-3 text-xs sm:text-sm"
+          >
+            Reset Rows
+            <X className="ml-2 h-4 w-4" />
+          </Button>
+        )}
         
         {isFiltered && (
           <Button
             variant="ghost"
-            onClick={() => table.resetColumnFilters()}
-            className="h-8 px-2 lg:px-3"
+            onClick={() => {
+              table.resetColumnFilters();
+              table.resetExpanded();
+            }}
+            className="h-8 px-2 lg:px-3 text-xs sm:text-sm"
           >
-            Reset
+            Reset Search
             <X className="ml-2 h-4 w-4" />
           </Button>
         )}
