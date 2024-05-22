@@ -56,7 +56,7 @@ export default function ReadingPage() {
                     <BookCard
                       key={book.name}
                       book={book}
-                      className="w-[250px]"
+                      className="sm:w-[230px] w-[200px]"
                       aspectRatio="portrait"
                       width={300}
                       height={400}
