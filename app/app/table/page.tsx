@@ -12,6 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { DataTableHealth } from "./_components/healthcare/data-table-health"
 import { columnshealth } from "./_components/healthcare/columns-health"
 import { studySchema } from "@/data/table/studies-schema"
+import { SubRowDetailView } from "./_components/healthcare/subrow-detail-view"
 
 export const metadata: Metadata = {
   title: "Data table",
@@ -43,13 +44,13 @@ export default async function TaskPage() {
   const studies = await getStudies();
 
   return (
-      <div className="flex flex-col space-y-8 md:p-8 sm:p-5 p-4 md:flex">
+      <div className="flex flex-col h-full space-y-8 md:pb-4 md:p-8 sm:p-5 p-4 md:flex">
         <Tabs defaultValue="healthcare" className="space-y-4">
         <div className="flex items-center justify-between space-y-2">
           <div>
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Tabular Data</h2>
+            <h2 className="md:text-3xl text-2xl font-bold tracking-tight font-orbitron uppercase">Data Table</h2>
             <p className="text-muted-foreground py-2 xs:text-sm text-xs">
-              Here&apos;s an data table exploration for different use cases. Includes search by keywords, pagination, columns selection, filter by type, and ordering asc or desc using tanstack table.
+              A data table exploration for different use cases. Includes search by keywords, pagination, columns selection, filter by type, and ordering asc or desc using tanstack table.
             </p>
           <div className="overflow-x-auto">
             <TabsList className="w-fit">
@@ -68,7 +69,10 @@ export default async function TaskPage() {
         </TabsContent>
           
         <TabsContent value="healthcare" className="space-y-4">
-          <DataTableHealth data={studies} columns={columnshealth}/>
+          <DataTableHealth 
+            data={studies} 
+            columns={columnshealth}
+            />
         </TabsContent>
         </Tabs>
       </div>
