@@ -7,8 +7,6 @@ import { Input } from "@/components/ui/input"
 
 import { DataTableViewOptions } from "./data-table-view-options"
 
-import { priorities, statuses, sides } from "@/data/table/data"
-import { DataTableFacetedFilter } from "./data-table-faceted-filter"
 import { X } from "lucide-react"
 
 interface DataTableToolbarProps<TData> {
@@ -23,7 +21,7 @@ export function DataTableToolbar<TData>({
 
   return (
     <div className="flex items-center justify-between overflow-x-auto">
-      <div className="flex flex-1 items-center space-x-2">
+      <div className="flex items-center p-1">
         <Input
           placeholder="Filter study..."
           value={(table.getColumn("test_name")?.getFilterValue() as string) ?? ""}
@@ -32,13 +30,6 @@ export function DataTableToolbar<TData>({
           }
           className="h-8 w-[150px] lg:w-[250px] xl:w-[300px]"
         />
-        {/* {table.getColumn("side") && (
-          <DataTableFacetedFilter
-            column={table.getColumn("side")}
-            title="Buy/Sell"
-            options={sides}
-          />
-        )} */}
 
         {isExpanded &&(
           <Button
