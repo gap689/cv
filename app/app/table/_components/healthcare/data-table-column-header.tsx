@@ -23,7 +23,7 @@ import { ArrowDown, ArrowUp, ArrowUpDown, EyeOff } from "lucide-react"
     className,
   }: DataTableColumnHeaderProps<TData, TValue>) {
     if (!column.getCanSort()) {
-      return <div className={cn(className)}>{title}</div>
+      return <div className={cn("text-xs md:text-sm", className)}>{title}</div>
     }
   
     return (
@@ -35,7 +35,7 @@ import { ArrowDown, ArrowUp, ArrowUpDown, EyeOff } from "lucide-react"
               size="sm"
               className="-ml-3 h-8 data-[state=open]:bg-accent"
             >
-              <span>{title}</span>
+              <span className="text-xs md:text-sm">{title}</span>
               {column.getIsSorted() === "desc" ? (
                 <ArrowDown className="ml-2 h-4 w-4" />
               ) : column.getIsSorted() === "asc" ? (
