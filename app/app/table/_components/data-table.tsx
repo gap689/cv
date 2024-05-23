@@ -69,6 +69,9 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="space-y-4">
+      <div className="text-xs py-2 text-muted-foreground">
+        **Disclaimer: The data presented here is for display purposes only. It is entirely fictional and does not represent real-world information.
+      </div>
       <DataTableToolbar table={table} />
       <div className="rounded-md border">
         <Table>
