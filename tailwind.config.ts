@@ -31,6 +31,9 @@ const config = {
       },
     },
     extend: {
+      transitionProperty: {
+        'max-height': 'max-height',
+      },
       fontFamily: {
         inter: ['var(--font-inter)'],
         orbitron: ['var(--font-orbitron)'],
