@@ -7,19 +7,13 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-import { labels } from "@/data/table/data"
 import { studySchema } from "@/data/table/studies-schema"
-import { MoreHorizontal } from "lucide-react"
+import { MdOutlineShoppingCart } from "react-icons/md"
+import { IoMdCart } from "react-icons/io";
+import { FaFilePrescription } from "react-icons/fa6";
 
 interface DataTableRowActionsProps<TData> {
   row: Row<TData>
@@ -34,34 +28,15 @@ export function DataTableRowActions<TData>({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          variant="ghost"
-          className="flex h-8 w-8 p-0 data-[state=open]:bg-muted"
+          variant="outline"
+          className="flex justify-center items-center h-8 w-8 p-1 data-[state=open]:bg-muted"
         >
-          <MoreHorizontal className="h-4 w-4" />
-          <span className="sr-only">Open menu</span>
+          <IoMdCart className="sm:w-6 sm:h-6 w-5 h-5 shrink-0" />
+          <span className="sr-only">Add to cart</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[160px]">
-        <DropdownMenuItem>Make a copy</DropdownMenuItem>
-        <DropdownMenuItem>Favorite</DropdownMenuItem>
-        {/* <DropdownMenuSeparator /> */}
-        {/* <DropdownMenuSub>
-          <DropdownMenuSubTrigger>Labels</DropdownMenuSubTrigger>
-          <DropdownMenuSubContent>
-            <DropdownMenuRadioGroup value={task.label}>
-              {labels.map((label) => (
-                <DropdownMenuRadioItem key={label.value} value={label.value}>
-                  {label.label}
-                </DropdownMenuRadioItem>
-              ))}
-            </DropdownMenuRadioGroup>
-          </DropdownMenuSubContent>
-        </DropdownMenuSub> */}
-        {/* <DropdownMenuSeparator /> */}
-        <DropdownMenuItem>
-          Delete
-          <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
-        </DropdownMenuItem>
+        <DropdownMenuItem>Add to Cart</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
