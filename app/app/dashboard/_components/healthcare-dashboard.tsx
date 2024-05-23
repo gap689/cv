@@ -41,8 +41,7 @@ const HealthcareDashboard = () => {
     <div className="h-full">
       <div className="py-2">
         <h1 className="text-xl md:text-2xl font-semibold"><span className="text-base">Case study:</span> Clinical Laboratory Dashboard</h1>
-        <p className="text-lg py-3 uppercase font-orbitron">{value.branchName}</p>
-        <div className="flex items-center">
+        <div className="flex items-center py-2 sm:py-3">
           branch:
           <div className="px-2">
             <Popover open={open} onOpenChange={setOpen}>
