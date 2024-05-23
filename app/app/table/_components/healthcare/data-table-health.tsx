@@ -3,6 +3,7 @@
 import * as React from "react"
 import {
   ExpandedState,
+  Row,
   ColumnDef,
   ColumnFiltersState,
   SortingState,
@@ -29,20 +30,36 @@ import {
 
 import { DataTableToolbar } from "./data-table-toolbar"
 import { DataTablePagination } from "./data-table-pagination"
-import { RowDetailView } from "./row-detail-view"
+import { cn } from "@/lib/utils"
+import useSize from "@/hooks/useSize"
+import { SubRowDetailView } from "./subrow-detail-view"
+import { Study } from "@/data/table/studies-schema"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[]
 }
 
+type TableProps<TData> = {
+  data: TData[]
+  columns: ColumnDef<TData>[]
+  // renderSubComponent: (props: { row: Row<TData>}) => React.ReactElement
+  // getRowCanExpand: (row: Row<TData>) => boolean
+}
+
 export function DataTableHealth<TData, TValue>({
-  columns,
   data,
-}: DataTableProps<TData, TValue>) {
+  columns,
+  // renderSubComponent,
+  // getRowCanExpand
+}: TableProps<Study>): JSX.Element {
+
+  const useWidth = useSize()
+
   const [rowSelection, setRowSelection] = React.useState({})
   const [columnVisibility, setColumnVisibility] =
-    React.useState<VisibilityState>({})
+    React.useState<VisibilityState>({
+    })
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
   )
@@ -60,6 +77,8 @@ export function DataTableHealth<TData, TValue>({
       expanded,
     },
     enableRowSelection: true,
+    enableHiding: true,
+    enableExpanding: true,
     onRowSelectionChange: setRowSelection,
     onSortingChange: setSorting,
     onColumnFiltersChange: setColumnFilters,
@@ -76,10 +95,26 @@ export function DataTableHealth<TData, TValue>({
     getRowCanExpand: () => true
   })
 
+  //programmatically show column
+  React.useEffect(() => {
+    setColumnVisibility({ 
+      use: useWidth[0] < 420 ? false : true,
+      container: useWidth[0] <620 ? false : true,
+      volume: useWidth[0] < 640 ? false : true,
+      expected_turnaround_time: useWidth[0] < 690 ? false: true,
+    });
+  }, [useWidth]);
+
   return (
-    <div className="space-y-4">
-      <DataTableToolbar table={table} />
-      <div className="rounded-md border">
+    <div className="relative space-y-4">
+      <div className="text-xs text-muted-foreground">
+          **Disclaimer: The data presented here is for display purposes only.
+      </div>
+      <div className="bg-background">
+        <DataTableToolbar table={table}/>
+      </div>
+
+      <div className="rounded-md border max-h-[calc(100vh-22rem)] overflow-y-auto font-inter">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -111,7 +146,7 @@ export function DataTableHealth<TData, TValue>({
                     {row.getVisibleCells().map((cell) => (
                       <TableCell 
                         key={cell.id} 
-                        className="p-2 sm:text-sm text-xs"
+                        className="sm:text-sm text-xs p-2 hover:cursor-pointer"
                         onClick={row.getToggleExpandedHandler()}
                       >
                         {flexRender(
@@ -121,14 +156,18 @@ export function DataTableHealth<TData, TValue>({
                       </TableCell>
                     ))}
                   </TableRow>
+                  {/* TODO: check height transitions */}
                   {
                     row.getIsExpanded() && (
-                      <TableRow className="bg-gray-50 dark:bg-zinc-800">
+                      <TableRow className={cn("table-row bg-zinc-100 dark:bg-zinc-800", row.getIsExpanded()? "border-b": "border-b-0")}>
                         <TableCell 
                           colSpan={row.getVisibleCells().length}
-                          className="p-2 sm:p-3 lg:p-5"
+                          className={cn("p-1 xs:p-2 sm:p-3 lg:p-5 2xl:p-7 transition-max-height duration-500 ease-linear overflow-y-auto", row.getIsExpanded() ? "max-h-[800px]": "max-h-0")}
+                          style={{
+                            transitionProperty: "max-height",
+                          }}
                         >
-                          <RowDetailView data={row.original}/>
+                          <SubRowDetailView row={row} />
                         </TableCell>
                       </TableRow>
                     )
@@ -148,7 +187,8 @@ export function DataTableHealth<TData, TValue>({
           </TableBody>
         </Table>
       </div>
-      <div className="overflow-x-auto">
+        
+      <div className="overflow-x-auto py-2">
         <DataTablePagination table={table} />
       </div>
     </div>
