@@ -39,7 +39,7 @@ const HealthcareDashboard = () => {
 
   return (
     <div className="h-full">
-      <div className="py-2">
+      <div className="pt-1">
         <h1 className="text-xl md:text-2xl font-semibold"><span className="text-base">Case study:</span> Clinical Laboratory Dashboard</h1>
         <div className="flex items-center py-2 sm:py-3">
           branch:
@@ -90,7 +90,7 @@ const HealthcareDashboard = () => {
       </div>
 
         {/* subgrid 0 experimental */}
-      <div className="col-span-2 md:col-span-4 flex justify-end gap-x-4 p-2 pb-0">
+      <div className="col-span-2 md:col-span-4 flex justify-end gap-x-4">
         <div className="flex items-center">
           <FaHandHoldingWater  className="w-4 h-4"/>
           <div className="flex items-center gap-1 ml-2">
