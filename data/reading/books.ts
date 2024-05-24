@@ -7,16 +7,22 @@ export interface Library {
   
   export const readingNow: Library[] = [
     {
-      name: "Fundamentals of Software Architecture. An engineering approach",
-      author: "Mark Richards & Neal Ford",
-      cover: "https://m.media-amazon.com/images/I/9193iMIxVTL._SY466_.jpg",
-      url: "https://www.amazon.com/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451"
-    },
-    {
       name: "A common sense guide to Data Structures and Algorithms",
       author: "Jay Wengrow",
       cover: "https://m.media-amazon.com/images/I/813nURWkkbL._SY466_.jpg",
       url: "https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second/dp/1680507222"
+    },
+    {
+      name: "Python for Algorithmic Trading: From Idea To Cloud Deployment",
+      author: "Jay Wengrow",
+      cover: "https://m.media-amazon.com/images/I/81yPXO7JhxL._SY342_.jpg",
+      url: "https://www.amazon.com/Python-Algorithmic-Trading-Cloud-Deployment/dp/149205335X/"
+    },
+    {
+      name: "Fundamentals of Software Architecture. An engineering approach",
+      author: "Mark Richards & Neal Ford",
+      cover: "https://m.media-amazon.com/images/I/9193iMIxVTL._SY466_.jpg",
+      url: "https://www.amazon.com/Fundamentals-Software-Architecture-Comprehensive-Characteristics/dp/1492043451"
     },
     {
       name: "Practical statistics for data scientist: 50+ Essential Concepts using R and Python",
