@@ -13,7 +13,7 @@ export default function Home() {
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
-        <div className='xs:flex md:flex-nowrap flex-wrap gap-x-2 md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground'>
+        <div className='xs:flex flex-wrap gap-x-2 md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground min-w-full xs:min-w-[360px] sm:min-w-[560px] md:min-w-[680px] xl:min-w-[700px]'>
           <h1 className='flex whitespace-nowrap'>Powered By </h1>
           <div className='text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-blue-700 from-blue-400 to-blue-800'>
             <TypewriterComponent/>
