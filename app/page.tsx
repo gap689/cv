@@ -1,23 +1,19 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { RESUME_DATA } from '@/data/resume-data'
-import Link from 'next/link'
-import {Atom, Rocket, Wand} from "lucide-react"
+import { Rocket, Wand} from "lucide-react"
 import { BiLogoTypescript } from "react-icons/bi";
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
-      <div className='font-light uppercase sm:p-10 p-5 text-pretty'>
+      <div className='font-light uppercase sm:p-10 p-5 text-pretty sm:min-w-[calc(calc(100vw-200px))] md:min-w-[calc(calc(100vw-308px))] lg:min-w-[calc(calc(100vw-544px))] xl:min-w-[calc(calc(100vw-800px))] 2xl:min-w-[calc(calc(100vw-1000px))'>
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
         <div className='md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground'>
-          Engineering the Future:
-          {/* Digital Vanguardism */}
-          {/* Digital Alchemy */}
-          {/* towards a technological future */}
-          {/* embracing technology */}
+          Powered By Data:
         </div>
         <div className='text-muted-foreground py-3 font-oxanium text-xl sm:text-2xl md:text-3xl'>
           A Technologist&apos;s Journey
