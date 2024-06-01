@@ -32,7 +32,7 @@ export const ROUTES = [
       icon: List,
       title: "Data",
       href: "/app/table",
-      label: "",
+      label: "2",
     },
     {
       icon: BarChart3,
