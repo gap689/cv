@@ -8,14 +8,14 @@ import { BiLogoTypescript } from "react-icons/bi";
 export default function Home() {
   return (
     <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
-      <div className='font-light uppercase sm:p-10 p-5 text-pretty sm:min-w-[calc(calc(100vw-200px))] md:min-w-[calc(calc(100vw-308px))] lg:min-w-[calc(calc(100vw-544px))] xl:min-w-[calc(calc(100vw-800px))] 2xl:min-w-[calc(calc(100vw-1000px))'>
+      <div className='font-light uppercase sm:p-10 p-5 text-pretty'>
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
         <div className='md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground'>
           Powered By Data:
         </div>
-        <div className='text-muted-foreground py-3 font-oxanium text-xl sm:text-2xl md:text-3xl'>
+        <div className='text-muted-foreground py-3 font-oxanium text-lg xs:text-xl sm:text-2xl md:text-3xl'>
           A Technologist&apos;s Journey
         </div>
       </div>
