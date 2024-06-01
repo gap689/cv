@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { RESUME_DATA } from '@/data/resume-data'
 import { Rocket, Wand} from "lucide-react"
 import { BiLogoTypescript } from "react-icons/bi";
+import TypewriterComponent from './app/_components/typewriter'
 
 export default function Home() {
   return (
@@ -12,10 +13,13 @@ export default function Home() {
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
-        <div className='md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground'>
-          Powered By Data:
+        <div className='xs:flex md:flex-nowrap flex-wrap gap-x-2 md:text-6xl text-4xl font-medium font-orbitron text-secondary-foreground'>
+          <h1 className='flex whitespace-nowrap'>Powered By </h1>
+          <div className='text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-blue-700 from-blue-400 to-blue-800'>
+            <TypewriterComponent/>
+          </div>
         </div>
-        <div className='text-muted-foreground py-3 font-oxanium text-lg xs:text-xl sm:text-2xl md:text-3xl'>
+        <div className='text-muted-foreground font-light py-3 font-oxanium text-lg xs:text-xl sm:text-2xl md:text-3xl'>
           A Technologist&apos;s Journey
         </div>
       </div>
