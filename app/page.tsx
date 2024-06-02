@@ -9,13 +9,13 @@ import TypewriterComponent from './app/_components/typewriter'
 export default function Home() {
   return (
     <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
-      <div className='font-light uppercase sm:p-10 p-5 text-pretty min-w-full xs:min-w-[350px] sm:min-w-[560px] md:min-w-[680px] max-w-full'>
+      <div className='font-light uppercase sm:p-10 p-5 text-pretty min-w-full xs:min-w-[350px] sm:min-w-[560px] md:min-w-[680px] xl:min-w-[700px] max-w-full'>
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
         <div className='xs:flex gap-x-2 xl:text-6xl md:text-5xl text-4xl font-medium font-orbitron text-secondary-foreground overflow-hidden'>
           <h1 className='flex whitespace-nowrap'>Driven By </h1>
-          <div className='max-w-full truncate font-semibold text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-sky-700 from-indigo-400 to-sky-700'>
+          <div className='max-w-full truncate font-semibold text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-sky-700 from-indigo-500 to-sky-700'>
             <TypewriterComponent/>
           </div>
         </div>
