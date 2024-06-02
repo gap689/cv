@@ -53,6 +53,14 @@ article {
   height: 100%;
 }
 
+.Typewriter {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Typewriter__cursor {
+  color: rgb(203 213 225);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
