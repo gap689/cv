@@ -114,7 +114,7 @@ export function DataTableHealth<TData, TValue>({
         <DataTableToolbar table={table}/>
       </div>
 
-      <div className="rounded-md border max-h-[calc(100vh-22rem)] overflow-y-auto font-inter">
+      <div className="rounded-md border max-h-[calc(100vh-23rem)] overflow-y-auto font-inter">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
