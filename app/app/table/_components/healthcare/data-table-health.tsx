@@ -43,15 +43,11 @@ interface DataTableProps<TData, TValue> {
 type TableProps<TData> = {
   data: TData[]
   columns: ColumnDef<TData>[]
-  // renderSubComponent: (props: { row: Row<TData>}) => React.ReactElement
-  // getRowCanExpand: (row: Row<TData>) => boolean
 }
 
 export function DataTableHealth<TData, TValue>({
   data,
   columns,
-  // renderSubComponent,
-  // getRowCanExpand
 }: TableProps<Study>): JSX.Element {
 
   const useWidth = useSize()
