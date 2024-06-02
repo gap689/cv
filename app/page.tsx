@@ -9,41 +9,13 @@ import TypewriterComponent from './app/_components/typewriter'
 export default function Home() {
   return (
     <main className="flex min-h-[600px] h-full dark:bg-inherit flex-col items-center justify-center pt-12">
-      <div className='font-light uppercase sm:p-10 p-5 text-pretty min-w-full xs:min-w-[360px] sm:min-w-[560px] md:min-w-[680px] xl:min-w-[700px]'>
+      <div className='font-light uppercase sm:p-10 p-5 text-pretty min-w-full xs:min-w-[350px] sm:min-w-[560px] md:min-w-[680px] max-w-full'>
         <div className='md:text-2xl text-lg lowercase font-light text-muted-foreground font-oxanium'>
           v.2024
         </div>
-        <div className='xs:flex flex-wrap gap-x-2 xl:text-6xl md:text-5xl text-4xl font-medium font-orbitron text-secondary-foreground'>
-          {/* Building digital products */}
-          {/* Aedificans Futurum Technologiarum */}
-          {/* Building technological solutions */}
-          {/* Building digital products */}
-          {/* Building data */}
-          {/* Building future possibilities */}
-          {/* Accelerating AI opportunity */}
-          {/* Engineering dynamic solutions */}
-          {/* building with advanced technologies */}
-          {/* Building Digital futures */}
-          {/* Transforming Tomorrow with Tech */}
-          {/* Engineering the Future: */}
-          {/* Turning Ideas into software */}
-          {/* Digital Vanguardism */}
-          {/* Digital Alchemy */}
-          {/* towards a technological future */}
-          {/* Technological frontiers */}
-          {/* From concept to action */}
-          {/* One step at a time */}
-          {/* Stay hungry, stay foolish. */}
-          {/* Next-generation technology */}
-          {/* Create your future */}
-          {/* Data-driven solutions */}
-          {/* Data-powered Explorations */}
-          {/* driven by data */}
-          {/* data powered  */}
-          {/* Inspired by data */}
-          {/* Data driven technologies */}
-          <h1 className='flex whitespace-nowrap'>Powered By </h1>
-          <div className='text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-blue-700 from-blue-400 to-blue-800'>
+        <div className='xs:flex gap-x-2 xl:text-6xl md:text-5xl text-4xl font-medium font-orbitron text-secondary-foreground overflow-hidden'>
+          <h1 className='flex whitespace-nowrap'>Driven By </h1>
+          <div className='max-w-full truncate font-semibold text-transparent bg-clip-text bg-gradient-to-r dark:from-indigo-400 dark:to-sky-700 from-indigo-400 to-sky-700'>
             <TypewriterComponent/>
           </div>
         </div>
