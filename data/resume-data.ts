@@ -52,30 +52,49 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "",
+      link: "",
+      badges: ["Remote"],
+      title: "Freelance Full Stack Developer",
+      start: "Oct 2023",
+      end: "present",
+      description: "Designed a corporate website that effectively showcases a company's engineering services. Implemented responsive design techniques to ensure the website performs seamlessly across various devices and screen sizes. Set up Google Analytics to monitor and analyze website traffic and user behavior. Performed tasks of user authorization and authentication using Clerk."
+    },
+    {
       company: "FF",
       link: "",
       badges: ["Remote"],
-      title: "Software developer",
+      title: "Fullstack Developer",
       start: "May 2023",
       end: "Oct 2023",
-      description: "A software development agency to build and grow your online business. Worked with NextJS and MongoDB. Implemented data validation and form handling with formik. Integrated internationalization (i18n)."
+      description: "A software development agency to build and grow online businesses. Built and maintained web applications using NextJS and MongoDB. Implemented data validation and form handling with formik. Integrated internationalization (i18n) features to support multiple languages."
     },
     {
       company: "Secretary of Innovation and Digital Government",
       link: "",
-      badges: [],
-      title: "Software developer",
+      badges: ["On-site"],
+      title: "Software Developer",
       start: "Feb 2023",
       end: "Apr 2023",
       description: "A Govtech department. Worked with Linux, implemented Django models, and webpage development using Vue."
     },
-    
+    {
+      company: "Clinical Laboratory",
+      link: "",
+      badges: ["On-site"],
+      title: "Data Analyst",
+      start: "Apr 2020",
+      end: "Apr 2021",
+      description: "Performed tasks related to Business Development and Data Management. Identified data-driven opportunities for growth. Performed data modelling and data analysis."
+    },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
     "React/Next.js",
     "Tailwindcss",
+    "css",
+    "Sass",
     "Prisma",
     "Python",
     "Data Analytics",
