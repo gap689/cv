@@ -33,7 +33,7 @@ export default function Work({work}: WorkProps) {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs text-nowrap"
+                            className="align-middle text-xs whitespace-nowrap"
                             key={badge}
                           >
                             {badge}
